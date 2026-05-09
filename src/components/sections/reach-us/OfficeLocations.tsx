@@ -7,6 +7,7 @@ interface OfficeInfo {
     calls: string[];
     mail?: string;
     mapLink: string;
+    mapEmbed?: string;
 }
 
 const OfficeCard = ({ office }: { office: OfficeInfo }) => (
@@ -45,7 +46,7 @@ const OfficeCard = ({ office }: { office: OfficeInfo }) => (
                 height="100%"
                 frameBorder="0"
                 style={{ border: 0 }}
-                src={`https://maps.google.com/maps?q=${encodeURIComponent(office.description)}&t=&z=13&ie=UTF8&iwloc=&output=embed`}
+                src={office.mapEmbed || `https://maps.google.com/maps?q=${encodeURIComponent(office.description)}&t=&z=13&ie=UTF8&iwloc=&output=embed`}
                 allowFullScreen
             ></iframe>
         </div>
@@ -80,17 +81,19 @@ const OfficeLocations = () => {
         },
         {
             title: "Hyderabad",
-            description: "8-1-43/1/B, 1st Floor Satya Colony, Opp: Hanuman Temple, Shaikpet, Golconda, Hyderabad- 500008.",
-            calls: ["+91 91001 09864"],
+            description: "8-1-402/336, Sathya Colony, Qutub Shahi Tombs, Hyderabad, Telangana 500104, India",
+            calls: ["+91 77025 33797"],
             mail: "sales_hyd@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/XE5QtytQx78EJCjs7"
+            mapLink: "https://maps.app.goo.gl/w4K4xbCb9DULN7VM6",
+            mapEmbed: "https://maps.google.com/maps?q=Fiesta+Smart+Mobility+Shaikpet+Golconda+Hyderabad&t=&z=15&ie=UTF8&iwloc=&output=embed"
         },
         {
             title: "Mumbai",
-            description: "# 109, 1st Floor, ACME Industrial Park, Goregaon East, Mumbai - 400 063.",
+            description: "# 1st Floor, Acme Industrial Park, 109, Goregaon East, Mumbai, Maharashtra 400063",
             calls: ["+91 74188 85492"],
             mail: "sales_mumbai@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/hRzXwzYehaateDti7"
+            mapLink: "https://maps.app.goo.gl/bXhZbeeGLtKuH5669",
+            mapEmbed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d934.1186940318352!2d72.8567384209082!3d19.16259305255345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7b7a33bcad7%3A0xa4742bb203157635!2sFiesta%20Smart%20Mobility%20Private%20Limited!5e1!3m2!1sen!2sin!4v1778325886756!5m2!1sen!2sin"
         },
         {
             title: "Pune",
