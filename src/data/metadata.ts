@@ -271,6 +271,16 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         title: "Office Pickup and Drop Service in Chennai | Fiesta Smart Mobility",
         description: "Reliable office pickup and drop service in Chennai for corporate clients and working professionals. Fixed routes, verified drivers, transparent pricing. Monthly plans available.",
         keywords: "Office Pickup and Drop Service in Chennai"
+    },
+    "/blog/office-pickup-and-drop-service-in-kolkata": {
+        title: "Office Pickup and Drop Service in Kolkata | Fiesta Smart Mobility",
+        description: "Structured office pickup and drop service in Kolkata for corporate clients and working professionals. Fixed routes, verified drivers, GPS tracking, transparent pricing. Monthly plans available.",
+        keywords: "Office Pickup and Drop Service in Kolkata"
+    },
+    "/blog/office-pickup-and-drop-service-in-pune": {
+        title: "Office Pickup and Drop Service in Pune | Fiesta Smart Mobility",
+        description: "Structured office pickup and drop service in Pune for corporate clients. Fixed routes, verified chauffeurs, GPS tracking, monthly packages. Covering Hinjewadi, Kharadi, Baner, Magarpatta and more.",
+        keywords: "Office Pickup and Drop Service in Pune"
     }
 
 };
