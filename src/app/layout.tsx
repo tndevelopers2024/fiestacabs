@@ -71,14 +71,16 @@ export default function RootLayout({
           <ScrollToTop />
           <GlobalModal />
         </ModalProvider>
-        <Script id="zsiqchat" strategy="afterInteractive">
-          {`window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}`}
-        </Script>
-        <Script
+        <script
           id="zsiqscript"
-          src="https://salesiq.zohopublic.in/widget?wc=siq8dc889cb6780acd2bfd30fc91d07dcdb44bae525f81bfa66e5d65f1c2414880e016070d80d383b405e205f9433dd516b"
-          strategy="afterInteractive"
-          defer
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}};
+              var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+              s.src="https://salesiq.zohopublic.in/widget?wc=siq8dc889cb6780acd2bfd30fc91d07dcdb44bae525f81bfa66e5d65f1c2414880e016070d80d383b405e205f9433dd516b";
+              t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);
+            `,
+          }}
         />
 
       </body>
