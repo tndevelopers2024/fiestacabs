@@ -25,9 +25,9 @@ const Banner = () => {
         {
             id: 2,
             image: "/images/home/banner/banner-2.jpg", // Placeholder
-            title: "Renting a car - Made Easy Safe and Simple",
+            title: "Smart Mobility for a Sustainable Tomorrow",
             subtitle:
-                "Just Rent, Rent is our Responsibility . Relax and Reach your Destination safe with guaranteed comfort.",
+                "Efficient, eco-conscious, and customer-focused transportation solutions powered by innovation, safety, and service excellence.",
             cta: "Know More",
             ctaLink: "#milestones",
         },
@@ -65,13 +65,38 @@ const Banner = () => {
                 {slides.map((slide) => (
                     <SwiperSlide key={slide.id}>
                         <div className="relative w-full h-full flex items-center justify-center">
-                            {/* Background Image */}
-                            <div className="absolute inset-0 z-0">
+                            {/* Background Image -desktop view*/}
+                            <div className="hidden lg:block absolute inset-0 z-0">
                                 <Image
                                     src={slide.image}
                                     alt={slide.title}
                                     fill
-                                    style={{ objectFit: "cover" }}
+                                    style={{
+                                        // objectFit: "cover",
+                                        backgroundSize: "cover",
+                                        backgroundPosition: "center",
+                                        backgroundRepeat: "no-repeat",
+                                        backgroundAttachment: "fixed",
+                                    }}
+                                    priority={slide.id === 1}
+                                    className="transform scale-105"
+                                />
+                                {/* Premium gradient overlay */}
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/70 z-10" />
+                            </div>
+                            {/* Background Image -mobile view*/}
+                            <div className="lg:hidden absolute inset-0 z-0">
+                                <Image
+                                    src={slide.image}
+                                    alt={slide.title}
+                                    fill
+                                    style={{
+                                        objectFit: "cover",
+                                        // backgroundSize: "cover",
+                                        // backgroundPosition: "center",
+                                        // backgroundRepeat: "no-repeat",
+                                        // backgroundAttachment: "fixed",
+                                    }}
                                     priority={slide.id === 1}
                                     className="transform scale-105"
                                 />
