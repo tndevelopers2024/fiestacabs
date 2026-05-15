@@ -75,8 +75,7 @@ export default function RootLayout({
           {`
             var $zoho=$zoho || {};
             $zoho.salesiq = $zoho.salesiq || {
-                          widgetcode: "siq8dc889cb6780acd2bfd30fc91d07dcdb44bae525f81bfa66e5d65f1c2414880e016070d80d383b405e205f9433dd516b", 
-
+              widgetcode: "siq8dc889cb6780acd2bfd30fc91d07dcdb44bae525f81bfa66e5d65f1c2414880e016070d80d383b405e205f9433dd516b", 
               values: {},
               ready: function() {}
             };
@@ -84,9 +83,8 @@ export default function RootLayout({
         </Script>
         <Script
           id="zsiqscript"
-          src="https://salesiq.zoho.in/widget"
+          src="https://salesiq.zoho.in/widget?wc=siq8dc889cb6780acd2bfd30fc91d07dcdb44bae525f81bfa66e5d65f1c2414880e016070d80d383b405e205f9433dd516b"
           strategy="afterInteractive"
-          defer
         />
 
       </body>
