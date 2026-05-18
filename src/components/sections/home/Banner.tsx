@@ -64,19 +64,19 @@ const Banner = () => {
             >
                 {slides.map((slide) => (
                     <SwiperSlide key={slide.id}>
-                        <div className="relative w-full h-[90vh] flex items-center justify-center">
+                        <div className="relative w-full h-full flex items-center justify-center">
                             {/* Background Image -desktop view*/}
-                            <div className="hidden lg:block absolute inset-0 z-0 h-[120vh]">
+                            <div className="hidden lg:block absolute inset-0 z-0 ">
                                 <Image
                                     src={slide.image}
                                     alt={slide.title}
                                     fill
                                     style={{
-                                        // objectFit: "cover",
-                                        backgroundSize: "cover",
-                                        backgroundPosition: "center",
-                                        backgroundRepeat: "no-repeat",
-                                        backgroundAttachment: "fixed",
+                                        objectFit: "cover",
+                                        // backgroundSize: "cover",
+                                        // backgroundPosition: "center",
+                                        // backgroundRepeat: "no-repeat",
+                                        // backgroundAttachment: "fixed",
                                     }}
                                     priority={slide.id === 1}
                                     className="transform scale-105"
@@ -165,7 +165,7 @@ const Banner = () => {
             color: white;
         }
         .swiper-pagination {
-            bottom: 180px !important;
+            bottom: 120px !important;
         }
         @media (max-width: 768px) {
             .swiper-pagination {
