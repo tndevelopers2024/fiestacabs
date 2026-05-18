@@ -24,7 +24,7 @@ const Banner = () => {
         // Add more slides here if needed
         {
             id: 2,
-            image: "/images/home/banner/banner-2.jpg", // Placeholder
+            image: "/images/home/banner/Website Banner.avif", // Placeholder
             title: "Smart Mobility for a Sustainable Tomorrow",
             subtitle:
                 "Efficient, eco-conscious, and customer-focused transportation solutions powered by innovation, safety, and service excellence.",
