@@ -140,17 +140,17 @@ export default function AboutUs() {
                         {leaders.map((leader) => (
                             <div
                                 key={leader.id}
-                                className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col border border-gray-100"
+                                className="group bg-white overflow-hidden  transition-all duration-300 flex flex-col border border-white"
                             >
                                 {/* Photo */}
-                                <div className="relative w-full aspect-[3/4] bg-gray-50 overflow-hidden">
+                                <div className="relative w-full aspect-[3/4] overflow-hidden">
                                     <Image
                                         src={leader.image}
                                         alt={leader.name}
                                         fill
-                                        className="object-cover object-top group-hover:scale-110 transition-transform duration-700"
+                                        className="object-contain object-center "
                                     />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                                    <div className="absolute inset-0 " />
                                 </div>
 
                                 {/* Info */}
