@@ -8,6 +8,7 @@ interface OfficeInfo {
     mail?: string;
     mapLink: string;
     mapEmbed?: string;
+    searchQuery?: string;
 }
 
 const OfficeCard = ({ office }: { office: OfficeInfo }) => (
@@ -51,7 +52,7 @@ const OfficeCard = ({ office }: { office: OfficeInfo }) => (
                 height="100%"
                 frameBorder="0"
                 style={{ border: 0 }}
-                src={office.mapEmbed || `https://maps.google.com/maps?q=${encodeURIComponent(office.description)}&t=&z=13&ie=UTF8&iwloc=&output=embed`}
+                src={office.mapEmbed || `https://maps.google.com/maps?q=${encodeURIComponent(office.searchQuery || office.description)}&t=&z=13&ie=UTF8&iwloc=&output=embed`}
                 allowFullScreen
             ></iframe>
         </div>
@@ -65,14 +66,18 @@ const OfficeLocations = () => {
             description: "523, Vinayagapuram Main Road,Viduthalai Nagar 1st St, S. Kolathur, Chennai 600 129.",
             calls: ["044 - 2220 0095", "+91 96004 37002"],
             mail: "info@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/iJzEyJBuqw5gPGdi6"
+            mapLink: "https://maps.app.goo.gl/xZYfnVYvfJzDFJ8T9",
+            searchQuery: "Fiesta Smart Mobility - Head Office",
+            mapEmbed: "https://maps.google.com/maps?cid=7920263213510848783&t=&z=15&ie=UTF8&iwloc=&output=embed"
         },
         {
             title: "Registered Office",
             description: "No. 99, L D G Road, Little Mount, Saidapet, Chennai - 600 015.",
             calls: ["044 - 223 - 00995", "+91 88070 10095"],
             mail: "rac@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/JgYNwC3fE6eeZjLM7"
+            mapLink: "https://maps.app.goo.gl/cEfYrJq1v3H9hzQt6",
+            searchQuery: "Fiesta Smart Mobility - Registered Office",
+            mapEmbed: "https://maps.google.com/maps?cid=14351019332237937057&t=&z=15&ie=UTF8&iwloc=&output=embed"
         }
     ];
 
@@ -82,7 +87,8 @@ const OfficeLocations = () => {
             description: "No. 45/A, 2nd Floor, RJ Elite, Ramamurthy Nagar Main Road, Bengaluru - 560 016.",
             calls: ["080 - 4124 8273", "+91 99164 54848"],
             mail: "racblr@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/GPb8QGLZcnGrUpsS7"
+            mapLink: "https://maps.app.goo.gl/yB29uHTmKA2KMtKZ6",
+            searchQuery: "Fiesta Smart Mobility - Bengaluru"
         },
         {
             title: "Hyderabad",
@@ -97,7 +103,7 @@ const OfficeLocations = () => {
             description: "# 1st Floor, Acme Industrial Park, 109, Goregaon East, Mumbai, Maharashtra 400063",
             calls: ["+91 74188 85492"],
             mail: "sales_mumbai@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/bXhZbeeGLtKuH5669",
+            mapLink: "https://maps.app.goo.gl/vg9FvA39ssSn6Lj59",
             mapEmbed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d934.1186940318352!2d72.8567384209082!3d19.16259305255345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7b7a33bcad7%3A0xa4742bb203157635!2sFiesta%20Smart%20Mobility%20Private%20Limited!5e1!3m2!1sen!2sin!4v1778325886756!5m2!1sen!2sin"
         },
         {
@@ -105,7 +111,8 @@ const OfficeLocations = () => {
             description: "Niche Facade, Office No. 204, 2nd Floor 232 Road, Plot Number: 26 & 27 Survey Number, Sakore Nagar, Pune - 411014.",
             calls: ["+91 82913 82323"],
             mail: "sales_pune@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/S439Q7RD5yHzxxQN7"
+            mapLink: "https://maps.app.goo.gl/9d8pzRVaK5fVS7kR6",
+            mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.4857543944813!2d73.907461!3d18.5642866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c104b4db8bd7%3A0x24b74b5c89240c6f!2sFiesta%20Smart%20Mobility%20-%20Pune!5e1!3m2!1sen!2sin!4v1779783649238!5m2!1sen!2sin"
         },
         {
             title: "Gurgaon",
@@ -119,14 +126,16 @@ const OfficeLocations = () => {
             description: "34/1Q, Ballygunge Circular Road, Kolkata, West Bengal - 700 019.",
             calls: ["+91 63850 50605"],
             mail: "sales_kolkata@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/8syBrMdSTp4fERnr7"
+            mapLink: "https://maps.app.goo.gl/hNmSydpTdX319PD97",
+            searchQuery: "Fiesta Smart Mobility - Kolkata"
         },
         {
             title: "Oragadam (Kanchipuram)",
             description: "No. 44, Vandalur - Walajabad Road, Oragadam Junction, Opp. to Apollo Tyres, Oragadam, Kanchipuram - 602 105.",
             calls: ["+91 98840 13783"],
             mail: "rac_ord@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/AXH4hubFwTsP7kL46"
+            mapLink: "https://maps.app.goo.gl/iNN8T8DuQqTvBHQKA",
+            searchQuery: "Fiesta Smart Mobility - Oragadam"
         },
         {
             title: "Mahindra World City",
@@ -140,7 +149,16 @@ const OfficeLocations = () => {
             description: "No.3/36/1, Gandhi Nagar, Thorapalli Agraharam, Hosur-635 109.",
             calls: ["+91 733 877 7076"],
             mail: "bts_hosur@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/xMG8HDRK2Ux2Y9vz9"
+            mapLink: "https://maps.app.goo.gl/NTifSVy1mTogfNw87",
+            searchQuery: "Fiesta Smart Mobility - Hosur"
+        },
+        {
+            title: "Gurugram (NCR)",
+            description: "Ground Floor, Sushant shopping arcade, H-103, Sushant Lok Phase I, Sector 43, Gurugram, Haryana 122009",
+            calls: ["+91 81488 22633"],
+            mail: "sales_gurgaon@fiestaindia.net",
+            mapLink: "https://maps.app.goo.gl/ywYvfitDTEPfEcnQ8",
+            searchQuery: "Fiesta Smart Mobility - Gurugram"
         }
     ];
 
