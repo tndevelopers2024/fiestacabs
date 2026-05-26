@@ -11,17 +11,22 @@ interface OfficeInfo {
 }
 
 const OfficeCard = ({ office }: { office: OfficeInfo }) => (
-    <div className="bg-white p-7 rounded-2xl shadow-[0_12px_30px_rgba(15,23,42,0.06)] border border-slate-100 hover:-translate-y-1 hover:shadow-[0_18px_34px_rgba(15,23,42,0.1)] transition">
+    <div className="bg-white p-7 rounded-2xl shadow-[0_12px_30px_rgba(15,23,42,0.06)] border border-slate-100 hover:-translate-y-1 hover:shadow-[0_18px_34px_rgba(15,23,42,0.1)] transition flex flex-col h-full">
         <div className="flex items-center justify-between mb-3">
             <h3 className="text-lg font-bold text-slate-900">{office.title}</h3>
-            <span className="px-3 py-1 text-xs font-semibold  btn-animated/10 text-[#EC2028] rounded-full border border-[#EC2028]/20">
+            <Link
+                href={office.mapLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-1 text-xs font-semibold btn-animated/10 text-[#EC2028] rounded-full border border-[#EC2028]/20 hover:bg-[#EC2028] hover:text-white transition-colors"
+            >
                 On map
-            </span>
+            </Link>
         </div>
         <p className="text-slate-600 text-sm mb-5 leading-relaxed">
             {office.description}
         </p>
-        <div className="space-y-2 mb-5">
+        <div className="space-y-2 mb-5 flex-grow">
             {office.calls.map((call, idx) => (
                 <p key={idx} className="text-sm font-semibold text-slate-800 flex items-center gap-2">
                     <span className="text-[#EC2028] font-bold">Call:</span>
@@ -39,7 +44,7 @@ const OfficeCard = ({ office }: { office: OfficeInfo }) => (
                 </p>
             )}
         </div>
-        <div className="mt-4 rounded-lg overflow-hidden h-40 border border-slate-200">
+        <div className="mt-auto rounded-lg overflow-hidden h-40 border border-slate-200 shrink-0">
             <iframe
                 title={`Map of ${office.title}`}
                 width="100%"
