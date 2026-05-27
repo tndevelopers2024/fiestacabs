@@ -63,7 +63,7 @@ const OfficeLocations = () => {
     const mainOffices: OfficeInfo[] = [
         {
             title: "Head Office",
-            description: "523, Vinayagapuram Main Road,Viduthalai Nagar 1st St, S. Kolathur, Chennai 600 129.",
+            description: "Ground & Second Floor, 523, Vinayagapuram Main Rd, S. Kolathur, S.Kolathur, Viduthalai Nagar, Kovilambakkam, Chennai, Tamil Nadu 600129, India",
             calls: ["044 - 2220 0095", "+91 96004 37002"],
             mail: "info@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/xZYfnVYvfJzDFJ8T9",
@@ -72,7 +72,7 @@ const OfficeLocations = () => {
         },
         {
             title: "Registered Office",
-            description: "No. 99, L D G Road, Little Mount, Saidapet, Chennai - 600 015.",
+            description: "99, Lourd Doss Grotto Rd, Arokya Matha Nagar, Little Mount, Kotturpuram, Chennai, Tamil Nadu 600015, India",
             calls: ["044 - 223 - 00995", "+91 88070 10095"],
             mail: "rac@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/cEfYrJq1v3H9hzQt6",
@@ -84,7 +84,7 @@ const OfficeLocations = () => {
     const branchOffices: OfficeInfo[] = [
         {
             title: "Bangalore",
-            description: "No. 45/A, 2nd Floor, RJ Elite, Ramamurthy Nagar Main Road, Bengaluru - 560 016.",
+            description: "2nd Floor, R J Elite, No.45/A, Ramamurthi Nagar Main Rd, Dayananda Layout, Mukkutam Nagar, Ramamurthy Nagar, Bengaluru, Karnataka 560016, India",
             calls: ["080 - 4124 8273", "+91 99164 54848"],
             mail: "racblr@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/yB29uHTmKA2KMtKZ6",
@@ -100,7 +100,7 @@ const OfficeLocations = () => {
         },
         {
             title: "Mumbai",
-            description: "# 1st Floor, Acme Industrial Park, 109, Goregaon East, Mumbai, Maharashtra 400063",
+            description: "1st Floor, Acme Industrial Park, 109, Goregaon East, Mumbai, Maharashtra 400063",
             calls: ["+91 74188 85492"],
             mail: "sales_mumbai@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/vg9FvA39ssSn6Lj59",
@@ -108,22 +108,15 @@ const OfficeLocations = () => {
         },
         {
             title: "Pune",
-            description: "Niche Facade, Office No. 204, 2nd Floor 232 Road, Plot Number: 26 & 27 Survey Number, Sakore Nagar, Pune - 411014.",
+            description: "Niche Façade ,Office No. 204, 2nd Floor 232 Road, Plot Number: 26 & 27 & Survey Number, Sakore Nagar, Viman Nagar, Pune, Maharashtra 411014",
             calls: ["+91 82913 82323"],
             mail: "sales_pune@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/9d8pzRVaK5fVS7kR6",
             mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.4857543944813!2d73.907461!3d18.5642866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c104b4db8bd7%3A0x24b74b5c89240c6f!2sFiesta%20Smart%20Mobility%20-%20Pune!5e1!3m2!1sen!2sin!4v1779783649238!5m2!1sen!2sin"
         },
         {
-            title: "Gurgaon",
-            description: "H-103 GF, Sushant Shopping Arcade, Sushant Lok-1, Gurgaon-122009",
-            calls: ["+91 81488 22633"],
-            mail: "sales_gurgaon@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/Cz8fyv8PDHfdUUiM6"
-        },
-        {
             title: "Kolkata",
-            description: "34/1Q, Ballygunge Circular Road, Kolkata, West Bengal - 700 019.",
+            description: "Speed Workpod, 34/1Q, Ballygunge Circular Rd, near Ballygunge science college, Ballygunge, Kolkata, West Bengal 700019, India",
             calls: ["+91 63850 50605"],
             mail: "sales_kolkata@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/hNmSydpTdX319PD97",
@@ -131,7 +124,7 @@ const OfficeLocations = () => {
         },
         {
             title: "Oragadam (Kanchipuram)",
-            description: "No. 44, Vandalur - Walajabad Road, Oragadam Junction, Opp. to Apollo Tyres, Oragadam, Kanchipuram - 602 105.",
+            description: "Tambaram - Mudichur - Walajabad Rd, Oragadam Industrial Corridor, Vaipoor, Tamil Nadu 602118, India",
             calls: ["+91 98840 13783"],
             mail: "rac_ord@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/iNN8T8DuQqTvBHQKA",
@@ -139,14 +132,15 @@ const OfficeLocations = () => {
         },
         {
             title: "Mahindra World City",
-            description: "58, Bharathiyar Street, near Mcity, Mahindra World City, Veerapuram, Tamil Nadu - 603002",
+            description: "58, Bharathiyar Street, near Mcity, Mahindra World City, Veerapuram, Tamil Nadu 603004, India",
             calls: ["+91 73059 80807"],
             mail: "m_city@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/7sreBh2Y777LipL46"
+            mapLink: "https://maps.app.goo.gl/svyMw3PvrN8wN4pH6",
+            mapEmbed: "https://maps.google.com/maps?cid=6061177878761591730&t=&z=15&ie=UTF8&iwloc=&output=embed"
         },
         {
             title: "Hosur (Tamil nadu)",
-            description: "No.3/36/1, Gandhi Nagar, Thorapalli Agraharam, Hosur-635 109.",
+            description: "Gandhi Nagar, Kumudepalli, Thorapalli Agraharam, Hosur, Tamil Nadu 635109, India",
             calls: ["+91 733 877 7076"],
             mail: "bts_hosur@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/NTifSVy1mTogfNw87",
@@ -154,7 +148,7 @@ const OfficeLocations = () => {
         },
         {
             title: "Gurugram (NCR)",
-            description: "Ground Floor, Sushant shopping arcade, H-103, Sushant Lok Phase I, Sector 43, Gurugram, Haryana 122009",
+            description: "Ground Floor, Sushant shopping arcade, H-103, Sushant Lok Phase I, Sector 43, Gurugram, Haryana 122009, India",
             calls: ["+91 81488 22633"],
             mail: "sales_gurgaon@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/ywYvfitDTEPfEcnQ8",
