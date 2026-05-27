@@ -25,6 +25,18 @@ export function middleware(request: NextRequest) {
         requestHeaders.set('x-forwarded-proto', xForwardedProto.split(',')[0].trim());
     }
 
+    // Check if we need to redirect www to non-www and enforce HTTPS
+    const currentHost = requestHeaders.get('host') || '';
+    const currentProto = requestHeaders.get('x-forwarded-proto') || request.nextUrl.protocol.replace(':', '');
+
+    if (currentHost === 'www.fiestacabs.com' || (currentHost === 'fiestacabs.com' && currentProto === 'http')) {
+        const url = request.nextUrl.clone();
+        url.protocol = 'https:';
+        url.host = 'fiestacabs.com';
+        url.port = '';
+        return NextResponse.redirect(url, 308);
+    }
+
     return NextResponse.next({
         request: {
             headers: requestHeaders,
