@@ -104,7 +104,7 @@ const OfficeLocations = () => {
             calls: ["+91 74188 85492"],
             mail: "sales_mumbai@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/vg9FvA39ssSn6Lj59",
-            mapEmbed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d934.1186940318352!2d72.8567384209082!3d19.16259305255345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7b7a33bcad7%3A0xa4742bb203157635!2sFiesta%20Smart%20Mobility%20Private%20Limited!5e1!3m2!1sen!2sin!4v1778325886756!5m2!1sen!2sin"
+            mapEmbed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d934.1186940318352!2d72.8567384209082!3d19.16259305255345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7b7a33bcad7%3A0xa4742bb203157635!2sFiesta%20Smart%20Mobility%20Private%20Limited!5e0!3m2!1sen!2sin!4v1778325886756!5m2!1sen!2sin"
         },
         {
             title: "Pune",
@@ -112,7 +112,7 @@ const OfficeLocations = () => {
             calls: ["+91 82913 82323"],
             mail: "sales_pune@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/9d8pzRVaK5fVS7kR6",
-            mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.4857543944813!2d73.907461!3d18.5642866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c104b4db8bd7%3A0x24b74b5c89240c6f!2sFiesta%20Smart%20Mobility%20-%20Pune!5e1!3m2!1sen!2sin!4v1779783649238!5m2!1sen!2sin"
+            mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.4857543944813!2d73.907461!3d18.5642866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c104b4db8bd7%3A0x24b74b5c89240c6f!2sFiesta%20Smart%20Mobility%20-%20Pune!5e0!3m2!1sen!2sin!4v1779783649238!5m2!1sen!2sin"
         },
         {
             title: "Kolkata",
