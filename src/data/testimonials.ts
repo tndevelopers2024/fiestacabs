@@ -80,4 +80,13 @@ export const siteTestimonials: TestimonialItem[] = [
         role: "Admin Manager",
         rating: 5,
     },
+    {
+        id: "tcs",
+        quote:
+            "We would like to formally convey our sincere appreciation for your prompt and dependable support in effectively managing our cab requirements & operations.Your commitment has significantly contributed to the smooth functioning of services at our locations.Thank you once again for your continued dedication and support at the TEK TOWER and TRIL locations.",
+        company: "TCS",
+        person: "TCS",
+        role: "Corporate Client",
+        rating: 6,
+    },
 ];
