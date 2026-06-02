@@ -95,6 +95,16 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         description: "Book outstation cabs in Chennai for intercity travel. Professional chauffeurs, safe vehicles, transparent fares, and comfortable rides to Pondicherry and Bangalore.",
         keywords: "Outstation Cabs in Chennai"
     },
+    "/outstation-cabs-in-mumbai": {
+        title: "Outstation Cabs in Mumbai | Fiesta Smart Mobility",
+        description: "Book outstation cabs in Mumbai for intercity travel. Transparent fares, verified drivers, no surge pricing, and GST-compliant billing to Pune, Lonavala, Nashik, Shirdi, and beyond.",
+        keywords: "Outstation Cabs in Mumbai"
+    },
+    "/outstation-cabs-in-pune": {
+        title: "Outstation Cabs in Pune | Fiesta Smart Mobility",
+        description: "Book outstation cabs in Pune for intercity travel. Transparent fares, verified chauffeurs, no surge pricing, and GST-compliant billing to Mumbai, Mahabaleshwar, Shirdi, Goa, and beyond.",
+        keywords: "Outstation Cabs in Pune"
+    },
     "/outstation-cabs-in-delhi": {
         title: "Outstation Cabs in Delhi | Fiesta Smart Mobility",
         description: "Plan intercity travel from Delhi with Fiesta's outstation cabs. Expert chauffeurs and safe, comfortable rides to Jaipur, Agra, Chandigarh, and more destinations.",
