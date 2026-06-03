@@ -7,7 +7,7 @@ const AboutOutstation = () => {
     return (
         <section className="py-20 bg-white overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 lg:px-8">
-                <div className="flex flex-col lg:flex-row items-center gap-16">
+                <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
                     {/* Text Content - Left */}
                     <div className="w-full lg:w-1/2">
                         <div className="text-[#EC2028] font-semibold text-sm tracking-widest uppercase mb-4">
@@ -49,7 +49,7 @@ const AboutOutstation = () => {
                     </div>
 
                     {/* Image - Right */}
-                    <div className="w-full lg:w-1/2 relative h-[600px] rounded-2xl overflow-hidden shadow-2xl">
+                    <div className="w-full lg:w-1/2 relative h-[300px] sm:h-[400px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
                         <Image
                             src="/images/outstation-cabs-in-chennai/businesswoman-travelling-by-car-backseat-reading-text-message-smartphone-while-driving-meeting.avif"
                             alt="Outstation Cabs in Chennai"

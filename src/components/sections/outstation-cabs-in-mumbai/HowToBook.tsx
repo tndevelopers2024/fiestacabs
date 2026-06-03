@@ -8,10 +8,10 @@ const HowToBook = () => {
     return (
         <section className="py-20 bg-gray-50 overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 lg:px-8">
-                <div className="flex flex-col lg:flex-row items-center gap-16">
+                <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
 
                     {/* Image - Left */}
-                    <div className="w-full lg:w-5/12 relative h-[700px] lg:h-[800px] rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1">
+                    <div className="w-full lg:w-5/12 relative h-[280px] sm:h-[400px] lg:h-[800px] rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1">
                         <Image
                             src="/images/outstation-cabs-in-mumbai/portrait-handsome-young-businessman-black-suit-tie-outdoors-near-modern-car.avif"
                             alt="How to Book Outstation Cabs from Mumbai"

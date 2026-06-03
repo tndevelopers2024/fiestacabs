@@ -6,7 +6,7 @@ import BookNowButton from "../../common/BookNowButton";
 const CTABangalore = () => {
     return (
         <section
-            className="py-28 relative bg-cover bg-center bg-no-repeat bg-fixed"
+            className="py-16 md:py-28 relative bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: 'url("/images/outstation-cabs-in-bangalore/45yearold-man-suit-looking-his-smartphone.avif")' }}
         >
             {/* Dark Overlay for Text Readability */}
@@ -15,11 +15,11 @@ const CTABangalore = () => {
             <div className="max-w-7xl mx-auto px-4 lg:px-8 relative z-10 text-center">
                 <div className="max-w-4xl mx-auto">
 
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight">
+                    <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-8 leading-tight">
                         Hire Outstation Cabs from Bangalore with Fiesta
                     </h2>
 
-                    <p className="text-xl md:text-2xl text-gray-200 mb-12 leading-relaxed font-light">
+                    <p className="text-lg md:text-2xl text-gray-200 mb-6 md:mb-12 leading-relaxed font-light">
                         If you are planning an outstation trip from Bangalore to Mysore, Coorg, Ooty, Tirupati, Wayanad, or any other destination, Fiesta Smart Mobility assigns a highway-verified driver on a confirmed vehicle at a fixed fare. Share your pickup location, travel date, and vehicle preference to receive a quote with all charges disclosed upfront.
                     </p>
 
