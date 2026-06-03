@@ -11,13 +11,13 @@ import GroupTravel from "../../components/sections/outstation/GroupTravel";
 import SafetyComfort from "../../components/sections/outstation/SafetyComfort";
 import Offers from "../../components/sections/outstation/Offers";
 import CTA from "../../components/sections/outstation/CTA";
-import AboutOutstation from "../../components/sections/home/outstation-cabs-in-chennai/AboutOutstation";
-import HowToBook from "../../components/sections/home/outstation-cabs-in-chennai/HowToBook";
-import ChennaiRoutes from "../../components/sections/home/outstation-cabs-in-chennai/ChennaiRoutes";
-import VehicleSelectionChennai from "../../components/sections/home/outstation-cabs-in-chennai/VehicleSelectionChennai";
-import WhyChooseUsChennai from "../../components/sections/home/outstation-cabs-in-chennai/WhyChooseUsChennai";
-import ComparisonChennai from "../../components/sections/home/outstation-cabs-in-chennai/ComparisonChennai";
-import CTAChennai from "../../components/sections/home/outstation-cabs-in-chennai/CTAChennai";
+import AboutOutstation from "../../components/sections/outstation-cabs-in-chennai/AboutOutstation";
+import HowToBook from "../../components/sections/outstation-cabs-in-chennai/HowToBook";
+import ChennaiRoutes from "../../components/sections/outstation-cabs-in-chennai/ChennaiRoutes";
+import VehicleSelectionChennai from "../../components/sections/outstation-cabs-in-chennai/VehicleSelectionChennai";
+import WhyChooseUsChennai from "../../components/sections/outstation-cabs-in-chennai/WhyChooseUsChennai";
+import ComparisonChennai from "../../components/sections/outstation-cabs-in-chennai/ComparisonChennai";
+import CTAChennai from "../../components/sections/outstation-cabs-in-chennai/CTAChennai";
 
 export const metadata = getMetadata("/outstation-cabs-in-chennai");
 
@@ -70,6 +70,7 @@ const ChennaiOutstationPage = () => {
             <Hero
                 title="Outstation Cabs in Chennai"
                 subtitle="Reliable intercity rides from Chennai to Pondicherry, Bangalore, and beyond."
+                imageSrc="/images/outstation-cabs-in-chennai/two-male-friends-drinking-beer-summer-terrace-pub.avif"
             />
             <AboutOutstation />
             {/* <Cities /> */}

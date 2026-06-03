@@ -1,18 +1,18 @@
 import { getMetadata } from "@/src/data/metadata";
 import FAQ from "../../components/sections/home/FAQ";
 import Hero from "../../components/sections/outstation/Hero";
-import AboutOutstation from "../../components/sections/home/outstation-cabs-in-mumbai/AboutOutstation";
-import TravelerNeeds from "../../components/sections/home/outstation-cabs-in-mumbai/TravelerNeeds";
-import MumbaiRoutes from "../../components/sections/home/outstation-cabs-in-mumbai/MumbaiRoutes";
-import FareCalculation from "../../components/sections/home/outstation-cabs-in-mumbai/FareCalculation";
-import VehicleSelectionMumbai from "../../components/sections/home/outstation-cabs-in-mumbai/VehicleSelectionMumbai";
-import HowToBook from "../../components/sections/home/outstation-cabs-in-mumbai/HowToBook";
-import LocalTaxiComparison from "../../components/sections/home/outstation-cabs-in-mumbai/LocalTaxiComparison";
-import StartingTrip from "../../components/sections/home/outstation-cabs-in-mumbai/StartingTrip";
-import WhyChooseUsMumbai from "../../components/sections/home/outstation-cabs-in-mumbai/WhyChooseUsMumbai";
-import ComparisonMumbai from "../../components/sections/home/outstation-cabs-in-mumbai/ComparisonMumbai";
-import HourlyRentals from "../../components/sections/home/outstation-cabs-in-mumbai/HourlyRentals";
-import CTAMumbai from "../../components/sections/home/outstation-cabs-in-mumbai/CTAMumbai";
+import AboutOutstation from "../../components/sections/outstation-cabs-in-mumbai/AboutOutstation";
+import TravelerNeeds from "../../components/sections/outstation-cabs-in-mumbai/TravelerNeeds";
+import MumbaiRoutes from "../../components/sections/outstation-cabs-in-mumbai/MumbaiRoutes";
+import FareCalculation from "../../components/sections/outstation-cabs-in-mumbai/FareCalculation";
+import VehicleSelectionMumbai from "../../components/sections/outstation-cabs-in-mumbai/VehicleSelectionMumbai";
+import HowToBook from "../../components/sections/outstation-cabs-in-mumbai/HowToBook";
+import LocalTaxiComparison from "../../components/sections/outstation-cabs-in-mumbai/LocalTaxiComparison";
+import StartingTrip from "../../components/sections/outstation-cabs-in-mumbai/StartingTrip";
+import WhyChooseUsMumbai from "../../components/sections/outstation-cabs-in-mumbai/WhyChooseUsMumbai";
+import ComparisonMumbai from "../../components/sections/outstation-cabs-in-mumbai/ComparisonMumbai";
+import HourlyRentals from "../../components/sections/outstation-cabs-in-mumbai/HourlyRentals";
+import CTAMumbai from "../../components/sections/outstation-cabs-in-mumbai/CTAMumbai";
 
 export const metadata = getMetadata("/outstation-cabs-in-mumbai");
 
@@ -75,6 +75,7 @@ const MumbaiOutstationPage = () => {
             <Hero
                 title="Outstation Cabs in Mumbai"
                 subtitle="Reliable intercity rides from Mumbai to Pune, Lonavala, Nashik, Shirdi, and beyond."
+                imageSrc="/images/outstation-cabs-in-mumbai/indian-cheerful-car-salesman-showing-new-keys-showroom.avif"
             />
             <AboutOutstation />
             <TravelerNeeds />

@@ -1,15 +1,15 @@
 import { getMetadata } from "@/src/data/metadata";
 import FAQ from "../../components/sections/home/FAQ";
 import Hero from "../../components/sections/outstation/Hero";
-import AboutOutstation from "../../components/sections/home/outstation-cabs-in-pune/AboutOutstation";
-import ChoosingService from "../../components/sections/home/outstation-cabs-in-pune/ChoosingService";
-import PuneRoutes from "../../components/sections/home/outstation-cabs-in-pune/PuneRoutes";
-import VehicleSelectionPune from "../../components/sections/home/outstation-cabs-in-pune/VehicleSelectionPune";
-import FareStructure from "../../components/sections/home/outstation-cabs-in-pune/FareStructure";
-import HowToBook from "../../components/sections/home/outstation-cabs-in-pune/HowToBook";
-import WhyChooseUsPune from "../../components/sections/home/outstation-cabs-in-pune/WhyChooseUsPune";
-import ComparisonPune from "../../components/sections/home/outstation-cabs-in-pune/ComparisonPune";
-import CTAPune from "../../components/sections/home/outstation-cabs-in-pune/CTAPune";
+import AboutOutstation from "../../components/sections/outstation-cabs-in-pune/AboutOutstation";
+import ChoosingService from "../../components/sections/outstation-cabs-in-pune/ChoosingService";
+import PuneRoutes from "../../components/sections/outstation-cabs-in-pune/PuneRoutes";
+import VehicleSelectionPune from "../../components/sections/outstation-cabs-in-pune/VehicleSelectionPune";
+import FareStructure from "../../components/sections/outstation-cabs-in-pune/FareStructure";
+import HowToBook from "../../components/sections/outstation-cabs-in-pune/HowToBook";
+import WhyChooseUsPune from "../../components/sections/outstation-cabs-in-pune/WhyChooseUsPune";
+import ComparisonPune from "../../components/sections/outstation-cabs-in-pune/ComparisonPune";
+import CTAPune from "../../components/sections/outstation-cabs-in-pune/CTAPune";
 
 export const metadata = getMetadata("/outstation-cabs-in-pune");
 
@@ -62,6 +62,7 @@ const PuneOutstationPage = () => {
             <Hero
                 title="Outstation Cabs in Pune"
                 subtitle="Reliable intercity rides from Pune to Mumbai, Mahabaleshwar, Shirdi, Goa, and beyond."
+                imageSrc="/images/outstation-cabs-in-pune/smiling-businessman-talking-phone-with-client-while-sitting-car-backseats.avif"
             />
             <AboutOutstation />
             <ChoosingService />

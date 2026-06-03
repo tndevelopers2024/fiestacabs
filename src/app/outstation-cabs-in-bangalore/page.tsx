@@ -1,15 +1,15 @@
 import { getMetadata } from "@/src/data/metadata";
 import FAQ from "../../components/sections/home/FAQ";
 import Hero from "../../components/sections/outstation/Hero";
-import AboutOutstation from "../../components/sections/home/outstation-cabs-in-bangalore/AboutOutstation";
-import ChoosingService from "../../components/sections/home/outstation-cabs-in-bangalore/ChoosingService";
-import BangaloreRoutes from "../../components/sections/home/outstation-cabs-in-bangalore/BangaloreRoutes";
-import VehicleSelectionBangalore from "../../components/sections/home/outstation-cabs-in-bangalore/VehicleSelectionBangalore";
-import FareStructure from "../../components/sections/home/outstation-cabs-in-bangalore/FareStructure";
-import HowToBook from "../../components/sections/home/outstation-cabs-in-bangalore/HowToBook";
-import WhyChooseUsBangalore from "../../components/sections/home/outstation-cabs-in-bangalore/WhyChooseUsBangalore";
-import ComparisonBangalore from "../../components/sections/home/outstation-cabs-in-bangalore/ComparisonBangalore";
-import CTABangalore from "../../components/sections/home/outstation-cabs-in-bangalore/CTABangalore";
+import AboutOutstation from "../../components/sections/outstation-cabs-in-bangalore/AboutOutstation";
+import ChoosingService from "../../components/sections/outstation-cabs-in-bangalore/ChoosingService";
+import BangaloreRoutes from "../../components/sections/outstation-cabs-in-bangalore/BangaloreRoutes";
+import VehicleSelectionBangalore from "../../components/sections/outstation-cabs-in-bangalore/VehicleSelectionBangalore";
+import FareStructure from "../../components/sections/outstation-cabs-in-bangalore/FareStructure";
+import HowToBook from "../../components/sections/outstation-cabs-in-bangalore/HowToBook";
+import WhyChooseUsBangalore from "../../components/sections/outstation-cabs-in-bangalore/WhyChooseUsBangalore";
+import ComparisonBangalore from "../../components/sections/outstation-cabs-in-bangalore/ComparisonBangalore";
+import CTABangalore from "../../components/sections/outstation-cabs-in-bangalore/CTABangalore";
 
 export const metadata = getMetadata("/outstation-cabs-in-bangalore");
 
@@ -62,6 +62,7 @@ const BangaloreOutstationPage = () => {
             <Hero
                 title="Outstation Cabs in Bangalore"
                 subtitle="Safe and timely rides from Bangalore to Mysore, Coorg, Ooty, Tirupati, and beyond."
+                imageSrc="/images/outstation-cabs-in-bangalore/progressive-businessman-with-ev-car-public-parking-car-charging-station.avif"
             />
             <AboutOutstation />
             <ChoosingService />
