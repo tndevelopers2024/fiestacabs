@@ -1,13 +1,13 @@
 import { getMetadata } from "@/src/data/metadata";
 import React from "react";
 import HeroForm from "../../components/common/HeroForm";
-import Introduction from "../../components/sections/employee-transportation-services-in-pune/Introduction";
-import WhyChooseFiesta from "../../components/sections/employee-transportation-services-in-pune/WhyChooseFiesta";
-import CommitmentSafety from "../../components/sections/employee-transportation-services-in-pune/CommitmentSafety";
-import CostEffective from "../../components/sections/employee-transportation-services-in-pune/CostEffective";
-import TrustedBusiness from "../../components/sections/employee-transportation-services-in-pune/TrustedBusiness";
-import Benefits from "../../components/sections/employee-transportation-services-in-pune/Benefits";
-import FAQ from "../../components/sections/employee-transportation-services-in-pune/FAQ";
+import Introduction from "../../components/sections/employee-transport/pune/Introduction";
+import WhyChooseFiesta from "../../components/sections/employee-transport/pune/WhyChooseFiesta";
+import CommitmentSafety from "../../components/sections/employee-transport/pune/CommitmentSafety";
+import CostEffective from "../../components/sections/employee-transport/pune/CostEffective";
+import TrustedBusiness from "../../components/sections/employee-transport/pune/TrustedBusiness";
+import Benefits from "../../components/sections/employee-transport/pune/Benefits";
+import FAQ from "../../components/sections/employee-transport/pune/FAQ";
 
 export const metadata = getMetadata("/employee-transportation-services-in-pune");
 

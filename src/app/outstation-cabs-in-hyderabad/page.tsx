@@ -1,15 +1,15 @@
 import { getMetadata } from "@/src/data/metadata";
 import FAQ from "../../components/sections/home/FAQ";
 import Hero from "../../components/sections/outstation/Hero";
-import AboutOutstation from "../../components/sections/outstation-cabs-in-hyderabad/AboutOutstation";
-import HyderabadRoutes from "../../components/sections/outstation-cabs-in-hyderabad/HyderabadRoutes";
-import VehicleSelectionHyderabad from "../../components/sections/outstation-cabs-in-hyderabad/VehicleSelectionHyderabad";
-import FareStructure from "../../components/sections/outstation-cabs-in-hyderabad/FareStructure";
-import HowToBook from "../../components/sections/outstation-cabs-in-hyderabad/HowToBook";
-import AirportTransfers from "../../components/sections/outstation-cabs-in-hyderabad/AirportTransfers";
-import WhyChooseUsHyderabad from "../../components/sections/outstation-cabs-in-hyderabad/WhyChooseUsHyderabad";
-import ComparisonHyderabad from "../../components/sections/outstation-cabs-in-hyderabad/ComparisonHyderabad";
-import CTAHyderabad from "../../components/sections/outstation-cabs-in-hyderabad/CTAHyderabad";
+import AboutOutstation from "../../components/sections/outstation/hyderabad/AboutOutstation";
+import HyderabadRoutes from "../../components/sections/outstation/hyderabad/HyderabadRoutes";
+import VehicleSelectionHyderabad from "../../components/sections/outstation/hyderabad/VehicleSelectionHyderabad";
+import FareStructure from "../../components/sections/outstation/hyderabad/FareStructure";
+import HowToBook from "../../components/sections/outstation/hyderabad/HowToBook";
+import AirportTransfers from "../../components/sections/outstation/hyderabad/AirportTransfers";
+import WhyChooseUsHyderabad from "../../components/sections/outstation/hyderabad/WhyChooseUsHyderabad";
+import ComparisonHyderabad from "../../components/sections/outstation/hyderabad/ComparisonHyderabad";
+import CTAHyderabad from "../../components/sections/outstation/hyderabad/CTAHyderabad";
 
 export const metadata = getMetadata("/outstation-cabs-in-hyderabad");
 

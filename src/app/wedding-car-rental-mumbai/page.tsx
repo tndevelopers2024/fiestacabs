@@ -1,11 +1,11 @@
 import { getMetadata } from "@/src/data/metadata";
 import HeroForm from "../../components/common/HeroForm";
-import Introduction from "../../components/sections/wedding-car-rental-mumbai/Introduction";
-import PopularOptions from "../../components/sections/wedding-car-rental-mumbai/PopularOptions";
-import LuxuryAvailable from "../../components/sections/wedding-car-rental-mumbai/LuxuryAvailable";
-import WhyChooseMumbai from "../../components/sections/wedding-car-rental-mumbai/WhyChooseMumbai";
-import MakingMemorable from "../../components/sections/wedding-car-rental-mumbai/MakingMemorable";
-import HowToBookCTA from "../../components/sections/wedding-car-rental-mumbai/HowToBookCTA";
+import Introduction from "../../components/sections/wedding/mumbai/Introduction";
+import PopularOptions from "../../components/sections/wedding/mumbai/PopularOptions";
+import LuxuryAvailable from "../../components/sections/wedding/mumbai/LuxuryAvailable";
+import WhyChooseMumbai from "../../components/sections/wedding/mumbai/WhyChooseMumbai";
+import MakingMemorable from "../../components/sections/wedding/mumbai/MakingMemorable";
+import HowToBookCTA from "../../components/sections/wedding/mumbai/HowToBookCTA";
 import FAQ from "../../components/sections/home/FAQ";
 import Testimonials from "../../components/common/Testimonials";
 

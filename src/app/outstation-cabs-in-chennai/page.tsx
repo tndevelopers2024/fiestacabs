@@ -11,13 +11,13 @@ import GroupTravel from "../../components/sections/outstation/GroupTravel";
 import SafetyComfort from "../../components/sections/outstation/SafetyComfort";
 import Offers from "../../components/sections/outstation/Offers";
 import CTA from "../../components/sections/outstation/CTA";
-import AboutOutstation from "../../components/sections/outstation-cabs-in-chennai/AboutOutstation";
-import HowToBook from "../../components/sections/outstation-cabs-in-chennai/HowToBook";
-import ChennaiRoutes from "../../components/sections/outstation-cabs-in-chennai/ChennaiRoutes";
-import VehicleSelectionChennai from "../../components/sections/outstation-cabs-in-chennai/VehicleSelectionChennai";
-import WhyChooseUsChennai from "../../components/sections/outstation-cabs-in-chennai/WhyChooseUsChennai";
-import ComparisonChennai from "../../components/sections/outstation-cabs-in-chennai/ComparisonChennai";
-import CTAChennai from "../../components/sections/outstation-cabs-in-chennai/CTAChennai";
+import AboutOutstation from "../../components/sections/outstation/chennai/AboutOutstation";
+import HowToBook from "../../components/sections/outstation/chennai/HowToBook";
+import ChennaiRoutes from "../../components/sections/outstation/chennai/ChennaiRoutes";
+import VehicleSelectionChennai from "../../components/sections/outstation/chennai/VehicleSelectionChennai";
+import WhyChooseUsChennai from "../../components/sections/outstation/chennai/WhyChooseUsChennai";
+import ComparisonChennai from "../../components/sections/outstation/chennai/ComparisonChennai";
+import CTAChennai from "../../components/sections/outstation/chennai/CTAChennai";
 
 export const metadata = getMetadata("/outstation-cabs-in-chennai");
 

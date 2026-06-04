@@ -1,15 +1,15 @@
 import { getMetadata } from "@/src/data/metadata";
 import FAQ from "../../components/sections/home/FAQ";
 import Hero from "../../components/sections/outstation/Hero";
-import AboutOutstation from "../../components/sections/outstation-cabs-in-pune/AboutOutstation";
-import ChoosingService from "../../components/sections/outstation-cabs-in-pune/ChoosingService";
-import PuneRoutes from "../../components/sections/outstation-cabs-in-pune/PuneRoutes";
-import VehicleSelectionPune from "../../components/sections/outstation-cabs-in-pune/VehicleSelectionPune";
-import FareStructure from "../../components/sections/outstation-cabs-in-pune/FareStructure";
-import HowToBook from "../../components/sections/outstation-cabs-in-pune/HowToBook";
-import WhyChooseUsPune from "../../components/sections/outstation-cabs-in-pune/WhyChooseUsPune";
-import ComparisonPune from "../../components/sections/outstation-cabs-in-pune/ComparisonPune";
-import CTAPune from "../../components/sections/outstation-cabs-in-pune/CTAPune";
+import AboutOutstation from "../../components/sections/outstation/pune/AboutOutstation";
+import ChoosingService from "../../components/sections/outstation/pune/ChoosingService";
+import PuneRoutes from "../../components/sections/outstation/pune/PuneRoutes";
+import VehicleSelectionPune from "../../components/sections/outstation/pune/VehicleSelectionPune";
+import FareStructure from "../../components/sections/outstation/pune/FareStructure";
+import HowToBook from "../../components/sections/outstation/pune/HowToBook";
+import WhyChooseUsPune from "../../components/sections/outstation/pune/WhyChooseUsPune";
+import ComparisonPune from "../../components/sections/outstation/pune/ComparisonPune";
+import CTAPune from "../../components/sections/outstation/pune/CTAPune";
 
 export const metadata = getMetadata("/outstation-cabs-in-pune");
 

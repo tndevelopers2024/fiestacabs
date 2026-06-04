@@ -1,12 +1,12 @@
 import { getMetadata } from "@/src/data/metadata";
 import React from 'react';
 import HeroForm from '../../components/common/HeroForm';
-import Intro from '../../components/sections/shuttle-services-in-mumbai/Intro';
-import Benefits from '../../components/sections/shuttle-services-in-mumbai/Benefits';
-import KeyFeatures from '../../components/sections/shuttle-services-in-mumbai/KeyFeatures';
-import WhyChooseFiesta from '../../components/sections/shuttle-services-in-mumbai/WhyChooseFiesta';
+import Intro from '../../components/sections/shuttle/mumbai/Intro';
+import Benefits from '../../components/sections/shuttle/mumbai/Benefits';
+import KeyFeatures from '../../components/sections/shuttle/mumbai/KeyFeatures';
+import WhyChooseFiesta from '../../components/sections/shuttle/mumbai/WhyChooseFiesta';
 import Testimonials from '../../components/common/Testimonials';
-import FAQ from '../../components/sections/shuttle-services-in-mumbai/FAQ';
+import FAQ from '../../components/sections/shuttle/mumbai/FAQ';
 
 export const metadata = getMetadata("/shuttle-services-in-mumbai");
 

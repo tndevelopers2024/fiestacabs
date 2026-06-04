@@ -1,16 +1,16 @@
 import { getMetadata } from "@/src/data/metadata";
 import React from "react";
 import HeroForm from "../../components/common/HeroForm";
-import Introduction from "../../components/sections/employee-transport-services-in-hyderabad/Introduction";
-import WhyChooseFiesta from "../../components/sections/employee-transport-services-in-hyderabad/WhyChooseFiesta";
-import Benefits from "../../components/sections/employee-transport-services-in-hyderabad/Benefits";
-import TrustedBy from "../../components/sections/employee-transport-services-in-hyderabad/TrustedBy";
-import SeamlessPartner from "../../components/sections/employee-transport-services-in-hyderabad/SeamlessPartner";
-import WhyReliable from "../../components/sections/employee-transport-services-in-hyderabad/WhyReliable";
-import Conclusion from "../../components/sections/employee-transport-services-in-hyderabad/Conclusion";
-import GetStarted from "../../components/sections/employee-transport-services-in-hyderabad/GetStarted";
+import Introduction from "../../components/sections/employee-transport/hyderabad/Introduction";
+import WhyChooseFiesta from "../../components/sections/employee-transport/hyderabad/WhyChooseFiesta";
+import Benefits from "../../components/sections/employee-transport/hyderabad/Benefits";
+import TrustedBy from "../../components/sections/employee-transport/hyderabad/TrustedBy";
+import SeamlessPartner from "../../components/sections/employee-transport/hyderabad/SeamlessPartner";
+import WhyReliable from "../../components/sections/employee-transport/hyderabad/WhyReliable";
+import Conclusion from "../../components/sections/employee-transport/hyderabad/Conclusion";
+import GetStarted from "../../components/sections/employee-transport/hyderabad/GetStarted";
 import Testimonials from "../../components/common/Testimonials";
-import FAQ from "../../components/sections/employee-transport-services-in-hyderabad/FAQ";
+import FAQ from "../../components/sections/employee-transport/hyderabad/FAQ";
 
 export const metadata = getMetadata("/employee-transport-services-in-hyderabad");
 

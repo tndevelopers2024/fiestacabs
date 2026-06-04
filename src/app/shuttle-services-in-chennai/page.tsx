@@ -1,16 +1,16 @@
 import { getMetadata } from "@/src/data/metadata";
 import React from 'react';
 import HeroForm from '../../components/common/HeroForm';
-import Intro from '../../components/sections/shuttle-services-in-chennai/Intro';
-import CorporateSolutions from '../../components/sections/shuttle-services-in-chennai/CorporateSolutions';
-import TechEnabledRides from '../../components/sections/shuttle-services-in-chennai/TechEnabledRides';
-import RouteCoverage from '../../components/sections/shuttle-services-in-chennai/RouteCoverage';
-import DiverseFleet from '../../components/sections/shuttle-services-in-chennai/DiverseFleet';
-import SafetyDriverExcellence from '../../components/sections/shuttle-services-in-chennai/SafetyDriverExcellence';
-import WhyChooseFiesta from '../../components/sections/shuttle-services-in-chennai/WhyChooseFiesta';
-import ClosingMessage from '../../components/sections/shuttle-services-in-chennai/ClosingMessage';
+import Intro from '../../components/sections/shuttle/chennai/Intro';
+import CorporateSolutions from '../../components/sections/shuttle/chennai/CorporateSolutions';
+import TechEnabledRides from '../../components/sections/shuttle/chennai/TechEnabledRides';
+import RouteCoverage from '../../components/sections/shuttle/chennai/RouteCoverage';
+import DiverseFleet from '../../components/sections/shuttle/chennai/DiverseFleet';
+import SafetyDriverExcellence from '../../components/sections/shuttle/chennai/SafetyDriverExcellence';
+import WhyChooseFiesta from '../../components/sections/shuttle/chennai/WhyChooseFiesta';
+import ClosingMessage from '../../components/sections/shuttle/chennai/ClosingMessage';
 import Testimonials from '../../components/common/Testimonials';
-import FAQ from '../../components/sections/shuttle-services-in-chennai/FAQ';
+import FAQ from '../../components/sections/shuttle/chennai/FAQ';
 
 export const metadata = getMetadata("/shuttle-services-in-chennai");
 

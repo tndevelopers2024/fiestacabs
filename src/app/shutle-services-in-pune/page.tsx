@@ -1,18 +1,18 @@
 import { getMetadata } from "@/src/data/metadata";
 import React from 'react';
 import HeroForm from '../../components/common/HeroForm';
-import Intro from '../../components/sections/corporate-shuttle-service-in-pune/Intro';
-import Solutions from '../../components/sections/corporate-shuttle-service-in-pune/Solutions';
-import TechFeatures from '../../components/sections/corporate-shuttle-service-in-pune/TechFeatures';
-import DiverseFleet from '../../components/sections/corporate-shuttle-service-in-pune/DiverseFleet';
-import SafetyComfort from '../../components/sections/corporate-shuttle-service-in-pune/SafetyComfort';
-import BusinessBenefits from '../../components/sections/corporate-shuttle-service-in-pune/BusinessBenefits';
-import RouteCoverage from '../../components/sections/corporate-shuttle-service-in-pune/RouteCoverage';
-import SustainabilitySupport from '../../components/sections/corporate-shuttle-service-in-pune/SustainabilitySupport';
-import ExperienceAdvantage from '../../components/sections/corporate-shuttle-service-in-pune/ExperienceAdvantage';
+import Intro from '../../components/sections/shuttle/pune/Intro';
+import Solutions from '../../components/sections/shuttle/pune/Solutions';
+import TechFeatures from '../../components/sections/shuttle/pune/TechFeatures';
+import DiverseFleet from '../../components/sections/shuttle/pune/DiverseFleet';
+import SafetyComfort from '../../components/sections/shuttle/pune/SafetyComfort';
+import BusinessBenefits from '../../components/sections/shuttle/pune/BusinessBenefits';
+import RouteCoverage from '../../components/sections/shuttle/pune/RouteCoverage';
+import SustainabilitySupport from '../../components/sections/shuttle/pune/SustainabilitySupport';
+import ExperienceAdvantage from '../../components/sections/shuttle/pune/ExperienceAdvantage';
 import Testimonials from '../../components/common/Testimonials';
-import FAQ from '../../components/sections/corporate-shuttle-service-in-pune/FAQ';
-import SupportAccess from '@/src/components/sections/corporate-shuttle-service-in-pune/SupportAccess';
+import FAQ from '../../components/sections/shuttle/pune/FAQ';
+import SupportAccess from '@/src/components/sections/shuttle/pune/SupportAccess';
 
 export const metadata = getMetadata("/shutle-services-in-pune");
 

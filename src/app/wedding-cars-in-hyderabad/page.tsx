@@ -1,16 +1,16 @@
 import { getMetadata } from "@/src/data/metadata";
 import React from 'react';
 import HeroForm from '../../components/common/HeroForm';
-import Intro from '../../components/sections/wedding-car-rental-in-hyderabad/Intro';
-import LuxuryFleet from '../../components/sections/wedding-car-rental-in-hyderabad/LuxuryFleet';
-import BusLimo from '../../components/sections/wedding-car-rental-in-hyderabad/BusLimo';
-import ServiceStandards from '../../components/sections/wedding-car-rental-in-hyderabad/ServiceStandards';
-import WeddingPlanning from '../../components/sections/wedding-car-rental-in-hyderabad/WeddingPlanning';
-import BookingExperience from '../../components/sections/wedding-car-rental-in-hyderabad/BookingExperience';
-import WhyChoose from '../../components/sections/wedding-car-rental-in-hyderabad/WhyChoose';
-import HyderabadCTA from '../../components/sections/wedding-car-rental-in-hyderabad/HyderabadCTA';
+import Intro from '../../components/sections/wedding/hyderabad/Intro';
+import LuxuryFleet from '../../components/sections/wedding/hyderabad/LuxuryFleet';
+import BusLimo from '../../components/sections/wedding/hyderabad/BusLimo';
+import ServiceStandards from '../../components/sections/wedding/hyderabad/ServiceStandards';
+import WeddingPlanning from '../../components/sections/wedding/hyderabad/WeddingPlanning';
+import BookingExperience from '../../components/sections/wedding/hyderabad/BookingExperience';
+import WhyChoose from '../../components/sections/wedding/hyderabad/WhyChoose';
+import HyderabadCTA from '../../components/sections/wedding/hyderabad/HyderabadCTA';
 import Testimonials from '../../components/common/Testimonials';
-import FAQ from '../../components/sections/wedding-car-rental-in-hyderabad/FAQ';
+import FAQ from '../../components/sections/wedding/hyderabad/FAQ';
 
 export const metadata = getMetadata("/wedding-cars-in-hyderabad");
 

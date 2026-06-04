@@ -1,14 +1,14 @@
 import { getMetadata } from "@/src/data/metadata";
 import React from 'react';
 import HeroForm from '../../components/common/HeroForm';
-import WeddingInStyle from '../../components/sections/wedding-cars-in-bangalore/WeddingInStyle';
-import WhyChoose from '../../components/sections/wedding-cars-in-bangalore/WhyChoose';
-import PopularCars from '../../components/sections/wedding-cars-in-bangalore/PopularCars';
-import LuxuryOccasions from '../../components/sections/wedding-cars-in-bangalore/LuxuryOccasions';
-import PlanningExperience from '../../components/sections/wedding-cars-in-bangalore/PlanningExperience';
-import HassleFreeCTA from '../../components/sections/wedding-cars-in-bangalore/HassleFreeCTA';
+import WeddingInStyle from '../../components/sections/wedding/bangalore/WeddingInStyle';
+import WhyChoose from '../../components/sections/wedding/bangalore/WhyChoose';
+import PopularCars from '../../components/sections/wedding/bangalore/PopularCars';
+import LuxuryOccasions from '../../components/sections/wedding/bangalore/LuxuryOccasions';
+import PlanningExperience from '../../components/sections/wedding/bangalore/PlanningExperience';
+import HassleFreeCTA from '../../components/sections/wedding/bangalore/HassleFreeCTA';
 import Testimonials from '../../components/common/Testimonials';
-import FAQ from '../../components/sections/wedding-cars-in-bangalore/FAQ';
+import FAQ from '../../components/sections/wedding/bangalore/FAQ';
 
 export const metadata = getMetadata("/wedding-cars-in-bangalore");
 

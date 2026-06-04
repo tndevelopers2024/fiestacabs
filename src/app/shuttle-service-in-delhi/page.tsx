@@ -1,15 +1,15 @@
 import { getMetadata } from "@/src/data/metadata";
 import React from "react";
 import HeroForm from "../../components/common/HeroForm";
-import MakingOfficeCommutesEffortless from "../../components/sections/shuttle-service-in-delhi/MakingOfficeCommutesEffortless";
-import WhatMakesDelhiStandOut from "../../components/sections/shuttle-service-in-delhi/WhatMakesDelhiStandOut";
-import RideSmart from "../../components/sections/shuttle-service-in-delhi/RideSmart";
-import WhyGateToGate from "../../components/sections/shuttle-service-in-delhi/WhyGateToGate";
-import CorporateSolution from "../../components/sections/shuttle-service-in-delhi/CorporateSolution";
-import StayUpToDate from "../../components/sections/shuttle-service-in-delhi/StayUpToDate";
-import BookingKeyFeatures from "../../components/sections/shuttle-service-in-delhi/BookingKeyFeatures";
-import WhyStruggleCTA from "../../components/sections/shuttle-service-in-delhi/WhyStruggleCTA";
-import FAQ from "../../components/sections/shuttle-service-in-delhi/FAQ";
+import MakingOfficeCommutesEffortless from "../../components/sections/shuttle/delhi/MakingOfficeCommutesEffortless";
+import WhatMakesDelhiStandOut from "../../components/sections/shuttle/delhi/WhatMakesDelhiStandOut";
+import RideSmart from "../../components/sections/shuttle/delhi/RideSmart";
+import WhyGateToGate from "../../components/sections/shuttle/delhi/WhyGateToGate";
+import CorporateSolution from "../../components/sections/shuttle/delhi/CorporateSolution";
+import StayUpToDate from "../../components/sections/shuttle/delhi/StayUpToDate";
+import BookingKeyFeatures from "../../components/sections/shuttle/delhi/BookingKeyFeatures";
+import WhyStruggleCTA from "../../components/sections/shuttle/delhi/WhyStruggleCTA";
+import FAQ from "../../components/sections/shuttle/delhi/FAQ";
 import Testimonials from "../../components/common/Testimonials";
 
 export const metadata = getMetadata("/shuttle-service-in-delhi");

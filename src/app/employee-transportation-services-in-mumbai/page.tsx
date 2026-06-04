@@ -1,12 +1,12 @@
 import { getMetadata } from "@/src/data/metadata";
 import React from "react";
 import HeroForm from "../../components/common/HeroForm";
-import Introduction from "../../components/sections/employee-transportation-services-in-mumbai/Introduction";
-import WhyChooseFiesta from "../../components/sections/employee-transportation-services-in-mumbai/WhyChooseFiesta";
-import WhyBusinessesTrust from "../../components/sections/employee-transportation-services-in-mumbai/WhyBusinessesTrust";
-import HowWeDeliver from "../../components/sections/employee-transportation-services-in-mumbai/HowWeDeliver";
-import CTA from "../../components/sections/employee-transportation-services-in-mumbai/CTA";
-import FAQ from "../../components/sections/employee-transportation-services-in-mumbai/FAQ";
+import Introduction from "../../components/sections/employee-transport/mumbai/Introduction";
+import WhyChooseFiesta from "../../components/sections/employee-transport/mumbai/WhyChooseFiesta";
+import WhyBusinessesTrust from "../../components/sections/employee-transport/mumbai/WhyBusinessesTrust";
+import HowWeDeliver from "../../components/sections/employee-transport/mumbai/HowWeDeliver";
+import CTA from "../../components/sections/employee-transport/mumbai/CTA";
+import FAQ from "../../components/sections/employee-transport/mumbai/FAQ";
 
 export const metadata = getMetadata("/employee-transportation-services-in-mumbai");
 

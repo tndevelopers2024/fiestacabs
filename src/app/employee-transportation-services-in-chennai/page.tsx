@@ -2,7 +2,7 @@ import { getMetadata } from "@/src/data/metadata";
 import React from "react";
 import Image from "next/image";
 import { FaBus, FaStar, FaShieldAlt, FaChartLine, FaClock, FaHandHoldingUsd, FaRegFileAlt, FaUserTie } from "react-icons/fa";
-import FAQ from "../../components/sections/employee-transportation-services-in-chennai/FAQ";
+import FAQ from "../../components/sections/employee-transport/chennai/FAQ";
 import ChennaiEmployeeTransportForm from "../../components/sections/employee-transport/ChennaiEmployeeTransportForm";
 import Button from "../../components/common/Button";
 import BookNowButton from "@/src/components/common/BookNowButton";

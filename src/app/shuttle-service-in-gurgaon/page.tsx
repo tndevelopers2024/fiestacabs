@@ -1,16 +1,16 @@
 import { getMetadata } from "@/src/data/metadata";
 import React from "react";
 import HeroForm from "../../components/common/HeroForm";
-import SimplifyingTeamCommute from "../../components/sections/shuttle-service-in-gurgaon/SimplifyingTeamCommute";
-import GateToGateEffective from "../../components/sections/shuttle-service-in-gurgaon/GateToGateEffective";
-import GurgaonCommutesMadeEasy from "../../components/sections/shuttle-service-in-gurgaon/GurgaonCommutesMadeEasy";
-import WhatMakesDifferent from "../../components/sections/shuttle-service-in-gurgaon/WhatMakesDifferent";
-import CommutesMadeEasy from "../../components/sections/shuttle-service-in-gurgaon/CommutesMadeEasy";
-import EasilyIntegrated from "../../components/sections/shuttle-service-in-gurgaon/EasilyIntegrated";
-import OperatingInGurgaon from "../../components/sections/shuttle-service-in-gurgaon/OperatingInGurgaon";
-import NewEmployeeOnboarding from "../../components/sections/shuttle-service-in-gurgaon/NewEmployeeOnboarding";
-import WhyStruggleCTA from "../../components/sections/shuttle-service-in-gurgaon/WhyStruggleCTA";
-import FAQ from "../../components/sections/shuttle-service-in-gurgaon/FAQ";
+import SimplifyingTeamCommute from "../../components/sections/shuttle/gurgaon/SimplifyingTeamCommute";
+import GateToGateEffective from "../../components/sections/shuttle/gurgaon/GateToGateEffective";
+import GurgaonCommutesMadeEasy from "../../components/sections/shuttle/gurgaon/GurgaonCommutesMadeEasy";
+import WhatMakesDifferent from "../../components/sections/shuttle/gurgaon/WhatMakesDifferent";
+import CommutesMadeEasy from "../../components/sections/shuttle/gurgaon/CommutesMadeEasy";
+import EasilyIntegrated from "../../components/sections/shuttle/gurgaon/EasilyIntegrated";
+import OperatingInGurgaon from "../../components/sections/shuttle/gurgaon/OperatingInGurgaon";
+import NewEmployeeOnboarding from "../../components/sections/shuttle/gurgaon/NewEmployeeOnboarding";
+import WhyStruggleCTA from "../../components/sections/shuttle/gurgaon/WhyStruggleCTA";
+import FAQ from "../../components/sections/shuttle/gurgaon/FAQ";
 import Testimonials from "../../components/common/Testimonials";
 
 export const metadata = getMetadata("/shuttle-service-in-gurgaon");

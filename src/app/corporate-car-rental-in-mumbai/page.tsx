@@ -1,13 +1,13 @@
 import { getMetadata } from "@/src/data/metadata";
 import type { Metadata } from 'next';
 import HeroForm from '../../components/common/HeroForm';
-import Introduction from '../../components/sections/corporate-car-rental-in-mumbai/Introduction';
-import CarRentalServices from '../../components/sections/corporate-car-rental-in-mumbai/CarRentalServices';
-import FlexiblePlans from '../../components/sections/corporate-car-rental-in-mumbai/FlexiblePlans';
-import RentalService from '../../components/sections/corporate-car-rental-in-mumbai/RentalService';
-import ProfessionalExperience from '../../components/sections/corporate-car-rental-in-mumbai/ProfessionalExperience';
-import OutstationTravel from '../../components/sections/corporate-car-rental-in-mumbai/OutstationTravel';
-import ContactCTA from '../../components/sections/corporate-car-rental-in-mumbai/ContactCTA';
+import Introduction from '../../components/sections/corporate/mumbai/Introduction';
+import CarRentalServices from '../../components/sections/corporate/mumbai/CarRentalServices';
+import FlexiblePlans from '../../components/sections/corporate/mumbai/FlexiblePlans';
+import RentalService from '../../components/sections/corporate/mumbai/RentalService';
+import ProfessionalExperience from '../../components/sections/corporate/mumbai/ProfessionalExperience';
+import OutstationTravel from '../../components/sections/corporate/mumbai/OutstationTravel';
+import ContactCTA from '../../components/sections/corporate/mumbai/ContactCTA';
 import FAQ from '../../components/sections/home/FAQ';
 
 export const metadata = getMetadata("/corporate-car-rental-in-mumbai");

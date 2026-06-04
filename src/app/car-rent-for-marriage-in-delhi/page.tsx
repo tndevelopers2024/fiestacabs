@@ -1,18 +1,18 @@
 import { getMetadata } from "@/src/data/metadata";
 import React from "react";
 import HeroForm from "../../components/common/HeroForm";
-import Introduction from "../../components/sections/car-rent-for-marriage-in-delhi/Introduction";
-import WhyChoose from "../../components/sections/car-rent-for-marriage-in-delhi/WhyChoose";
-import WhatWeOffer from "../../components/sections/car-rent-for-marriage-in-delhi/WhatWeOffer";
-import Benefits from "../../components/sections/car-rent-for-marriage-in-delhi/Benefits";
-import HowItWorks from "../../components/sections/car-rent-for-marriage-in-delhi/HowItWorks";
-import WhyWeStandOut from "../../components/sections/car-rent-for-marriage-in-delhi/WhyWeStandOut";
-import TipsForBooking from "../../components/sections/car-rent-for-marriage-in-delhi/TipsForBooking";
-import SafetyComfort from "../../components/sections/car-rent-for-marriage-in-delhi/SafetyComfort";
-import MakeYourDaySpecial from "../../components/sections/car-rent-for-marriage-in-delhi/MakeYourDaySpecial";
-import ContactUsCTA from "../../components/sections/car-rent-for-marriage-in-delhi/ContactUsCTA";
+import Introduction from "../../components/sections/wedding/delhi/Introduction";
+import WhyChoose from "../../components/sections/wedding/delhi/WhyChoose";
+import WhatWeOffer from "../../components/sections/wedding/delhi/WhatWeOffer";
+import Benefits from "../../components/sections/wedding/delhi/Benefits";
+import HowItWorks from "../../components/sections/wedding/delhi/HowItWorks";
+import WhyWeStandOut from "../../components/sections/wedding/delhi/WhyWeStandOut";
+import TipsForBooking from "../../components/sections/wedding/delhi/TipsForBooking";
+import SafetyComfort from "../../components/sections/wedding/delhi/SafetyComfort";
+import MakeYourDaySpecial from "../../components/sections/wedding/delhi/MakeYourDaySpecial";
+import ContactUsCTA from "../../components/sections/wedding/delhi/ContactUsCTA";
 import Testimonials from "../../components/common/Testimonials";
-import FAQ from "../../components/sections/car-rent-for-marriage-in-delhi/FAQ";
+import FAQ from "../../components/sections/wedding/delhi/FAQ";
 
 export const metadata = getMetadata("/car-rent-for-marriage-in-delhi");
 

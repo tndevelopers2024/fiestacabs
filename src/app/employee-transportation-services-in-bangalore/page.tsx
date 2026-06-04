@@ -1,13 +1,13 @@
 import { getMetadata } from "@/src/data/metadata";
 import React from "react";
 import HeroForm from "../../components/common/HeroForm";
-import WhyChooseUs from "../../components/sections/employee-transportation-services-in-bangalore/WhyChooseUs";
-import HowWeOperate from "../../components/sections/employee-transportation-services-in-bangalore/HowWeOperate";
-import Benefits from "../../components/sections/employee-transportation-services-in-bangalore/Benefits";
-import Commitment from "../../components/sections/employee-transportation-services-in-bangalore/Commitment";
-import DesignedForNeeds from "../../components/sections/employee-transportation-services-in-bangalore/DesignedForNeeds";
-import SimpleReliable from "../../components/sections/employee-transportation-services-in-bangalore/SimpleReliable";
-import FAQ from "../../components/sections/employee-transportation-services-in-bangalore/FAQ";
+import WhyChooseUs from "../../components/sections/employee-transport/bangalore/WhyChooseUs";
+import HowWeOperate from "../../components/sections/employee-transport/bangalore/HowWeOperate";
+import Benefits from "../../components/sections/employee-transport/bangalore/Benefits";
+import Commitment from "../../components/sections/employee-transport/bangalore/Commitment";
+import DesignedForNeeds from "../../components/sections/employee-transport/bangalore/DesignedForNeeds";
+import SimpleReliable from "../../components/sections/employee-transport/bangalore/SimpleReliable";
+import FAQ from "../../components/sections/employee-transport/bangalore/FAQ";
 import Testimonials from "../../components/common/Testimonials";
 
 export const metadata = getMetadata("/employee-transportation-services-in-bangalore");

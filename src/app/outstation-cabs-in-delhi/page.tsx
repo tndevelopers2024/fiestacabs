@@ -1,14 +1,14 @@
 import { getMetadata } from "@/src/data/metadata";
 import FAQ from "../../components/sections/home/FAQ";
 import Hero from "../../components/sections/outstation/Hero";
-import AboutOutstation from "../../components/sections/outstation-cabs-in-delhi/AboutOutstation";
-import DelhiRoutes from "../../components/sections/outstation-cabs-in-delhi/DelhiRoutes";
-import VehicleSelectionDelhi from "../../components/sections/outstation-cabs-in-delhi/VehicleSelectionDelhi";
-import FareStructure from "../../components/sections/outstation-cabs-in-delhi/FareStructure";
-import HowToBook from "../../components/sections/outstation-cabs-in-delhi/HowToBook";
-import WhyChooseUsDelhi from "../../components/sections/outstation-cabs-in-delhi/WhyChooseUsDelhi";
-import ComparisonDelhi from "../../components/sections/outstation-cabs-in-delhi/ComparisonDelhi";
-import CTADelhi from "../../components/sections/outstation-cabs-in-delhi/CTADelhi";
+import AboutOutstation from "../../components/sections/outstation/delhi/AboutOutstation";
+import DelhiRoutes from "../../components/sections/outstation/delhi/DelhiRoutes";
+import VehicleSelectionDelhi from "../../components/sections/outstation/delhi/VehicleSelectionDelhi";
+import FareStructure from "../../components/sections/outstation/delhi/FareStructure";
+import HowToBook from "../../components/sections/outstation/delhi/HowToBook";
+import WhyChooseUsDelhi from "../../components/sections/outstation/delhi/WhyChooseUsDelhi";
+import ComparisonDelhi from "../../components/sections/outstation/delhi/ComparisonDelhi";
+import CTADelhi from "../../components/sections/outstation/delhi/CTADelhi";
 
 export const metadata = getMetadata("/outstation-cabs-in-delhi");
 

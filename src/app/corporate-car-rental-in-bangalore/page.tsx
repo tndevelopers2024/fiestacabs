@@ -3,15 +3,15 @@ import React from 'react';
 import type { Metadata } from 'next';
 import HeroForm from "../../components/common/HeroForm";
 
-import Introduction from "../../components/sections/corporate-car-rental-in-bangalore/Introduction";
-import EfficientSolutions from "../../components/sections/corporate-car-rental-in-bangalore/EfficientSolutions";
-import CorporateEvents from "../../components/sections/corporate-car-rental-in-bangalore/CorporateEvents";
-import PremiumOptions from "../../components/sections/corporate-car-rental-in-bangalore/PremiumOptions";
-import LongTermSolutions from "../../components/sections/corporate-car-rental-in-bangalore/LongTermSolutions";
-import MeasurableBenefits from "../../components/sections/corporate-car-rental-in-bangalore/MeasurableBenefits";
-import SafetyProfessionalism from "../../components/sections/corporate-car-rental-in-bangalore/SafetyProfessionalism";
-import ContactCTA from "../../components/sections/corporate-car-rental-in-bangalore/ContactCTA";
-import FAQ from "../../components/sections/corporate-car-rental-in-bangalore/FAQ";
+import Introduction from "../../components/sections/corporate/bangalore/Introduction";
+import EfficientSolutions from "../../components/sections/corporate/bangalore/EfficientSolutions";
+import CorporateEvents from "../../components/sections/corporate/bangalore/CorporateEvents";
+import PremiumOptions from "../../components/sections/corporate/bangalore/PremiumOptions";
+import LongTermSolutions from "../../components/sections/corporate/bangalore/LongTermSolutions";
+import MeasurableBenefits from "../../components/sections/corporate/bangalore/MeasurableBenefits";
+import SafetyProfessionalism from "../../components/sections/corporate/bangalore/SafetyProfessionalism";
+import ContactCTA from "../../components/sections/corporate/bangalore/ContactCTA";
+import FAQ from "../../components/sections/corporate/bangalore/FAQ";
 
 export const metadata = getMetadata("/corporate-car-rental-in-bangalore");
 

@@ -1,15 +1,15 @@
 import { getMetadata } from "@/src/data/metadata";
 import FAQ from "../../components/sections/home/FAQ";
 import Hero from "../../components/sections/outstation/Hero";
-import AboutOutstation from "../../components/sections/outstation-cabs-in-bangalore/AboutOutstation";
-import ChoosingService from "../../components/sections/outstation-cabs-in-bangalore/ChoosingService";
-import BangaloreRoutes from "../../components/sections/outstation-cabs-in-bangalore/BangaloreRoutes";
-import VehicleSelectionBangalore from "../../components/sections/outstation-cabs-in-bangalore/VehicleSelectionBangalore";
-import FareStructure from "../../components/sections/outstation-cabs-in-bangalore/FareStructure";
-import HowToBook from "../../components/sections/outstation-cabs-in-bangalore/HowToBook";
-import WhyChooseUsBangalore from "../../components/sections/outstation-cabs-in-bangalore/WhyChooseUsBangalore";
-import ComparisonBangalore from "../../components/sections/outstation-cabs-in-bangalore/ComparisonBangalore";
-import CTABangalore from "../../components/sections/outstation-cabs-in-bangalore/CTABangalore";
+import AboutOutstation from "../../components/sections/outstation/bangalore/AboutOutstation";
+import ChoosingService from "../../components/sections/outstation/bangalore/ChoosingService";
+import BangaloreRoutes from "../../components/sections/outstation/bangalore/BangaloreRoutes";
+import VehicleSelectionBangalore from "../../components/sections/outstation/bangalore/VehicleSelectionBangalore";
+import FareStructure from "../../components/sections/outstation/bangalore/FareStructure";
+import HowToBook from "../../components/sections/outstation/bangalore/HowToBook";
+import WhyChooseUsBangalore from "../../components/sections/outstation/bangalore/WhyChooseUsBangalore";
+import ComparisonBangalore from "../../components/sections/outstation/bangalore/ComparisonBangalore";
+import CTABangalore from "../../components/sections/outstation/bangalore/CTABangalore";
 
 export const metadata = getMetadata("/outstation-cabs-in-bangalore");
 

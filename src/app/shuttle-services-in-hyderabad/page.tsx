@@ -1,16 +1,16 @@
 import { getMetadata } from "@/src/data/metadata";
 import React from "react";
 import HeroForm from "../../components/common/HeroForm";
-import RedefiningCommute from "../../components/sections/shuttle-services-in-hyderabad/RedefiningCommute";
-import WhyReliable from "../../components/sections/shuttle-services-in-hyderabad/WhyReliable";
-import CommuteMadeSimple from "../../components/sections/shuttle-services-in-hyderabad/CommuteMadeSimple";
-import GateWorks from "../../components/sections/shuttle-services-in-hyderabad/GateWorks";
-import SmartIntegration from "../../components/sections/shuttle-services-in-hyderabad/SmartIntegration";
-import RunningRoutes from "../../components/sections/shuttle-services-in-hyderabad/RunningRoutes";
-import StayConnected from "../../components/sections/shuttle-services-in-hyderabad/StayConnected";
-import WhyStruggle from "../../components/sections/shuttle-services-in-hyderabad/WhyStruggle";
-import BuildPlan from "../../components/sections/shuttle-services-in-hyderabad/BuildPlan";
-import FAQ from "../../components/sections/shuttle-services-in-hyderabad/FAQ";
+import RedefiningCommute from "../../components/sections/shuttle/hyderabad/RedefiningCommute";
+import WhyReliable from "../../components/sections/shuttle/hyderabad/WhyReliable";
+import CommuteMadeSimple from "../../components/sections/shuttle/hyderabad/CommuteMadeSimple";
+import GateWorks from "../../components/sections/shuttle/hyderabad/GateWorks";
+import SmartIntegration from "../../components/sections/shuttle/hyderabad/SmartIntegration";
+import RunningRoutes from "../../components/sections/shuttle/hyderabad/RunningRoutes";
+import StayConnected from "../../components/sections/shuttle/hyderabad/StayConnected";
+import WhyStruggle from "../../components/sections/shuttle/hyderabad/WhyStruggle";
+import BuildPlan from "../../components/sections/shuttle/hyderabad/BuildPlan";
+import FAQ from "../../components/sections/shuttle/hyderabad/FAQ";
 import Testimonials from "../../components/common/Testimonials";
 
 export const metadata = getMetadata("/shuttle-services-in-hyderabad");
