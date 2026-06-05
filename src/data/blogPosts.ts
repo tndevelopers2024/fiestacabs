@@ -28,7 +28,7 @@ export type ContentBlock =
     | { type: 'h6'; text: string }
     | { type: 'ul'; items: string[] }
     | { type: 'ol'; items: string[] }
-    | { type: 'image'; src: string; alt: string; caption?: string }
+    | { type: 'image'; src: string; alt: string; caption?: string; width?: number; height?: number; contain?: boolean }
     | {
         type: 'cta';
         image: string;
@@ -617,23 +617,23 @@ export const blogPosts: BlogPost[] = [
     // 5
     {
         slug: "top-shuttle-service-solutions-for-your-daily-commute-needs",
-        title: "Are you Looking for Top Shuttle Service Solutions for Your Daily Commute Needs ?",
+        title: "Are you Looking for Top Shuttle Service Solutions for Your Daily Commute Needs?",
         date: "May 24, 2025",
         image: "/images/blog/post-5.jpg",
         bannerImage: "/images/blog/enhancing-the-mobility-of-people/automotive-dealership-store.jpg",
         excerpt: "Finding a reliable, efficient, and comfortable mode of transportation can make all the difference when managing the hustle and bustle of daily commuting.",
         content: [
-            { type: 'image', src: "/images/blog/top-shuttle-service-solutions-for-your-daily-commute-needs/1.jpeg", alt: "Car Rental in Chennai with Driver" },
-            { type: 'p', text: "Finding a reliable, efficient, and comfortable mode of transportation can make all the difference when managing the hustle and bustle of daily commuting. If you're heading to work, school, or simply navigating your city, shuttle services, like the shuttl app or an art transportation app, have emerged as practical solutions for everyday travel needs." },
+            { type: 'image', src: "/images/blog/top-shuttle-service-solutions-for-your-daily-commute-needs/1.jpeg", alt: "Toyota Innova Crysta shuttle vehicle", width: 720, height: 350, contain: true },
+            { type: 'p', text: "Finding a reliable, efficient, and comfortable mode of transportation can make all the difference when managing the hustle and bustle of daily commuting. If you're heading to work, school, or simply navigating your city, shuttle services, like the Fiesta app or a smart transportation app, have emerged as practical solutions for everyday travel needs." },
             {
                 type: 'p',
-                text: "With the increasing demand for sustainable and time-saving transport options, many commuters seek solutions to avoid mind numbing traffic, wondering why struggle with the hassle when there are better options . , shuttling bus services, including the shuttl bus, are rapidly expanding, offering more innovation and customer focus than ever. Be sure to stay up to date with the booking key features these apps offer, especially if you’re planning your first ride."
+                text: "With the increasing demand for sustainable and time-saving transport options, many commuters seek solutions to avoid mind-numbing traffic, wondering why struggle with the hassle when there are better options. Shuttle bus services, including Fiesta's shuttle service, are rapidly expanding, offering more innovation and customer focus than ever. Be sure to stay up to date with the key booking features these apps offer, especially if you’re planning your first ride."
             },
             {
                 type: 'p',
-                text: "From corporate rides and employee commutes to neighbourhood ride shares and app-based booking tools, a wide range of mobility solutions, including platforms like the Shuttl app and ART Transportation app, are tailored to suit different commuting needs, helping you discover the quickest route. Don’t miss the first ride offers and booking key features of these rapidly expanding platforms to stay up to date on safer, smoother commutes with a modern shuttle bus experience."
+                text: "From corporate rides and employee commutes to neighbourhood ride shares and app-based booking tools, a wide range of mobility solutions, including platforms like the Fiesta app and Fiesta Smart Mobility, are tailored to suit different commuting needs, helping you discover the quickest route. Don’t miss the booking features of these rapidly expanding platforms to stay up to date on safer, smoother commutes with a modern shuttle bus experience."
             },
-            { type: 'image', src: "/images/blog/top-shuttle-service-solutions-for-your-daily-commute-needs/2.jpeg", alt: "Car Rental in Chennai with Driver" },
+            { type: 'image', src: "/images/blog/top-shuttle-service-solutions-for-your-daily-commute-needs/2.jpeg", alt: "Corporate shuttle bus solutions", width: 720, height: 400 },
 
             {
                 type: 'h5',
@@ -645,7 +645,7 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 type: 'p',
-                text: "Whether you’re looking to ride from home and office locations or use the largest office commute app to organize daily travel, the features below, including internet banking options, can make or break your experience, allowing you to travel to your office comfortably."
+                text: "Whether you’re looking to ride from home and office locations or use a corporate commute app to organize daily travel, the features below, including convenient payment options, can make or break your experience, allowing you to travel to your office comfortably."
             },
 
             {
@@ -654,11 +654,11 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 type: 'p',
-                text: "What if your shuttle is running late? Or changes the pickup point for the day? Without live updates, you may be waiting in the wrong spot or wasting time. "
+                text: "What if your shuttle is running late? Or changes the pickup point for the day? Without live updates, you may be waiting in the wrong spot or wasting time."
             },
             {
                 type: 'p',
-                text: "Look for services that include booking power packed key features, such as exciting offers and real-time notifications via SMS or their app. These alerts save you from surprises and missed rides, and it’s also helpful to have contact details readily available ."
+                text: "Look for services that include key features such as real-time notifications via SMS or their app. These alerts save you from surprises and missed rides, and it’s also helpful to have support contact details readily available."
             },
 
             {
@@ -671,7 +671,7 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 type: 'p',
-                text: "Some services, especially those using the Drive FindMyCab App, offer flexible pickup options like the nearest pick spots along the fastest route, often close to residential or business hubs with affordable parking spaces add nearby."
+                text: "Some services, especially those using the Fiesta app, offer flexible pickup options like the nearest pick spots along the fastest route, often close to residential or business hubs with affordable parking spaces nearby."
             },
 
             {
@@ -680,7 +680,7 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 type: 'p',
-                text: "Is there an SOS button in the app? Can you share your ride details with your family? What’s the process if something goes wrong? Choose a shuttle bus with strong security features—live tracking, sharing ride details with family verified drivers, a SOS alert, nd responsive customer support. It’s even better if their app includes contact details for quick help."
+                text: "Is there an SOS button in the app? Can you share your ride details with your family? What’s the process if something goes wrong? Choose a shuttle bus with strong security features—live tracking, sharing ride details with family, verified drivers, an SOS alert, and responsive customer support. It’s even better if their app includes contact details for quick help."
             },
             {
                 type: 'h5',
@@ -688,24 +688,24 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 type: 'p',
-                text: "Not every commuter needs the same kind of vehicle. Some prefer the quiet of a car, others need more space to share with coworkers. The kind of transport option you go for depends on how far you need to travel, how many people are with you, and the level of comfort you’re after — and in different cities, and in different cities, these choices tend to differ just as widely, especially in other cities."
+                text: "Not every commuter needs the same kind of vehicle. Some prefer the quiet of a car, others need more space to share with coworkers. The kind of transport option you go for depends on how far you need to travel, how many people are with you, and the level of comfort you’re after — and these choices tend to differ widely across different cities."
             },
             {
                 type: 'p',
-                text: "A small car might work if you're commuting solo from a nearby suburb. A shuttle bus or minibus might be more practical if you’re traveling with colleagues from the same area, perhaps even just shuttle . For many, coordinating rides becomes a challenging chore, especially without smart platforms."
+                text: "A small car might work if you're commuting solo from a nearby suburb. A shuttle bus or minibus might be more practical if you’re traveling with colleagues from the same area. For many, coordinating rides becomes a challenging chore, especially without smart platforms."
             },
             {
                 type: 'p',
-                text: "And if you're using platforms like the Drive FindMyCab App or just shuttl, you’ll notice how they segment options by vehicle type, time slot, or pick-up point to meet varied needs—tailored to fit your routine and office locations. This convenience is one reason why shuttl reaches a wide range of users."
+                text: "And if you're using platforms like the Fiesta app, you’ll notice how they segment options by vehicle type, time slot, or pick-up point to meet varied needs—tailored to fit your routine and office locations. This convenience is one reason why Fiesta reaches a wide range of users."
             },
             { type: 'h6', text: "Car Shuttle Service" },
-            { type: 'p', text: "Best for 1-3 passengers traveling short distances. Ideal for someone working late or using a shuttl pass to avoid long queues and traffic jams during off-hours, perhaps while using your Apple iPad. Need quiet time before you get to the office? This suits you—especially in other cities with long commutes." },
+            { type: 'p', text: "Best for 1-3 passengers traveling short distances. Ideal for someone working late or using a shuttle pass to avoid long queues and traffic jams during off-hours. Need quiet time before you get to the office? This suits you—especially in cities with long commutes." },
             { type: 'h6', text: "Van Shuttle Service" },
             { type: 'p', text: "Good for small teams or apartment clusters. Vans often follow shorter bus routes and allow flexible pick-up points. You’ll likely recognize faces from your own building or block, though syncing times can still feel like a challenging chore." },
             { type: 'h6', text: "MUV Shuttle Service" },
-            { type: 'p', text: "MUVs are for those who want comfort and storage space. Carrying a laptop bag and lunch, or traveling in monsoon weather? This option keeps you dry, safe, and seated well, especially when traveling near gas stations or petrol pumps, while avoiding traffic jams through flooded streets." },
+            { type: 'p', text: "MUVs are for those who want comfort and storage space. Carrying a laptop bag and lunch, or traveling in monsoon weather? This option keeps you dry, safe, and seated well, while avoiding traffic jams through flooded streets." },
             { type: 'h6', text: "Mini Bus Shuttle Service" },
-            { type: 'p', text: "Used for larger groups or long-distance office zones. If you’re commuting across the city or working in IT parks, this is what most use, especially where parking spaces or proximity to gas stations add value. Common in the largest commute app networks, as shuttl reaches wider zones, where users may participate in a referrals contest ." },
+            { type: 'p', text: "Used for larger groups or long-distance office zones. If you’re commuting across the city or working in IT parks, this is what most use. Common in large commute networks, as Fiesta reaches wider zones to serve employees efficiently." },
             { type: 'h6', text: "Shuttle Vehicle Comparison Table" },
             {
                 type: 'table',
@@ -727,11 +727,11 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 type: 'p',
-                text: "Fiesta makes booking, tracking, and managing rides between home and office place easier. Whether you want your first ride to be quiet solo rides, perhaps while using your apple ipad, apple airpods or group travel with flexible pick-up points, there’s something for everyone, including opportunities to win exciting prizes ."
+                text: "Fiesta makes booking, tracking, and managing rides between home and office easier. Whether you want a quiet solo ride or group travel with flexible pick-up points, there’s something for everyone."
             },
             {
                 type: 'p',
-                text: "If you’re looking for a service that combines safety, real-time updates, and affordable parking spaces that can help you save money, Fiesta – Transport Solutions is worth exploring.."
+                text: "If you’re looking for a service that combines safety, real-time updates, and convenient transport solutions that can help you save money, Fiesta Transport Solutions is worth exploring."
             }
         ],
         faqs: [

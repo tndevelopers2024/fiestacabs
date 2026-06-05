@@ -274,17 +274,35 @@ export default async function BlogPostPage({ params }: PageProps) {
                       return (
                         <figure
                           key={idx}
-                          className="my-10 overflow-hidden rounded-2xl shadow-md border border-slate-100 bg-slate-50"
+                          className="my-10 overflow-hidden rounded-2xl shadow-md border border-slate-100 bg-slate-50 mx-auto w-full"
+                          style={block.width ? { maxWidth: `${block.width}px` } : undefined}
                         >
-                          <div className="relative w-full aspect-[16/9]">
-                            <Image
-                              src={block.src}
-                              alt={block.alt}
-                              fill
-                              sizes="(max-width: 1024px) 100vw, 720px"
-                              className="object-cover"
-                            />
-                          </div>
+                          {block.width && block.height ? (
+                            <div
+                              className="relative w-full"
+                              style={{
+                                aspectRatio: `${block.width} / ${block.height}`,
+                              }}
+                            >
+                              <Image
+                                src={block.src}
+                                alt={block.alt}
+                                fill
+                                sizes={`(max-width: 1024px) 100vw, ${block.width}px`}
+                                className={block.contain ? "object-contain" : "object-cover"}
+                              />
+                            </div>
+                          ) : (
+                            <div className="relative w-full aspect-[16/9]">
+                              <Image
+                                src={block.src}
+                                alt={block.alt}
+                                fill
+                                sizes="(max-width: 1024px) 100vw, 720px"
+                                className={block.contain ? "object-contain" : "object-cover"}
+                              />
+                            </div>
+                          )}
                           {block.caption && (
                             <figcaption className="px-4 py-3 text-sm text-slate-500 text-center">
                               {block.caption}
