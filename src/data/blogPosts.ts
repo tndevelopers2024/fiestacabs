@@ -623,7 +623,7 @@ export const blogPosts: BlogPost[] = [
         bannerImage: "/images/blog/enhancing-the-mobility-of-people/automotive-dealership-store.jpg",
         excerpt: "Finding a reliable, efficient, and comfortable mode of transportation can make all the difference when managing the hustle and bustle of daily commuting.",
         content: [
-            { type: 'image', src: "/images/blog/top-shuttle-service-solutions-for-your-daily-commute-needs/2.jpg", alt: "Car Rental in Chennai with Driver" },
+            { type: 'image', src: "/images/blog/top-shuttle-service-solutions-for-your-daily-commute-needs/1.jpeg", alt: "Car Rental in Chennai with Driver" },
             { type: 'p', text: "Finding a reliable, efficient, and comfortable mode of transportation can make all the difference when managing the hustle and bustle of daily commuting. If you're heading to work, school, or simply navigating your city, shuttle services, like the shuttl app or an art transportation app, have emerged as practical solutions for everyday travel needs." },
             {
                 type: 'p',
@@ -633,7 +633,7 @@ export const blogPosts: BlogPost[] = [
                 type: 'p',
                 text: "From corporate rides and employee commutes to neighbourhood ride shares and app-based booking tools, a wide range of mobility solutions, including platforms like the Shuttl app and ART Transportation app, are tailored to suit different commuting needs, helping you discover the quickest route. Don’t miss the first ride offers and booking key features of these rapidly expanding platforms to stay up to date on safer, smoother commutes with a modern shuttle bus experience."
             },
-            { type: 'image', src: "/images/blog/top-shuttle-service-solutions-for-your-daily-commute-needs/1.png", alt: "Car Rental in Chennai with Driver" },
+            { type: 'image', src: "/images/blog/top-shuttle-service-solutions-for-your-daily-commute-needs/2.jpeg", alt: "Car Rental in Chennai with Driver" },
 
             {
                 type: 'h5',
