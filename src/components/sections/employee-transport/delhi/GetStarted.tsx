@@ -11,7 +11,7 @@ const GetStarted = () => {
                 <p className="text-lg md:text-xl opacity-90 max-w-3xl mx-auto mb-10 leading-relaxed">
                     Share your headcount, shift timings, and key pickup zones. Fiesta will design a route plan and provide transparent per-seat pricing with no hidden charges.
                 </p>
-                <BookNowButton className="bg-white text-[#E31E24] py-4 px-10 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg hover:shadow-xl inline-block">
+                <BookNowButton className="!bg-white !text-[#E31E24] py-4 px-10 rounded-full font-bold text-lg hover:!bg-gray-100  hover:!text-white transition-colors shadow-lg hover:shadow-xl inline-block cursor-pointer">
                     Request a Quote
                 </BookNowButton>
             </div>
