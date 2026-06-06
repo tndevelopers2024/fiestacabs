@@ -7,7 +7,7 @@ const CTADelhi = () => {
     return (
         <section
             className="py-16 md:py-28 relative bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: 'url("/images/shuttle-service-in-delhi/unnamed-5-5.jpg")' }}
+            style={{ backgroundImage: 'url("/images/outstation-cabs-in-delhi/cheerful-business-people-have-online-meeting-using-laptop-while-sitting-car-back-seats (1).jpg")' }}
         >
             <div className="absolute inset-0 bg-black/75 md:bg-black/70"></div>
 

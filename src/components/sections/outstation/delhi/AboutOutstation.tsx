@@ -31,7 +31,7 @@ const AboutOutstation = () => {
 
                     <div className="w-full lg:w-1/2 relative h-[300px] sm:h-[400px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
                         <Image
-                            src="/images/shuttle-service-in-delhi/unnamed.jpg"
+                            src="/images/outstation-cabs-in-delhi/young-business-team-working-together (1) (1).jpg"
                             alt="Outstation Cabs in Delhi"
                             fill
                             className="object-cover hover:scale-105 transition-transform duration-700"

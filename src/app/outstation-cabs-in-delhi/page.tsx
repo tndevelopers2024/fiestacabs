@@ -61,7 +61,7 @@ const DelhiOutstationPage = () => {
             <Hero
                 title="Outstation Cabs in Delhi"
                 subtitle="Transparent pricing, experienced drivers, no hidden fees for New Delhi and Delhi NCR routes."
-                imageSrc="/images/shuttle-service-in-delhi/unnamed-13.jpg"
+                imageSrc="/images/outstation-cabs-in-delhi/professional-male-chauffeur-wearing-black-suit-opening-rear-door-luxury-black-sedan.avif"
             />
             <AboutOutstation />
             <DelhiRoutes />

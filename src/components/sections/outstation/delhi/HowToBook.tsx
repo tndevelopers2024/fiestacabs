@@ -11,10 +11,10 @@ const HowToBook = () => {
                 <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
                     <div className="w-full lg:w-5/12 relative h-[280px] sm:h-[400px] lg:h-[760px] rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1">
                         <Image
-                            src="/images/shuttle-service-in-delhi/unnamed-3-7.jpg"
+                            src="/images/outstation-cabs-in-delhi/attractive-handsome-businessman-with-diplomat-talking-smartphone-near-car (1).jpg"
                             alt="How to Book Outstation Cabs from Delhi"
                             fill
-                            className="object-cover hover:scale-105 transition-transform duration-700"
+                            className="object-cover hover:scale-105 transition-transform duration-700 "
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                     </div>

@@ -43,6 +43,12 @@ const EmployeeTransportServicesPage = () => {
             description: "Safe and punctual travel solutions for Pune’s growing industrial workforce.",
             href: "/employee-transportation-services-in-pune",
         },
+        {
+            city: "Delhi",
+            icon: "/images/shuttle-service/city-delhi.png",
+            description: "Reliable, on-time pickups and GPS-tracked fleets across the Delhi NCR corridor.",
+            href: "/employee-transport-services-in-delhi",
+        },
     ];
 
     const whyChoose = [
