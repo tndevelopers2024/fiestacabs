@@ -13,10 +13,16 @@ const Cities = () => {
             link: "/outstation-cabs-in-chennai"
         },
         {
-            name: "Outstation Cabs in Hyderabad",
-            desc: "Travel hassle-free from Hyderabad to Vijayawada, Warangal, and other popular routes.",
-            icon: <FaLandmark />,
-            link: "/outstation-cabs-in-hyderabad"
+            name: "Outstation Cabs in Mumbai",
+            desc: "Safe and timely rides from Mumbai to Pune, Lonavala, Mahabaleshwar, and beyond.",
+            icon: <FaBuilding />,
+            link: "/outstation-cabs-in-mumbai"
+        },
+        {
+            name: "Outstation Cabs in Pune",
+            desc: "Safe and timely rides from Pune to Mumbai, Lonavala, Mahabaleshwar, and beyond.",
+            icon: <FaBuilding />,
+            link: "/outstation-cabs-in-pune"
         },
         {
             name: "Outstation Cabs in Bangalore",
@@ -25,17 +31,23 @@ const Cities = () => {
             link: "/outstation-cabs-in-bangalore"
         },
         {
+            name: "Outstation Cabs in Hyderabad",
+            desc: "Travel hassle-free from Hyderabad to Vijayawada, Warangal, and other popular routes.",
+            icon: <FaLandmark />,
+            link: "/outstation-cabs-in-hyderabad"
+        },
+        {
             name: "Outstation Cabs in Delhi",
             desc: "Convenient cab services from Delhi to Jaipur, Agra, Chandigarh, and nearby states.",
             icon: <FaArchway />,
             link: "/outstation-cabs-in-delhi"
         },
-        {
-            name: "Outstation Cabs in Gurgaon",
-            desc: "Reliable outstation taxis from Gurgaon to Manesar, Neemrana, Jaipur, and more.",
-            icon: <FaCity />,
-            link: "/outstation-cabs-in-gurgaon"
-        }
+        // {
+        //     name: "Outstation Cabs in Gurgaon",
+        //     desc: "Reliable outstation taxis from Gurgaon to Manesar, Neemrana, Jaipur, and more.",
+        //     icon: <FaCity />,
+        //     link: "/outstation-cabs-in-gurgaon"
+        // }
     ];
 
     return (

@@ -619,7 +619,7 @@ export const blogPosts: BlogPost[] = [
         slug: "top-shuttle-service-solutions-for-your-daily-commute-needs",
         title: "Are you Looking for Top Shuttle Service Solutions for Your Daily Commute Needs?",
         date: "May 24, 2025",
-        image: "/images/blog/top-shuttle-service-solutions-for-your-daily-commute-needs/1.jpeg",
+        image: "/images/blog/top-shuttle-service-solutions-for-your-daily-commute-needs/3.jpeg",
         bannerImage: "https://fiestacabs.com/_next/image?url=%2Fimages%2Fblog%2Fpost-5.jpg&w=1920&q=75",
         excerpt: "Finding a reliable, efficient, and comfortable mode of transportation can make all the difference when managing the hustle and bustle of daily commuting.",
         content: [
@@ -633,7 +633,7 @@ export const blogPosts: BlogPost[] = [
                 type: 'p',
                 text: "From corporate rides and employee commutes to neighbourhood ride shares and app-based booking tools, a wide range of mobility solutions, including platforms like the Fiesta app and Fiesta Smart Mobility, are tailored to suit different commuting needs, helping you discover the quickest route. Don’t miss the booking features of these rapidly expanding platforms to stay up to date on safer, smoother commutes with a modern shuttle bus experience."
             },
-            { type: 'image', src: "/images/blog/top-shuttle-service-solutions-for-your-daily-commute-needs/2.jpeg", alt: "Corporate shuttle bus solutions", width: 720, height: 400 },
+            { type: 'image', src: "/images/blog/top-shuttle-service-solutions-for-your-daily-commute-needs/4.jpeg", alt: "Corporate shuttle bus solutions", width: 720, height: 400 },
 
             {
                 type: 'h5',
