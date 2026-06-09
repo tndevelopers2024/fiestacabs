@@ -619,7 +619,7 @@ export const blogPosts: BlogPost[] = [
         slug: "top-shuttle-service-solutions-for-your-daily-commute-needs",
         title: "Are you Looking for Top Shuttle Service Solutions for Your Daily Commute Needs?",
         date: "May 24, 2025",
-        image: "/images/blog/top-shuttle-service-solutions-for-your-daily-commute-needs/3.jpeg",
+        image: "/images/blog/top-shuttle-service-solutions-for-your-daily-commute-needs/5.png",
         bannerImage: "https://fiestacabs.com/_next/image?url=%2Fimages%2Fblog%2Fpost-5.jpg&w=1920&q=75",
         excerpt: "Finding a reliable, efficient, and comfortable mode of transportation can make all the difference when managing the hustle and bustle of daily commuting.",
         content: [
