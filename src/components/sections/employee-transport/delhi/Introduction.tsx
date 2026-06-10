@@ -1,11 +1,12 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Introduction = () => {
     return (
         <section className="w-full py-16 md:py-24 bg-white">
             <div className="max-w-[1440px] mx-auto px-4">
                 <div className="flex flex-col md:flex-row gap-12 items-center">
-                    <div className="w-full md:w-[100%]">
+                    <div className="w-full md:w-1/2">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
                             Corporate Employee Transport Services in Delhi GPS-Tracked Fleets, Verified Drivers
                         </h2>
@@ -15,6 +16,16 @@ const Introduction = () => {
                         <p className="text-gray-700 text-lg leading-relaxed">
                             Fiesta Smart Mobility handles the full commute operation for businesses in Delhi, from route planning and driver assignment to live GPS tracking and consolidated billing. Customers get reliable, on-time pickups. HR and admin teams get a transport programme that runs without daily intervention.
                         </p>
+                    </div>
+                    <div className="w-full md:w-1/2 flex justify-center">
+                        <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
+                            <Image
+                                src="/images/employee-transport-services-in-delhi/ets1.jpg"
+                                alt="Corporate Employee Transport Services in Delhi"
+                                fill
+                                className="object-cover"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

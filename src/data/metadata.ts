@@ -60,6 +60,11 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         description: "Fiesta Smart Mobility handles the full commute operation for businesses in Delhi, from route planning and driver assignment to live GPS tracking.",
         keywords: "Employee Transport Services in Delhi"
     },
+    "/employee-transport-services-in-gurgaon": {
+        title: "Employee Transport Services in Gurgaon | Fiesta",
+        description: "Fiesta Smart Mobility handles the full commute operation for businesses in Gurgaon. Reliable, GPS-Tracked, and shift-ready employee transportation services.",
+        keywords: "Employee Transport Services in Gurgaon"
+    },
     "/employee-transportation-services-in-bangalore": {
         title: "Employee Transportation in Bangalore | Fiesta Cabs",
         description: "Fiesta Cabs offers secure, prompt, and comfortable employee transportation in Bangalore — ideal for IT companies, startups, and enterprises across the city.",

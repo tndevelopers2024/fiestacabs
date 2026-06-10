@@ -93,7 +93,7 @@ const OfficeLocations = () => {
         {
             title: "Hyderabad",
             description: "8-1-402/336, Sathya Colony, Qutub Shahi Tombs, Hyderabad, Telangana 500104, India",
-            calls: ["+91 77025 33797"],
+            calls: [" +91 9100109864"],
             mail: "sales_hyd@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/w4K4xbCb9DULN7VM6",
             mapEmbed: "https://maps.google.com/maps?q=Fiesta+Smart+Mobility+Shaikpet+Golconda+Hyderabad&t=&z=15&ie=UTF8&iwloc=&output=embed"
@@ -153,7 +153,15 @@ const OfficeLocations = () => {
             mail: "sales_gurgaon@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/ywYvfitDTEPfEcnQ8",
             searchQuery: "Fiesta Smart Mobility - Gurugram"
+        },
+        {
+            title: "Ahmedabad",
+            description: "5th Floor, Gala Argos, Netaji Rd, Ellisbridge, Ahmedabad, Gujarat 380006",
+            calls: [],
+            mapLink: "https://maps.app.goo.gl/BVYFLG4aTePeAorVA",
+            searchQuery: "Fiesta Smart Mobility - Ahmedabad"    
         }
+
     ];
 
     return (

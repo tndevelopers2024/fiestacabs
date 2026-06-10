@@ -49,6 +49,12 @@ const EmployeeTransportServicesPage = () => {
             description: "Reliable, on-time pickups and GPS-tracked fleets across the Delhi NCR corridor.",
             href: "/employee-transport-services-in-delhi",
         },
+        {
+            city: "Gurgaon",
+            icon: "/images/shuttle-service/city-gurgaon.png",
+            description: "Built for the city's workforce reality: AI-optimised routes and GPS-tracked well-maintained fleets.",
+            href: "/employee-transport-services-in-gurgaon",
+        },
     ];
 
     const whyChoose = [

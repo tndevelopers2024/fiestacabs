@@ -9,7 +9,7 @@ const Technology = () => {
                     <div className="w-full lg:w-1/2">
                         <div className="relative h-[400px] w-full rounded-2xl overflow-hidden shadow-lg">
                             <Image
-                                src="/images/employee-transport/integrated.jpg"
+                                src="/images/employee-transport-services-in-delhi/ets3.jpg"
                                 alt="Transport Management Technology"
                                 fill
                                 style={{ objectFit: 'cover' }}

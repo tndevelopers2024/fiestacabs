@@ -12,7 +12,7 @@ const ContactFormSection = () => {
                         <div className="w-full">
                             <div className="relative w-full h-full min-h-[520px] rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
                                 <Image
-                                    src="/images/reach-us/WhatsApp-Image-2026-01-27-at-11.09.32-AM.jpeg"
+                                    src="/images/reach-us/PAN India Presence - 270126.png"
                                     alt="Pan India presence map"
                                     fill
                                     className="object-contain"
