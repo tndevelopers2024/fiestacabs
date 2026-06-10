@@ -57,13 +57,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-E4EM5ZZ3FR"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-E4EM5ZZ3FR');
+          `}
+        </Script>
+      </head>
       <body
         className="antialiased"
         suppressHydrationWarning
       >
         <ModalProvider>
           <Header />
-          <main className="min-h-screen"> 
+          <main className="min-h-screen">
             {children}
           </main>
           <Footer />
