@@ -127,8 +127,8 @@ const OfficeLocations = () => {
             description: "Tambaram - Mudichur - Walajabad Rd, Oragadam Industrial Corridor, Vaipoor, Tamil Nadu 602118, India",
             calls: ["+91 98840 13783"],
             mail: "rac_ord@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/iNN8T8DuQqTvBHQKA",
-            searchQuery: "Fiesta Smart Mobility - Oragadam"
+            mapLink: "https://maps.app.goo.gl/jWPRt1G7KogP4HbQ9",
+            mapEmbed: "https://maps.google.com/maps?cid=7065231561309572578&t=&z=15&ie=UTF8&iwloc=&output=embed"
         },
         {
             title: "Mahindra World City",
