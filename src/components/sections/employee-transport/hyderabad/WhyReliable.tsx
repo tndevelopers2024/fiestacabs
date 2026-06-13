@@ -17,7 +17,7 @@ const WhyReliable = () => {
                     {/* Left: Image */}
                     <div className="w-full md:w-[45%] relative h-[400px] md:h-[600px] rounded-2xl overflow-hidden shadow-lg">
                         <Image
-                            src="/images/employee-transport-services-in-hyderabad/unnamed-3-4.jpg"
+                            src="/images/employee-transportation-services-in-hyderabad/unnamed-3-4.jpg"
                             alt="Reliable Employee Transport Services"
                             fill
                             style={{ objectFit: "cover" }}
@@ -33,7 +33,7 @@ const WhyReliable = () => {
                             <p className="text-gray-700 text-lg leading-relaxed">
                                 In a growing city like Hyderabad, where traffic congestion and long commute times affect daily routines, reliable employee transportation services help reduce stress and boost punctuality.                             </p>
                             <p className="text-gray-700 text-lg leading-relaxed">
-                                Fiesta Smart Mobility’s Telangana operations include 40+ employees and 300 vehicles. Services currently reach 8 clients in the state. With 9 years of experience in the region, the company has established a steady presence. Telangana continues to offer opportunities for further growth and expansion.                            </p>
+                                Fiesta Smart Mobilityâ€™s Telangana operations include 40+ employees and 300 vehicles. Services currently reach 8 clients in the state. With 9 years of experience in the region, the company has established a steady presence. Telangana continues to offer opportunities for further growth and expansion.                            </p>
                             <p className="text-gray-700 text-lg leading-relaxed">
                                 Companies across sectors depend on corporate employee transportation services to manage staff mobility, especially when shift timings are odd, or locations are far from public transit.                            </p>
                             <p className="text-gray-700 text-lg leading-relaxed">

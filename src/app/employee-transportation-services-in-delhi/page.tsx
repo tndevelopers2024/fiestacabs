@@ -9,7 +9,7 @@ import WhyChooseFiesta from "../../components/sections/employee-transport/delhi/
 import GetStarted from "../../components/sections/employee-transport/delhi/GetStarted";
 import FAQ from "../../components/sections/employee-transport/delhi/FAQ";
 
-export const metadata = getMetadata("/employee-transport-services-in-delhi");
+export const metadata = getMetadata("/employee-transportation-services-in-delhi");
 
 export default function EmployeeTransportServicesDelhi() {
     return (
@@ -17,7 +17,7 @@ export default function EmployeeTransportServicesDelhi() {
             <HeroForm
                 title="Employee Transport Services in Delhi"
                 subtitle="Corporate Employee Transport Services in Delhi GPS-Tracked Fleets, Verified Drivers"
-                imageSrc="/images/employee-transport-services-in-delhi/hero.jpg"
+                imageSrc="/images/employee-transportation-services-in-delhi/hero.jpg"
                 ctaText="Book Your Employee Transport Today"
             />
 

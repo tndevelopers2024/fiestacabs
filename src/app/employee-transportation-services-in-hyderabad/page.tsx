@@ -12,15 +12,15 @@ import GetStarted from "../../components/sections/employee-transport/hyderabad/G
 import Testimonials from "../../components/common/Testimonials";
 import FAQ from "../../components/sections/employee-transport/hyderabad/FAQ";
 
-export const metadata = getMetadata("/employee-transport-services-in-hyderabad");
+export const metadata = getMetadata("/employee-transportation-services-in-hyderabad");
 
 export default function EmployeeTransportServices() {
     return (
         <div className="w-full bg-[#f8f9fa]">
             <HeroForm
                 title="Employee Transport Services in Hyderabad"
-                subtitle="BEnsure reliable, safe and punctual travel for your workforce with Fiesta’s Employee Transportation Services in Hyderabad—making daily commutes efficient, comfortable and stress-free."
-                imageSrc="/images/employee-transport-services-in-hyderabad/unnamed-9-e1763104171192.jpg"
+                subtitle="BEnsure reliable, safe and punctual travel for your workforce with Fiestaâ€™s Employee Transportation Services in Hyderabadâ€”making daily commutes efficient, comfortable and stress-free."
+                imageSrc="/images/employee-transportation-services-in-hyderabad/unnamed-9-e1763104171192.jpg"
                 ctaText="Book Your Employee Transport Today"
             />
 

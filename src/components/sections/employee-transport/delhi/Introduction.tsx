@@ -20,7 +20,7 @@ const Introduction = () => {
                     <div className="w-full md:w-1/2 flex justify-center">
                         <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
                             <Image
-                                src="/images/employee-transport-services-in-delhi/ets1.jpg"
+                                src="/images/employee-transportation-services-in-delhi/ets1.jpg"
                                 alt="Corporate Employee Transport Services in Delhi"
                                 fill
                                 className="object-cover"

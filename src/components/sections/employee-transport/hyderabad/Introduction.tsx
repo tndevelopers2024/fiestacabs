@@ -9,7 +9,7 @@ const Introduction = () => {
                     {/* Left: Image */}
                     <div className="w-full md:w-[45%] relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-lg">
                         <Image
-                            src="/images/employee-transport-services-in-hyderabad/unnamed-1-4.jpg"
+                            src="/images/employee-transportation-services-in-hyderabad/unnamed-1-4.jpg"
                             alt="Employee Transport Services in Hyderabad"
                             fill
                             style={{ objectFit: "cover" }}

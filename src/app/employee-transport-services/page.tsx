@@ -22,7 +22,7 @@ const EmployeeTransportServicesPage = () => {
             city: "Hyderabad",
             icon: "/images/services-offered/employee-transport-service/city-hyderabad.webp",
             description: "Serving HITEC City, Gachibowli, and key corporate clusters.",
-            href: "/employee-transport-services-in-hyderabad",
+            href: "/employee-transportation-services-in-hyderabad",
         },
         {
             city: "Bangalore",
@@ -40,21 +40,27 @@ const EmployeeTransportServicesPage = () => {
         {
             city: "Pune",
             icon: "/images/services-offered/employee-transport-service/city-pune.webp",
-            description: "Safe and punctual travel solutions for Pune’s growing industrial workforce.",
+            description: "Safe and punctual travel solutions for Puneâ€™s growing industrial workforce.",
             href: "/employee-transportation-services-in-pune",
+        },
+        {
+            city: "Kolkata",
+            icon: "/images/shuttle-service/city-kolkata.png",
+            description: "Reliable, on-time pickups and GPS-tracked fleets across the Kolkata corridor.",
+            href: "/employee-transportation-services-in-kolkata",
         },
         {
             city: "Delhi",
             icon: "/images/shuttle-service/city-delhi.png",
             description: "Reliable, on-time pickups and GPS-tracked fleets across the Delhi NCR corridor.",
-            href: "/employee-transport-services-in-delhi",
+            href: "/employee-transportation-services-in-delhi",
         },
         {
             city: "Gurgaon",
             icon: "/images/shuttle-service/city-gurgaon.png",
             description: "Built for the city's workforce reality: AI-optimised routes and GPS-tracked well-maintained fleets.",
-            href: "/employee-transport-services-in-gurgaon",
-        },
+            href: "/employee-transportation-services-in-gurgaon",
+        }
     ];
 
     const whyChoose = [
@@ -146,7 +152,7 @@ const EmployeeTransportServicesPage = () => {
         {
             title: "Onboarding Employees with Ease",
             description:
-                "Starting a new role is stressful enough. With Fiesta’s employee transport services, your employees get clear guidance on how to use the service from day one. This includes instructions on pick up points, schedules, and real time tracking access for a truly hassle free experience.",
+                "Starting a new role is stressful enough. With Fiestaâ€™s employee transport services, your employees get clear guidance on how to use the service from day one. This includes instructions on pick up points, schedules, and real time tracking access for a truly hassle free experience.",
         },
         {
             title: "Booking & Coordination Made Simple",
@@ -165,7 +171,7 @@ const EmployeeTransportServicesPage = () => {
 
     const additionalServices = [
         {
-            title: "Beyond Daily Commutes – Additional Corporate Services",
+            title: "Beyond Daily Commutes â€“ Additional Corporate Services",
             description:
                 "While our main focus is daily commutes, Fiesta also supports team outings, special occasions, and airport transfers for corporate employee travel. Our corporate car and corporate car rentals options are ideal for events, client visits, and inter-office trips.",
         },
@@ -239,7 +245,7 @@ const EmployeeTransportServicesPage = () => {
                         </div>
                         <div>
                             <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                                Fiesta Employee Transport Services – Reliable Commutes for Your Workforce
+                                Fiesta Employee Transport Services â€“ Reliable Commutes for Your Workforce
                             </h3>
                             <p className="text-gray-700 mb-4">
                                 In a corporate environment, where productivity often starts the moment your employees
@@ -247,7 +253,7 @@ const EmployeeTransportServicesPage = () => {
                                 drain it.
                             </p>
                             <p className="text-gray-700 mb-4">
-                                Whether it’s traffic congestion, irregular public transport, or uncertainty around
+                                Whether itâ€™s traffic congestion, irregular public transport, or uncertainty around
                                 travel times, most commute for your employees challenges lead to stress before the
                                 workday even begins.
                             </p>
@@ -256,7 +262,7 @@ const EmployeeTransportServicesPage = () => {
                                 be the standard, not the exception.
                             </p>
                             <p className="text-gray-700 mb-6">
-                                That’s why our employee transport services are designed to give companies in various
+                                Thatâ€™s why our employee transport services are designed to give companies in various
                                 cities a dependable, scalable, and cost effective way to manage corporate commutes, from
                                 home to corporate offices and back, every single day.
                             </p>
@@ -447,7 +453,7 @@ const EmployeeTransportServicesPage = () => {
                             Our employee transportation services connect employees to their workplaces through a network
                             of strategic pick up points, well maintained vehicles, and highly trained experienced
                             drivers. We specialise in providing transport solutions that integrate seamlessly with your
-                            company’s operations, helping you reduce carbon footprint, improve employee satisfaction,
+                            companyâ€™s operations, helping you reduce carbon footprint, improve employee satisfaction,
                             and make measurable cost savings in the long run.
                         </p>
                         <p className="text-gray-600 mt-3">
@@ -499,7 +505,7 @@ const EmployeeTransportServicesPage = () => {
                             <ul className="space-y-2 text-gray-700">
                                 {corporateSolutions.map((item) => (
                                     <li key={item} className="flex gap-2">
-                                        <span className="text-red-500">•</span>
+                                        <span className="text-red-500">â€¢</span>
                                         <span>{item}</span>
                                     </li>
                                 ))}
@@ -581,14 +587,14 @@ const EmployeeTransportServicesPage = () => {
                                     If you are among the first companies looking to upgrade your employee transportation
                                     services, we are here to help.
                                 </p>
-                                <p>📞 Contact us today to discuss your transportation needs.</p>
-                                <p>🗓 Send enquiry for a customised plan.</p>
+                                <p>ðŸ“ž Contact us today to discuss your transportation needs.</p>
+                                <p>ðŸ—“ Send enquiry for a customised plan.</p>
                                 <p>
-                                    🚌 Start your next ride with Fiesta and experience hassle free commute for your
+                                    ðŸšŒ Start your next ride with Fiesta and experience hassle free commute for your
                                     entire workforce.
                                 </p>
                                 <p>
-                                    Fiesta Employee Transport Services – Moving Your Workforce Forward. Where employee
+                                    Fiesta Employee Transport Services â€“ Moving Your Workforce Forward. Where employee
                                     commutes become reliable, efficient, and part of your sustainability goals.
                                 </p>
                             </div>

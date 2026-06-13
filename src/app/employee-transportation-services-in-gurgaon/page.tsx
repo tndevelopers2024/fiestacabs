@@ -11,7 +11,7 @@ import WhyChooseFiesta from "../../components/sections/employee-transport/gurgao
 import GetStarted from "../../components/sections/employee-transport/gurgaon/GetStarted";
 import FAQ from "../../components/sections/employee-transport/gurgaon/FAQ";
 
-export const metadata = getMetadata("/employee-transport-services-in-gurgaon");
+export const metadata = getMetadata("/employee-transportation-services-in-gurgaon");
 
 export default function EmployeeTransportServicesGurgaon() {
     return (

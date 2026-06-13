@@ -33,7 +33,7 @@ const Benefits = () => {
                     {/* Right: Image */}
                     <div className="w-full md:w-1/2 relative h-[350px] md:h-[450px] rounded-2xl overflow-hidden shadow-lg">
                         <Image
-                            src="/images/employee-transport-services-in-hyderabad/unnamed-12.jpg"
+                            src="/images/employee-transportation-services-in-hyderabad/unnamed-12.jpg"
                             alt="Benefits of Employee Transport"
                             fill
                             style={{ objectFit: "cover" }}

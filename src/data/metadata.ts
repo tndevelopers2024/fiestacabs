@@ -12,7 +12,7 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
     },
     "/about-us": {
         title: "About Fiesta Smart Mobility | Our Mission & Team",
-        description: "Discover the story behind Fiesta Smart Mobility — our mission, leadership, values, and why thousands trust us for employee transport across India.",
+        description: "Discover the story behind Fiesta Smart Mobility â€” our mission, leadership, values, and why thousands trust us for employee transport across India.",
         keywords: "About Us"
     },
     "/blog": {
@@ -37,7 +37,7 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
     },
     "/clients": {
         title: "Our Clients | Fiesta Smart Mobility India",
-        description: "Fiesta Smart Mobility proudly serves clients across IT, manufacturing, education, and banking sectors — delivering reliable transport solutions nationwide.",
+        description: "Fiesta Smart Mobility proudly serves clients across IT, manufacturing, education, and banking sectors â€” delivering reliable transport solutions nationwide.",
         keywords: "Clients"
     },
     "/corporate-car-rental-service": {
@@ -50,29 +50,29 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         description: "Fiesta provides safe, punctual, and comfortable employee transport services across major Indian cities. Tailored solutions for IT parks, offices, and campuses.",
         keywords: "Employee Transport Services"
     },
-    "/employee-transport-services-in-hyderabad": {
+    "/employee-transportation-services-in-hyderabad": {
         title: "Employee Transport Services in Hyderabad | Fiesta",
         description: "Fiesta Cabs offers dependable employee transport in Hyderabad with 24/7 support, secure rides, and punctual daily commutes for businesses of all sizes.",
         keywords: "Employee Transport Services in Hyderabad"
     },
-    "/employee-transport-services-in-delhi": {
+    "/employee-transportation-services-in-delhi": {
         title: "Employee Transport Services in Delhi | Fiesta",
         description: "Fiesta Smart Mobility handles the full commute operation for businesses in Delhi, from route planning and driver assignment to live GPS tracking.",
         keywords: "Employee Transport Services in Delhi"
     },
-    "/employee-transport-services-in-gurgaon": {
+    "/employee-transportation-services-in-gurgaon": {
         title: "Employee Transport Services in Gurgaon | Fiesta",
         description: "Fiesta Smart Mobility handles the full commute operation for businesses in Gurgaon. Reliable, GPS-Tracked, and shift-ready employee transportation services.",
         keywords: "Employee Transport Services in Gurgaon"
     },
     "/employee-transportation-services-in-kolkata": {
         title: "Best Employee Transportation Services in Kolkata | Fiesta Smart Mobility",
-        description: "Reliable employee transportation services in Kolkata — fixed-route shuttles, dedicated corporate cabs, and tech-enabled fleets with GPS tracking and verified drivers.",
+        description: "Reliable employee transportation services in Kolkata â€” fixed-route shuttles, dedicated corporate cabs, and tech-enabled fleets with GPS tracking and verified drivers.",
         keywords: "Employee Transportation Services in Kolkata"
     },
     "/employee-transportation-services-in-bangalore": {
         title: "Employee Transportation in Bangalore | Fiesta Cabs",
-        description: "Fiesta Cabs offers secure, prompt, and comfortable employee transportation in Bangalore — ideal for IT companies, startups, and enterprises across the city.",
+        description: "Fiesta Cabs offers secure, prompt, and comfortable employee transportation in Bangalore â€” ideal for IT companies, startups, and enterprises across the city.",
         keywords: "Employee Transportation Services in Bangalore"
     },
     "/employee-transportation-services-in-chennai": {
@@ -87,7 +87,7 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
     },
     "/employee-transportation-services-in-pune": {
         title: "Employee Transportation Services in Pune | Fiesta",
-        description: "Fiesta Cabs provides safe, reliable, and comfortable employee transportation in Pune — smart travel solutions designed for the modern corporate workforce.",
+        description: "Fiesta Cabs provides safe, reliable, and comfortable employee transportation in Pune â€” smart travel solutions designed for the modern corporate workforce.",
         keywords: "Employee Transportation Services in Pune"
     },
     "/gallery": {
@@ -137,7 +137,7 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
     },
     "/outstation-rides": {
         title: "Outstation Rides | Safe Intercity Travel | Fiesta",
-        description: "Travel intercity with Fiesta's outstation rides — professional chauffeurs, well-maintained vehicles, transparent pricing, and comfortable long-distance journeys.",
+        description: "Travel intercity with Fiesta's outstation rides â€” professional chauffeurs, well-maintained vehicles, transparent pricing, and comfortable long-distance journeys.",
         keywords: "Outstation Rides"
     },
     "/premium-car-rentals": {
@@ -157,12 +157,12 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
     },
     "/services-offered": {
         title: "Services Offered | Fiesta Smart Mobility India",
-        description: "Explore Fiesta Smart Mobility's full range of services — employee transport, corporate shuttle, premium car rentals, outstation rides, and wedding car hire.",
+        description: "Explore Fiesta Smart Mobility's full range of services â€” employee transport, corporate shuttle, premium car rentals, outstation rides, and wedding car hire.",
         keywords: "Services Offered"
     },
     "/shutle-services-in-pune": {
         title: "Corporate Shuttle Service in Pune | Fiesta Cabs",
-        description: "Fiesta Smart Mobility provides efficient corporate shuttle services in Pune — reliable daily commutes designed for businesses and employees seeking seamless travel.",
+        description: "Fiesta Smart Mobility provides efficient corporate shuttle services in Pune â€” reliable daily commutes designed for businesses and employees seeking seamless travel.",
         keywords: "Corporate Shuttle Service in Pune"
     },
     "/shuttle-service": {
@@ -187,7 +187,7 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
     },
     "/shuttle-services-in-chennai": {
         title: "Corporate Shuttle Services in Chennai | Fiesta",
-        description: "Fiesta Smart Mobility delivers professional, tech-enabled shuttle services in Chennai — designed for corporate teams, IT corridors, and high-frequency commutes.",
+        description: "Fiesta Smart Mobility delivers professional, tech-enabled shuttle services in Chennai â€” designed for corporate teams, IT corridors, and high-frequency commutes.",
         keywords: "Corporate Shuttle Services in Chennai"
     },
     "/shuttle-services-in-hyderabad": {
@@ -197,7 +197,7 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
     },
     "/shuttle-services-in-mumbai": {
         title: "Corporate Car Rental in Mumbai | Fiesta Cabs",
-        description: "Fiesta Cabs offers premium corporate car rentals in Mumbai — cars, minivans, and buses for business travel, corporate events, and executive airport transfers.",
+        description: "Fiesta Cabs offers premium corporate car rentals in Mumbai â€” cars, minivans, and buses for business travel, corporate events, and executive airport transfers.",
         keywords: "Corporate Car Rental in Mumbai"
     },
     "/terms-and-conditions": {
@@ -259,12 +259,12 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
     },
     "/blog/essential-guide-to-wedding-car-rental-for-your-special-day": {
         title: "Essential Guide to Wedding Car Rental | Fiesta Blog",
-        description: "Planning your wedding transport? This essential guide covers everything about wedding car rental — from choosing the right vehicle to ensuring a smooth, elegant day.",
+        description: "Planning your wedding transport? This essential guide covers everything about wedding car rental â€” from choosing the right vehicle to ensuring a smooth, elegant day.",
         keywords: "Wedding Car Rental"
     },
     "/corporate-car-rental-in-bangalore": {
         title: "Corporate Car Rental in Bangalore | Fiesta Cabs",
-        description: "Fiesta offers tailored corporate car rental in Bangalore — premium fleets, long-term contracts, and smart mobility solutions for modern businesses and enterprises.",
+        description: "Fiesta offers tailored corporate car rental in Bangalore â€” premium fleets, long-term contracts, and smart mobility solutions for modern businesses and enterprises.",
         keywords: "Corporate Car Rental in Bangalore"
     },
     "/best-car-rental-in-chennai": {

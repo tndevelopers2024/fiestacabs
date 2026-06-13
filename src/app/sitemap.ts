@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/wedding-cars-in-bangalore",
     "/outstation-cabs-in-hyderabad",
     "/shuttle-services-in-hyderabad",
-    "/employee-transport-services-in-hyderabad",
+    "/employee-transportation-services-in-hyderabad",
     "/wedding-cars-in-hyderabad",
     "/outstation-cabs-in-delhi",
     "/shuttle-service-in-delhi",

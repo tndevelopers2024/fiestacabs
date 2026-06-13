@@ -12,15 +12,15 @@ const SeamlessPartner = () => {
                             Your Partner for Seamless Corporate Commutes
                         </h2>
                         <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                            Choosing Fiesta means choosing more than a transport provider — it’s about partnering with a team that values safety, comfort, and consistency.                        </p>
+                            Choosing Fiesta means choosing more than a transport provider â€” itâ€™s about partnering with a team that values safety, comfort, and consistency.                        </p>
                         <p className="text-gray-700 text-lg leading-relaxed">
-                            Let us handle your employee transportation needs so your workforce can focus on what truly matters — performance and productivity.                        </p>
+                            Let us handle your employee transportation needs so your workforce can focus on what truly matters â€” performance and productivity.                        </p>
                     </div>
 
                     {/* Right: Image */}
                     <div className="w-full md:w-1/2 relative h-[350px] md:h-[450px] rounded-2xl overflow-hidden shadow-lg">
                         <Image
-                            src="/images/employee-transport-services-in-hyderabad/unnamed-4-1.jpg"
+                            src="/images/employee-transportation-services-in-hyderabad/unnamed-4-1.jpg"
                             alt="Seamless Corporate Commutes"
                             fill
                             style={{ objectFit: "cover" }}

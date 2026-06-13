@@ -24,7 +24,7 @@ const Conclusion = () => {
                     {/* Right: Image */}
                     <div className="w-full md:w-1/2 relative h-[350px] md:h-[450px] rounded-2xl overflow-hidden shadow-lg">
                         <Image
-                            src="/images/employee-transport-services-in-hyderabad/unnamed-2-3.jpg"
+                            src="/images/employee-transportation-services-in-hyderabad/unnamed-2-3.jpg"
                             alt="Happy employee commuting"
                             fill
                             style={{ objectFit: "cover" }}

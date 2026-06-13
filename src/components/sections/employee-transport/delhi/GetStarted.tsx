@@ -5,7 +5,7 @@ const GetStarted = () => {
     return (
         <section
             className="relative w-full py-16 md:py-24 text-white bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: "url('/images/employee-transport-services-in-delhi/ets4.jpg')" }}
+            style={{ backgroundImage: "url('/images/employee-transportation-services-in-delhi/ets4.jpg')" }}
         >
             {/* bg-[#E31E24]/85 mix-blend-multiply */}
             <div className="absolute inset-0 "></div>
