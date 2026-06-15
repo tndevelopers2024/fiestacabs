@@ -17,8 +17,8 @@ export default function EmployeeTransportServicesKolkata() {
         <div className="w-full bg-[#f8f9fa]">
             <HeroForm
                 title="Employee Transportation Services in Kolkata"
-                subtitle="Best Employee Transportation Services in Kolkata for Safe & Timely Commutes"
-                imageSrc="/images/employee-transport/hero.jpg"
+                subtitle=""
+                imageSrc="/images/employee-transportation-services-in-kolkata/herok.png"
                 ctaText="Book Your Employee Transport Today"
             />
 

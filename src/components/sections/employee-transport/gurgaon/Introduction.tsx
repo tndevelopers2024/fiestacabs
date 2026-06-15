@@ -5,8 +5,8 @@ const Introduction = () => {
     return (
         <section className="w-full py-16 md:py-24 bg-white">
             <div className="max-w-[1440px] mx-auto px-4">
-                <div className="flex flex-col md:flex-row gap-12 items-center mb-16">
-                    <div className="w-full md:w-[100%]">
+                <div className="flex flex-col lg:flex-row gap-12 items-center mb-16">
+                    <div className="w-full lg:w-1/2">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
                             Employee Transportation Services in Gurgaon Reliable, GPS-Tracked, Shift-Ready
                         </h2>
@@ -17,13 +17,23 @@ const Introduction = () => {
                             When employees arrive on time and work refreshed, productivity improves and retention strengthens. Fiesta Smart Mobility provides employee transportation services in Gurgaon built for the city&apos;s workforce reality: AI-optimised routes, GPS-tracked well-maintained fleet, professional chauffeurs, and billing structures that work for corporate finance teams.
                         </p>
                     </div>
+                    <div className="w-full lg:w-1/2">
+                        <div className="relative h-[400px] w-full rounded-2xl overflow-hidden shadow-lg">
+                            <Image
+                                src="/images/employee-transportation-services-in-gurgaon/etsg1.png"
+                                alt="Employee Transportation Services in Gurgaon"
+                                fill
+                                style={{ objectFit: 'cover' }}
+                            />
+                        </div>
+                    </div>
                 </div>
 
                 <div className="flex flex-col lg:flex-row gap-12 items-center">
                     <div className="w-full lg:w-1/2">
                         <div className="relative h-[400px] w-full rounded-2xl overflow-hidden shadow-lg">
                             <Image
-                                src="/images/employee-transport/fiesta-commutes.avif"
+                                src="/images/employee-transportation-services-in-gurgaon/etsg2.png"
                                 alt="Why Employee Transportation Services Matter in Gurgaon"
                                 fill
                                 style={{ objectFit: 'cover' }}

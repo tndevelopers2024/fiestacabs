@@ -16,7 +16,7 @@ export default function EmployeeTransportServicesDelhi() {
         <div className="w-full bg-[#f8f9fa]">
             <HeroForm
                 title="Employee Transport Services in Delhi"
-                subtitle="Corporate Employee Transport Services in Delhi GPS-Tracked Fleets, Verified Drivers"
+                subtitle=""
                 imageSrc="/images/employee-transportation-services-in-delhi/hero.jpg"
                 ctaText="Book Your Employee Transport Today"
             />

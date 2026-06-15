@@ -166,6 +166,30 @@ export default function AboutUs() {
                 </div>
             </section>
 
+            {/* ── Awards & Recognitions ── */}
+            <section className="w-full py-16 md:py-24 bg-gray-50">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-14">
+                        <div className="inline-flex items-center gap-2 mb-4 px-4 py-1.5 bg-red-100 rounded-full">
+                            <span className="w-2 h-2 rounded-full bg-[#EC2028]" />
+                            <span className="text-[#EC2028] font-semibold text-sm tracking-wide uppercase">Trophies & Milestones</span>
+                        </div>
+                        <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 tracking-tight">
+                            Awards & <span className="text-[#EC2028]">Recognitions</span>
+                        </h2>
+                    </div>
+
+                    <div className="relative w-full max-w-4xl mx-auto h-[300px] sm:h-[400px] md:h-[600px] rounded-3xl overflow-hidden shadow-xl bg-white">
+                        <Image
+                            src="/images/about-us/awards/1781326142135.png"
+                            alt="Awards & Recognitions"
+                            fill
+                            className="object-contain p-4"
+                        />
+                    </div>
+                </div>
+            </section>
+
             {/* CTA */}
             <Cta />
 

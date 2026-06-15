@@ -18,8 +18,8 @@ export default function EmployeeTransportServicesGurgaon() {
         <div className="w-full bg-[#f8f9fa]">
             <HeroForm
                 title="Employee Transportation Services in Gurgaon"
-                subtitle="Employee Transportation Services in Gurgaon Reliable, GPS-Tracked, Shift-Ready"
-                imageSrc="/images/employee-transport/hero.jpg"
+                subtitle=""
+                imageSrc="/images/employee-transportation-services-in-gurgaon/herog.png"
                 ctaText="Book Your Employee Transport Today"
             />
 
