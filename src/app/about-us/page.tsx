@@ -179,13 +179,27 @@ export default function AboutUs() {
                         </h2>
                     </div>
 
-                    <div className="relative w-full max-w-4xl mx-auto h-[300px] sm:h-[400px] md:h-[600px] rounded-3xl overflow-hidden shadow-xl bg-white">
-                        <Image
-                            src="/images/about-us/awards/1781326142135.png"
-                            alt="Awards & Recognitions"
-                            fill
-                            className="object-contain p-4"
-                        />
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                        {/* Award Item 1 */}
+                        <div className="relative w-full h-[250px] sm:h-[300px] rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                            <Image
+                                src="/images/about-us/awards/1781326142135.png"
+                                alt="Fiesta Awards & Recognitions"
+                                fill
+                                className="object-contain p-6"
+                            />
+                        </div>
+
+                        {/* Future awards can be added here following the same structure:
+                        <div className="relative w-full h-[250px] sm:h-[300px] rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                            <Image
+                                src="/images/about-us/awards/your-new-award-image.png"
+                                alt="Fiesta Awards & Recognitions"
+                                fill
+                                className="object-contain p-6"
+                            />
+                        </div>
+                        */}
                     </div>
                 </div>
             </section>

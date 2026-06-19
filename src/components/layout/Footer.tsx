@@ -93,7 +93,7 @@ const Footer = () => {
                                                 <strong className="block text-gray-800 mb-1">{info.label}</strong>
                                                 <span className="text-gray-600 text-sm">
                                                     {isEmail ? (
-                                                        <a href={`mailto:${info.numbers}`} className="hover:text-[#EC2028] transition-colors">
+                                                        <a href={`mailto:${info.numbers.replace(/;\s*/g, ',')}`} className="hover:text-[#EC2028] transition-colors">
                                                             {info.numbers}
                                                         </a>
                                                     ) : (
