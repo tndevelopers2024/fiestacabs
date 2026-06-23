@@ -89,4 +89,13 @@ export const siteTestimonials: TestimonialItem[] = [
         role: "Corporate Client",
         rating: 6,
     },
+    {
+        id: "atos-chennai",
+        quote:
+            "I would like to extend my sincere appreciation for the excellent transportation service provided during senior leadership visit to Chennai. We are extremely happy with the professionalism, punctuality, and courteous support extended by Driver Chand Basha throughout the visit. His commitment to ensuring a smooth and comfortable travel experience was truly commendable.Thank you for maintaining such high service standards.",
+        company: "Atos",
+        person: "Atos Team",
+        role: "Corporate Client",
+        rating: 5,
+    },
 ];
