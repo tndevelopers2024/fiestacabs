@@ -190,16 +190,35 @@ export default function AboutUs() {
                             />
                         </div>
 
-                        {/* Future awards can be added here following the same structure:
+                        {/* Award Item 2 */}
                         <div className="relative w-full h-[250px] sm:h-[300px] rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-100 hover:shadow-xl transition-shadow duration-300">
                             <Image
-                                src="/images/about-us/awards/your-new-award-image.png"
+                                src="/images/about-us/awards/2.jpeg"
                                 alt="Fiesta Awards & Recognitions"
                                 fill
                                 className="object-contain p-6"
                             />
                         </div>
-                        */}
+
+                        {/* Award Item 3 */}
+                        <div className="relative w-full h-[250px] sm:h-[300px] rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                            <Image
+                                src="/images/about-us/awards/3.jpeg"
+                                alt="Fiesta Awards & Recognitions"
+                                fill
+                                className="object-contain p-6"
+                            />
+                        </div>
+
+                        {/* Award Item 4 */}
+                        <div className="relative w-full h-[250px] sm:h-[300px] rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                            <Image
+                                src="/images/about-us/awards/4.jpeg"
+                                alt="Fiesta Awards & Recognitions"
+                                fill
+                                className="object-contain p-6"
+                            />
+                        </div>
                     </div>
                 </div>
             </section>
