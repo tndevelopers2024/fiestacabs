@@ -62,7 +62,7 @@ const manufacturingClients = [
 
 const educationClients = [
     { name: "Shiv Nadar", image: "/images/clients/education/shiv-nadar.png" },
-    { name: "SSN", image: "/images/clients/education/ssn-1.png" },
+    // { name: "SSN", image: "/images/clients/education/ssn-1.png" },
 ];
 
 const bankingClients = [

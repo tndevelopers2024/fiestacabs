@@ -87,7 +87,8 @@ const OfficeLocations = () => {
             description: "2nd Floor, R J Elite, No.45/A, Ramamurthi Nagar Main Rd, Dayananda Layout, Mukkutam Nagar, Ramamurthy Nagar, Bengaluru, Karnataka 560016, India",
             calls: ["080 - 4124 8273", "+91 99164 54848"],
             mail: "racblr@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/yB29uHTmKA2KMtKZ6",
+            mapLink: "https://maps.app.goo.gl/QGNFBJghyjpjiJBH9",
+            mapEmbed: "https://maps.google.com/maps?q=Fiesta+Smart+Mobility+Bengaluru&t=&z=15&ie=UTF8&iwloc=&output=embed",
             searchQuery: "Fiesta Smart Mobility - Bengaluru"
         },
         {
@@ -157,9 +158,10 @@ const OfficeLocations = () => {
         {
             title: "Ahmedabad",
             description: "5th Floor, Gala Argos, Netaji Rd, Ellisbridge, Ahmedabad, Gujarat 380006",
-            calls: [],
+            calls: ["+91 93845 50555"],
+            mail: "rahulsharma@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/BVYFLG4aTePeAorVA",
-            searchQuery: "Fiesta Smart Mobility - Ahmedabad"    
+            searchQuery: "Fiesta Smart Mobility - Ahmedabad"
         }
 
     ];

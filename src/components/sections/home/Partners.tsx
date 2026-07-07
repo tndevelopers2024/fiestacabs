@@ -15,11 +15,11 @@ const Partners = () => {
             name: "Mahindra",
             logo: "/images/home/partners/mahindra.png",
         },
-        {
-            id: 2,
-            name: "SSN",
-            logo: "/images/home/partners/ssn.png",
-        },
+        // {
+        //     id: 2,
+        //     name: "SSN",
+        //     logo: "/images/home/partners/ssn.png",
+        // },
         {
             id: 3,
             name: "Saint-Gobain",
