@@ -98,4 +98,13 @@ export const siteTestimonials: TestimonialItem[] = [
         role: "Corporate Client",
         rating: 5,
     },
+    {
+        id: "fiserv-chennai",
+        quote:
+            "We sincerely appreciate your excellent support during the recent Monsoon Vehicle Audit. Your proactive coordination, timely efforts, and commitment to maintaining the vehicles in excellent condition played a key role in the successful completion of the audit. The vehicles were well-prepared and met the required safety and maintenance standards, reflecting your dedication to operational excellence and passenger safety. We encourage you to continue maintaining these high standards throughout the year. Thank you for your continued support and partnership. We look forward to working together to ensure the highest levels of vehicle safety, maintenance, and compliance.",
+        company: "Fiserv",
+        person: "Admin & Transport Executive",
+        role: "Facility – Chennai",
+        rating: 5,
+    },
 ];
