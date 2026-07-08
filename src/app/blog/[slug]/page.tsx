@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-
+import { FaCalendarAlt, FaClock, FaShuttleVan, FaPhoneAlt, FaCar, FaStar } from "react-icons/fa";
 import { blogPosts, BlogPost, ContentBlock } from "../../../data/blogPosts";
 import Testimonials from "../../../components/common/Testimonials";
 import FAQ from "../../../components/sections/home/FAQ";
@@ -27,23 +27,23 @@ import { PAGE_METADATA } from "@/src/data/metadata";
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const fullPath = `/blog/${slug}`;
-  
+
   // Check if there is a manual override in central metadata.ts
   if (PAGE_METADATA[fullPath]) {
-      const data = PAGE_METADATA[fullPath];
-      return {
-          title: data.title,
-          description: data.description,
-          keywords: data.keywords,
-          openGraph: {
-              title: data.title,
-              description: data.description,
-          },
-          twitter: {
-              title: data.title,
-              description: data.description,
-          }
-      };
+    const data = PAGE_METADATA[fullPath];
+    return {
+      title: data.title,
+      description: data.description,
+      keywords: data.keywords,
+      openGraph: {
+        title: data.title,
+        description: data.description,
+      },
+      twitter: {
+        title: data.title,
+        description: data.description,
+      }
+    };
   }
 
   const post = blogPosts.find((p: BlogPost) => p.slug === slug);
@@ -216,6 +216,15 @@ export default async function BlogPostPage({ params }: PageProps) {
                       return (
                         <p key={idx} className="leading-relaxed text-[17px] text-slate-700">
                           {block.text}
+                        </p>
+                      );
+                    case "icon-p":
+                      return (
+                        <p key={idx} className="leading-relaxed text-[17px] text-slate-700 flex items-center gap-2">
+                          {block.icon === 'phone' && <FaPhoneAlt className="shrink-0 mt-0.5" />}
+                          {block.icon === 'calendar' && <FaCalendarAlt className="shrink-0 mt-0.5" />}
+                          {block.icon === 'car' && <FaCar className="shrink-0 mt-0.5" />}
+                          <span>{block.text}</span>
                         </p>
                       );
                     case "h2":
@@ -437,8 +446,8 @@ export default async function BlogPostPage({ params }: PageProps) {
                     <span className="px-3 py-1 rounded-full bg-white border border-slate-200">
                       {currentPost.testimonial.person} — {currentPost.testimonial.role}
                     </span>
-                    <span className="px-3 py-1 rounded-full bg-white border border-slate-200">
-                      {currentPost.testimonial.rating}★ service rating
+                    <span className="px-3 py-1 rounded-full bg-white border border-slate-200 flex items-center gap-1">
+                      {currentPost.testimonial.rating}<FaStar className="text-yellow-500 mb-0.5" /> service rating
                     </span>
                   </div>
                 </div>
@@ -480,25 +489,25 @@ export default async function BlogPostPage({ params }: PageProps) {
           </article>
 
           <aside className="space-y-6">
-              <div className="rounded-3xl bg-slate-900 text-white p-6 shadow-xl border border-slate-800">
+            <div className="rounded-3xl bg-slate-900 text-white p-6 shadow-xl border border-slate-800">
               <p className="text-xs uppercase tracking-[0.22em] text-white/60">Quick facts</p>
               <div className="mt-4 space-y-3">
                 <div className="flex items-start gap-3">
-                  <span className="text-lg">📅</span>
+                  <FaCalendarAlt className="text-lg mt-0.5" />
                   <div>
                     <p className="text-xs uppercase text-white/60">Published</p>
                     <p className="font-semibold">{currentPost.date}</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-lg">⏱</span>
+                  <FaClock className="text-lg mt-0.5" />
                   <div>
                     <p className="text-xs uppercase text-white/60">Reading time</p>
                     <p className="font-semibold">~{readingTime} minutes</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-lg">🚐</span>
+                  <FaShuttleVan className="text-lg mt-0.5" />
                   <div>
                     <p className="text-xs uppercase text-white/60">Focus</p>
                     <p className="font-semibold">Mobility & transport ops</p>

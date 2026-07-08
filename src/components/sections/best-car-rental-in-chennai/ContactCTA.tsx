@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaStar } from "react-icons/fa";
+import { FaStar, FaPhoneAlt, FaCalendarAlt, FaCar } from "react-icons/fa";
 import Button from "../../../components/common/Button";
 
 const ContactCTA = () => {
@@ -40,15 +40,15 @@ const ContactCTA = () => {
 
                     <ul className="space-y-4 mb-8 text-[15px] text-gray-200">
                         <li className="flex items-start gap-3">
-                            <span className="text-lg leading-none">📞</span>
+                            <FaPhoneAlt className="text-lg shrink-0 mt-0.5" />
                             <span>Call us at +91 78458 67612</span>
                         </li>
                         <li className="flex items-start gap-3">
-                            <span className="text-lg leading-none">🗓️</span>
+                            <FaCalendarAlt className="text-lg shrink-0 mt-0.5" />
                             <span>Book your ride today and enjoy cost savings, reliability, and comfort</span>
                         </li>
                         <li className="flex items-start gap-3">
-                            <span className="text-lg leading-none">🚘</span>
+                            <FaCar className="text-lg shrink-0 mt-0.5" />
                             <span>Send enquiry to get your custom plan</span>
                         </li>
                     </ul>

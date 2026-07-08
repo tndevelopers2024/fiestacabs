@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import BookNowButton from "../../common/BookNowButton";
-
+import { FaStar } from "react-icons/fa";
 const CTA = () => {
     return (
         <section className="relative w-full py-20 bg-black overflow-hidden">
@@ -23,8 +23,8 @@ const CTA = () => {
                 <div className="flex flex-col text-white max-w-xl">
                     <div className="flex items-center gap-2 mb-4 font-semibold text-sm">
                         <span>4.8 (729 Reviews)</span>
-                        <div className="flex text-[#F5A623]">
-                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        <div className="flex text-[#F5A623] gap-1">
+                            <FaStar size={14} /><FaStar size={14} /><FaStar size={14} /><FaStar size={14} /><FaStar size={14} />
                         </div>
                     </div>
 

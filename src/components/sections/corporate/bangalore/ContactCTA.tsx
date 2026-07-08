@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaStar } from "react-icons/fa";
+import { FaStar, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import Button from "../../../../components/common/Button";
 
 const ContactCTA = () => {
@@ -40,15 +40,15 @@ const ContactCTA = () => {
 
                     <ul className="space-y-4 mb-8 text-[15px] text-gray-200">
                         <li className="flex items-start gap-3">
-                            <span className="text-lg leading-none">📍</span>
+                            <FaMapMarkerAlt className="text-lg shrink-0 mt-0.5" />
                             <span>Fiesta Cabs, #55/5, 4th Floor, 2nd Main Road, Vyalikaval, Bangalore - 560003.</span>
                         </li>
                         <li className="flex items-start gap-3">
-                            <span className="text-lg leading-none">📞</span>
+                            <FaPhoneAlt className="text-lg shrink-0 mt-0.5" />
                             <span>+91 78458 67612</span>
                         </li>
                         <li className="flex items-start gap-3">
-                            <span className="text-lg leading-none">✉️</span>
+                            <FaEnvelope className="text-lg shrink-0 mt-0.5" />
                             <span>bookings@fiestacabs.com</span>
                         </li>
                     </ul>

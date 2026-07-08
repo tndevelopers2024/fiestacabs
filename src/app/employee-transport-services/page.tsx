@@ -1,7 +1,7 @@
 import { getMetadata } from "@/src/data/metadata";
 import Link from "next/link";
 import Image from "next/image";
-import { FaHandshake, FaTools, FaMoneyBillWave, FaThumbsUp, FaCar, FaStar, FaCogs } from "react-icons/fa";
+import { FaHandshake, FaTools, FaMoneyBillWave, FaThumbsUp, FaCar, FaStar, FaCogs, FaPhoneAlt, FaCalendarAlt, FaBus } from "react-icons/fa";
 import Testimonials from "../../components/common/Testimonials";
 import FAQ from "../../components/sections/home/FAQ";
 import BookNowButton from "../../components/common/BookNowButton";
@@ -587,11 +587,11 @@ const EmployeeTransportServicesPage = () => {
                                     If you are among the first companies looking to upgrade your employee transportation
                                     services, we are here to help.
                                 </p>
-                                <p>ðŸ“ž Contact us today to discuss your transportation needs.</p>
-                                <p>ðŸ—“ Send enquiry for a customised plan.</p>
-                                <p>
-                                    ðŸšŒ Start your next ride with Fiesta and experience hassle free commute for your
-                                    entire workforce.
+                                <p className="flex items-center gap-2"><FaPhoneAlt className="text-xl shrink-0" /> Contact us today to discuss your transportation needs.</p>
+                                <p className="flex items-center gap-2"><FaCalendarAlt className="text-xl shrink-0" /> Send enquiry for a customised plan.</p>
+                                <p className="flex items-start gap-2">
+                                    <FaBus className="text-xl shrink-0 mt-1" /> <span>Start your next ride with Fiesta and experience hassle free commute for your
+                                        entire workforce.</span>
                                 </p>
                                 <p>
                                     Fiesta Employee Transport Services â€“ Moving Your Workforce Forward. Where employee

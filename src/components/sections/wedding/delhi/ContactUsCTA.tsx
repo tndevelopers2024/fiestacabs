@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Button from "../../../../components/common/Button";
 import BookNowButton from "../../../common/BookNowButton";
-
+import { FaPhoneAlt, FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 const ContactUsCTA = () => {
     return (
         <section className="relative py-20 px-4 md:px-8 flex items-center justify-center min-h-[400px]">
@@ -38,15 +38,15 @@ const ContactUsCTA = () => {
 
                     <ul className="space-y-3 mb-6 text-white/90 text-[15px]">
                         <li className="flex items-center gap-2">
-                            <span>📞</span>
+                            <FaPhoneAlt className="shrink-0 mt-0.5 text-lg" />
                             <span>Call us to discuss your car rent for marriage in Delhi needs.</span>
                         </li>
                         <li className="flex items-center gap-2">
-                            <span>📅</span>
+                            <FaCalendarAlt className="shrink-0 mt-0.5 text-lg" />
                             <span>Schedule your booking in advance to secure your perfect car.</span>
                         </li>
                         <li className="flex items-center gap-2">
-                            <span>📍</span>
+                            <FaMapMarkerAlt className="shrink-0 mt-0.5 text-lg" />
                             <span>Serving all major Delhi NCR wedding venues and beyond.</span>
                         </li>
                     </ul>

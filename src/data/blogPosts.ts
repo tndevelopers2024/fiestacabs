@@ -21,6 +21,7 @@ export interface BlogPost {
 
 export type ContentBlock =
     | { type: 'p'; text: string }
+    | { type: 'icon-p'; icon: string; text: string }
     | { type: 'h2'; text: string }
     | { type: 'h3'; text: string }
     | { type: 'h4'; text: string }
@@ -568,11 +569,12 @@ export const blogPosts: BlogPost[] = [
                 text: "Whether you are planning daily commutes, sightseeing, or weekend travel, Fiesta’s car rental in Chennai with a driver provides the comfort, reliability, and cost savings you deserve."
             },
             {
-                type: 'p',
-                text: "📞 Call us at +91 78458 67512"
+                type: 'icon-p',
+                icon: 'phone',
+                text: "Call us at +91 78458 67512"
             },
-            { type: 'p', text: "🗓 Book your ride today and enjoy cost savings, reliability, and comfort" },
-            { type: 'p', text: "🚗 Send an enquiry today to get your custom plan." },
+            { type: 'icon-p', icon: 'calendar', text: "Book your ride today and enjoy cost savings, reliability, and comfort" },
+            { type: 'icon-p', icon: 'car', text: "Send an enquiry today to get your custom plan." },
             {
                 type: 'p',
                 text: "Fiesta Car Rentals - Where Chennai travels smarter, safer, and with more style."
