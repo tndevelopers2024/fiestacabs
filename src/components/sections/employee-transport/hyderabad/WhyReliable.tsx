@@ -33,7 +33,7 @@ const WhyReliable = () => {
                             <p className="text-gray-700 text-lg leading-relaxed">
                                 In a growing city like Hyderabad, where traffic congestion and long commute times affect daily routines, reliable employee transportation services help reduce stress and boost punctuality.                             </p>
                             <p className="text-gray-700 text-lg leading-relaxed">
-                                Fiesta Smart Mobilityâ€™s Telangana operations include 40+ employees and 300 vehicles. Services currently reach 8 clients in the state. With 9 years of experience in the region, the company has established a steady presence. Telangana continues to offer opportunities for further growth and expansion.                            </p>
+                                Fiesta Smart Mobility's Telangana operations include 40+ employees and 300 vehicles. Services currently reach 8 clients in the state. With 9 years of experience in the region, the company has established a steady presence. Telangana continues to offer opportunities for further growth and expansion.                            </p>
                             <p className="text-gray-700 text-lg leading-relaxed">
                                 Companies across sectors depend on corporate employee transportation services to manage staff mobility, especially when shift timings are odd, or locations are far from public transit.                            </p>
                             <p className="text-gray-700 text-lg leading-relaxed">

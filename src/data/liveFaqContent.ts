@@ -81,15 +81,15 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
     "/outstation-rides": [
         {
             "question": "Can we book cabs with a fixed pickup from airport?",
-            "answer": "Yes. Share your guest's flight time, and weâ€™ll track arrival. Our drivers wait at the airport gate and assist with luggage and the drop-off location."
+            "answer": "Yes. Share your guest's flight time, and we'll track arrival. Our drivers wait at the airport gate and assist with luggage and the drop-off location."
         },
         {
             "question": "What happens if the driver is late?",
-            "answer": "We send alerts if thereâ€™s any delay. Plus, we have a backup vehicle ready at a momentâ€™s notice if there's an issue. No last-minute stress."
+            "answer": "We send alerts if there's any delay. Plus, we have a backup vehicle ready at a moment's notice if there's an issue. No last-minute stress."
         },
         {
             "question": "How do I track the ride?",
-            "answer": "Once booking is confirmed, youâ€™ll get SMS/email with a live tracking link. You can monitor ride status in real-time."
+            "answer": "Once booking is confirmed, you'll get SMS/email with a live tracking link. You can monitor ride status in real-time."
         },
         {
             "question": "Is GST invoice available?",
@@ -115,7 +115,7 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
         },
         {
             "question": "What is a shuttle service car?",
-            "answer": "A shuttle service car is a vehicleâ€”such as a van, SUV, or luxury carâ€”used to transport individuals or groups between designated locations. These cars are comfortable, reliable, and often chauffeur-driven."
+            "answer": "A shuttle service car is a vehicle—such as a van, SUV, or luxury car—used to transport individuals or groups between designated locations. These cars are comfortable, reliable, and often chauffeur-driven."
         },
         {
             "question": "What is airport shuttle service?",
@@ -123,7 +123,7 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
         },
         {
             "question": "Gate to Gate Connectivity",
-            "answer": "Fiestaâ€™s Gate to Gate employee transport service ensures end-to-end commuting coverageâ€”from office main entries to outer gate pick-up points and vice versa. Our shuttle service routes are strategically planned to minimize walking distance within campuses and industrial parks, offering seamless shuttle bus connectivity even in large facilities. With fixed-time slots and convenient pick-up zones, employees enjoy a smoother, quicker, and more reliable journey every day."
+            "answer": "Fiesta's Gate to Gate employee transport service ensures end-to-end commuting coverage—from office main entries to outer gate pick-up points and vice versa. Our shuttle service routes are strategically planned to minimize walking distance within campuses and industrial parks, offering seamless shuttle bus connectivity even in large facilities. With fixed-time slots and convenient pick-up zones, employees enjoy a smoother, quicker, and more reliable journey every day."
         },
         {
             "question": "Customizable Routes and Time Slots",
@@ -131,7 +131,7 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
         },
         {
             "question": "Comfortable, Reliable Commute",
-            "answer": "Our fleet of well-maintained shuttle buses offers spacious seating, air conditioning, and a calm, clean environmentâ€”ideal for relaxing before or after a long day at work. Employees can ride to and from the office comfortably , making daily travel something to look forward to, rather than dread."
+            "answer": "Our fleet of well-maintained shuttle buses offers spacious seating, air conditioning, and a calm, clean environment—ideal for relaxing before or after a long day at work. Employees can ride to and from the office comfortably , making daily travel something to look forward to, rather than dread."
         },
         {
             "question": "Smart Tech, Seamless Booking",
@@ -139,7 +139,7 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
         },
         {
             "question": "Advanced Safety Features",
-            "answer": "Every Fiesta ride includes built-in security features such as real-time GPS tracking, SOS alerts , verified drivers, and ride details sharing with family or colleagues. Your teamâ€™s safety is never left to chance."
+            "answer": "Every Fiesta ride includes built-in security features such as real-time GPS tracking, SOS alerts , verified drivers, and ride details sharing with family or colleagues. Your team's safety is never left to chance."
         },
         {
             "question": "Easy Payments and Corporate Integrations",
@@ -161,7 +161,7 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
         },
         {
             "question": "Do you operate in small cities?",
-            "answer": "Yes, we do. While our main fleet runs from major metros, weâ€™ve handled bookings in tier-2 cities like Bhopal, Madurai, and Vijayawada. For weddings in remote destinations, we plan logistics early. Premium sedans or vintage vehicles may be relocated from nearby hubs. Our regional contacts help us effectively manage routes, permissions, and last-mile planning for any outstation tour ."
+            "answer": "Yes, we do. While our main fleet runs from major metros, we've handled bookings in tier-2 cities like Bhopal, Madurai, and Vijayawada. For weddings in remote destinations, we plan logistics early. Premium sedans or vintage vehicles may be relocated from nearby hubs. Our regional contacts help us effectively manage routes, permissions, and last-mile planning for any outstation tour ."
         },
         {
             "question": "How soon should we book?",
@@ -196,7 +196,7 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
     ],
     "/employee-transportation-services-in-bangalore": [
         {
-            "question": "What makes Fiestaâ€™s employee transportation services in Bangalore reliable?",
+            "question": "What makes Fiesta's employee transportation services in Bangalore reliable?",
             "answer": "Structured planning, well maintained vehicles, and real time GPS tracking ensure safe and timely commutes daily."
         },
         {
@@ -241,7 +241,7 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
     "/employee-transportation-services-in-hyderabad": [
         {
             "question": "What are the common issues staff face with shared cabs in peak hours?",
-            "answer": "Staff may face traffic delays and crowded rides, but Fiestaâ€™s well-maintained fleet and route planning help reduce waiting and stress."
+            "answer": "Staff may face traffic delays and crowded rides, but Fiesta's well-maintained fleet and route planning help reduce waiting and stress."
         },
         {
             "question": "How does the cab deal with breakdowns during shift hours?",
@@ -249,7 +249,7 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
         },
         {
             "question": "How could the transportation service handle last-minute ride changes from staff?",
-            "answer": "Staff can request changes anytime, and Fiestaâ€™s 24/7 support and shift-based scheduling ensure quick adjustments."
+            "answer": "Staff can request changes anytime, and Fiesta's 24/7 support and shift-based scheduling ensure quick adjustments."
         },
         {
             "question": "How do staff check cab timing when shifts change?",
@@ -311,7 +311,7 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
         },
         {
             "question": "Can companies request extra shuttles during peak days or corporate events in Gurgaon?",
-            "answer": "Yes- companies can request extra shuttles in busy periods or for big events. Fiestaâ€™s employee-transport team will scale up the fleet and run additional buses or vans to match the demand."
+            "answer": "Yes- companies can request extra shuttles in busy periods or for big events. Fiesta's employee-transport team will scale up the fleet and run additional buses or vans to match the demand."
         },
         {
             "question": "Are there options for long-distance routes?",
@@ -354,8 +354,8 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
             "answer": "Companies pay monthly for the fiesta shuttle services, based on the number of employees and trips."
         },
         {
-            "question": "How do they adjust routes to avoid Bangaloreâ€™s peak traffic?",
-            "answer": "Fiestaâ€™s system dynamically reâ€‘routes shuttles in real time. They use live traffic data and known congestion spots to pick the fastest path."
+            "question": "How do they adjust routes to avoid Bangalore's peak traffic?",
+            "answer": "Fiesta's system dynamically re-routes shuttles in real time. They use live traffic data and known congestion spots to pick the fastest path."
         },
         {
             "question": "Can time slots be set for early morning or late evening office shifts?",
@@ -363,11 +363,11 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
         },
         {
             "question": "How are pick-up points decided near malls, petrol pumps, and metro stations in Bangalore?",
-            "answer": "Fiestaâ€™s pickâ€‘up points are gate-to-gate, near office entrances, tech parks, metro stations, malls, petrol pumps, and residential clusters, making access easy and safe for employees."
+            "answer": "Fiesta's pick-up points are gate-to-gate, near office entrances, tech parks, metro stations, malls, petrol pumps, and residential clusters, making access easy and safe for employees."
         },
         {
             "question": "Can companies link shuttle billing with their HR or attendance system?",
-            "answer": "Companies can link Fiestaâ€™s shuttle billing with their HR attendance systems to get monthly invoices and sync transport cost data with employee attendance."
+            "answer": "Companies can link Fiesta's shuttle billing with their HR attendance systems to get monthly invoices and sync transport cost data with employee attendance."
         }
     ],
     "/corporate-car-rental-in-mumbai": [
@@ -389,7 +389,7 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
         },
         {
             "question": "How far in advance should I book?",
-            "answer": "Booking at least 2â€“3 months ahead ensures preferred vehicles and professional chauffeur service for an unforgettable experience."
+            "answer": "Booking at least 2–3 months ahead ensures preferred vehicles and professional chauffeur service for an unforgettable experience."
         }
     ],
     "/shuttle-service-in-delhi": [
@@ -407,7 +407,7 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
         },
         {
             "question": "Can employees track shuttle location in real time via an app or SMS?",
-            "answer": "Once booking is confirmed, youâ€™ll get an SMS or email with a liveâ€‘tracking app facility, so employees can see where their shuttle is in real time."
+            "answer": "Once booking is confirmed, you'll get an SMS or email with a live-tracking app facility, so employees can see where their shuttle is in real time."
         },
         {
             "question": "How does Fiesta manage shuttle schedules during heavy rain or Delhi NCR fog?",
@@ -442,8 +442,8 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
             "answer": "Yes, Fiesta offers trips from Chennai to nearby cities like Pondicherry, Mahabalipuram and Kanchipuram for leisure or business."
         },
         {
-            "question": "Can I change my pickâ€‘up or dropâ€‘off point after booking?",
-            "answer": "You can adjust pick-up or drop-off points by contacting Fiestaâ€™s support team before your ride."
+            "question": "Can I change my pick-up or drop-off point after booking?",
+            "answer": "You can adjust pick-up or drop-off points by contacting Fiesta's support team before your ride."
         },
         {
             "question": "How does Fiesta handle cancellations or rescheduling in Chennai?",
@@ -517,7 +517,7 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
         },
         {
             "question": "Can shuttles pick up employees from multiple locations?",
-            "answer": "Fiestaâ€™s shuttles use fixed, gate-to-gate pickâ€‘up points near metro stations, residential clusters, and busy areas. The well-planned pick-up points let staff from different locations board easily without long walks or extra waiting."
+            "answer": "Fiesta's shuttles use fixed, gate-to-gate pick-up points near metro stations, residential clusters, and busy areas. The well-planned pick-up points let staff from different locations board easily without long walks or extra waiting."
         },
         {
             "question": "How is the fare or cost of shuttle service calculated?",
