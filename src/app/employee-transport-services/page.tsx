@@ -367,7 +367,7 @@ const EmployeeTransportServicesPage = () => {
                         </div>
                         <div className="relative h-[320px] md:h-[480px] rounded-md overflow-hidden">
                             <Image
-                                src="/images/employee-transport/shuttle.jpg"
+                                src="/images/employee-transport/gtgess-right-img.png"
                                 alt="Gate-to-gate shuttle services"
                                 fill
                                 style={{ objectFit: "cover" }}
@@ -434,7 +434,7 @@ const EmployeeTransportServicesPage = () => {
                         </div>
                         <div className="relative h-[320px] md:h-[420px] rounded-md overflow-hidden">
                             <Image
-                                src="/images/employee-transport/key-features.jpg"
+                                src="/images/employee-transport/kftsua-right-img.png"
                                 alt="Key features"
                                 fill
                                 style={{ objectFit: "cover" }}
@@ -465,7 +465,7 @@ const EmployeeTransportServicesPage = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div className="relative h-[320px] md:h-[420px] rounded-md overflow-hidden">
                             <Image
-                                src="/images/employee-transport/made-simple.jpg"
+                                src="/images/employee-transport/etms-left-img.png"
                                 alt="Employee transportation made simple"
                                 fill
                                 style={{ objectFit: "cover" }}
@@ -518,7 +518,7 @@ const EmployeeTransportServicesPage = () => {
                         </div>
                         <div className="relative h-[320px] md:h-[420px] rounded-md overflow-hidden">
                             <Image
-                                src="/images/employee-transport/integrated.jpg"
+                                src="/images/employee-transport/itsfc-right-img.png"
                                 alt="Integrated transport solutions"
                                 fill
                                 style={{ objectFit: "cover" }}
@@ -534,7 +534,7 @@ const EmployeeTransportServicesPage = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-[0.9fr_1.1fr] gap-12 items-center">
                         <div className="relative h-[360px] md:h-[520px] rounded-md overflow-hidden">
                             <Image
-                                src="/images/employee-transport/additional.jpg"
+                                src="/images/employee-transport/itsfc-left-img.png"
                                 alt="Additional corporate services"
                                 fill
                                 style={{ objectFit: "cover" }}
@@ -561,7 +561,7 @@ const EmployeeTransportServicesPage = () => {
             <section className="relative w-full overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="/images/employee-transport/cta.jpg"
+                        src="/images/employee-transport/cta-banner-img.png"
                         alt="Send enquiry"
                         fill
                         style={{ objectFit: "cover" }}

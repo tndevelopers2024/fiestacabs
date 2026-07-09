@@ -7,42 +7,42 @@ const features = [
         title: "Two Decades of Experience",
         description:
             "Since 1998, we have consistently understood and adapted to evolving customer needs, establishing Fiesta as a leading provider of employee transport services.",
-        image: "/images/about-us/why-choose-us/01.avif",
+        image: "/images/about-us/why-choose-us/about-wc-card1-img.png",
     },
     {
         id: "02",
         title: "Customized End-to-End Solutions",
         description:
             "We design transport solutions tailored to your unique requirements — from car rentals to complex logistics, we have you covered.",
-        image: "/images/about-us/why-choose-us/02.avif",
+        image: "/images/about-us/why-choose-us/about-wc-card2-img.png",
     },
     {
         id: "03",
         title: "Proactive Management Team",
         description:
             "Our leadership brings rich experience and passion for excellence, constantly innovating to maintain our reputation as a top-tier transport service.",
-        image: "/images/about-us/why-choose-us/03.avif",
+        image: "/images/about-us/why-choose-us/about-wc-card3-img.png",
     },
     {
         id: "04",
         title: "Real-time Tracking & Safety",
         description:
             "We leverage cutting-edge technology for real-time tracking, automated billing, and enhanced safety — ensuring full transparency in every journey.",
-        image: "/images/about-us/why-choose-us/04.avif",
+        image: "/images/about-us/why-choose-us/about-wc-card4-img.png",
     },
     {
         id: "05",
         title: "Eco-friendly Fleet Options",
         description:
             "We offer a growing fleet of electric and low-emission vehicles, helping our clients achieve sustainability goals without compromising on quality.",
-        image: "/images/about-us/why-choose-us/05.avif",
+        image: "/images/about-us/why-choose-us/about-wc-card5-img.png",
     },
     {
         id: "06",
         title: "24/7 Reliable Operations",
         description:
             "With a dedicated control room and round-the-clock support, we ensure your transportation needs are met with absolute reliability, anytime, anywhere.",
-        image: "/images/about-us/why-choose-us/06.avif",
+        image: "/images/about-us/why-choose-us/about-wc-card6-img.png",
     },
 ];
 

@@ -10,7 +10,7 @@ const Cta = () => {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <Image
-                    src="/images/about-us/banner/about-us-banner.jpg"
+                    src="/images/about-us/banner/about-cta-bg-img.png"
                     alt="Reach Your Destination Safe and on Time"
                     fill
                     style={{ objectFit: "cover" }}

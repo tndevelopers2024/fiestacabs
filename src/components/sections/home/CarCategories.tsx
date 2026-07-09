@@ -9,6 +9,7 @@ interface CarCategory {
     icon: string;
     image: string;
     description: string;
+    scale?: string;
 }
 
 const CarCategories = () => {
@@ -55,35 +56,39 @@ const CarCategories = () => {
         },
         {
             id: "vellfire",
-            name: "Toyota Vellfire",
+            name: "Vellfire",
             icon: "/images/home/car-categories/Toyota Vellfire.png",
             image: "/images/home/car-categories/Toyota Vellfire.png",
+            scale: "scale-[0.9]",
             description:
-                "Experience premium luxury travel with the Toyota Vellfire. This top-tier executive vehicle offers exceptional VIP comfort, an ultra-spacious cabin, and advanced amenities. It is the perfect choice for high-profile client transfers, VIP delegations, and luxury corporate transport where nothing but the absolute best will suffice.",
+                "The Toyota Vellfire is Fiesta's premium choice for executive and VIP transport. With plush leather interiors, captain seats, and a quiet cabin, it is designed for senior leadership, client visits, and high-profile events. Every Vellfire comes with a trained chauffeur who understands the standards executive travel demands. A refined option when comfort and image matter as much as the destination.",
         },
         {
             id: "tempo-traveller",
             name: "Tempo Traveller",
             icon: "/images/home/car-categories/Tempo.png",
             image: "/images/home/car-categories/Tempo.png",
+            scale: "scale-[1.3]",
             description:
-                "Fiesta's Tempo Traveller services offer spacious and reliable transportation for medium-sized groups. With ample legroom and luggage capacity, it is perfect for corporate outings, family trips, and group airport transfers. Enjoy a smooth, comfortable ride while keeping your entire team together in a single, well-maintained vehicle.",
+                "Fiesta's Tempo Travellers are built for group travel, from outstation trips to airport pickups for larger teams. Available in a range of seating configurations, they offer comfortable, well-ventilated cabins with ample luggage space. Popular for corporate offsites, team outings, and multi-passenger airport transfers, the Tempo Traveller gives groups a single, coordinated way to travel together.",
         },
         {
             id: "minibus",
             name: "Mini Bus",
             icon: "/images/home/car-categories/Fiesta Mini Bus .png",
             image: "/images/home/car-categories/Fiesta Mini Bus .png",
+            scale: "scale-[1.3]",
             description:
-                "Fiesta's Mini Bus fleet is ideal for group travel, employee commutes, and mid-sized corporate events. Balancing comfortable, spacious seating with efficient maneuverability, it provides a reliable and cost-effective group transport solution. Trust our professional drivers to handle your group logistics seamlessly and safely.",
+                "Fiesta's minibuses fill the gap between sedans and full-size buses, offering group transport without the scale of a large fleet. Well suited for mid-sized teams, office transfers, and short outstation trips, these vehicles balance comfort with manoeuvrability in congested city routes. A practical option for departments or smaller teams that need to travel together without booking multiple cars.",
         },
         {
-            id: "large-bus",
-            name: "Large Bus",
+            id: "bus",
+            name: "Bus",
             icon: "/images/home/car-categories/Large Bus.png",
             image: "/images/home/car-categories/Large Bus.png",
+            scale: "scale-[1.3]",
             description:
-                "Fiesta's Large Bus services provide comprehensive transport solutions for large corporate teams, major events, and excursions. Our buses are fully equipped with superior amenities to ensure passenger comfort and safety on every large-scale journey. Trust us for dependable, on-time mass transportation logistics.",
+                "Fiesta's bus services are built for large-scale workforce movement. Ideal for organisations running multiple shifts or moving hundreds of employees daily, our buses combine seating capacity with route efficiency. Each vehicle is maintained to strict safety standards and staffed by trained drivers. Suited for factories, IT parks, and campuses that need reliable, high-capacity transport across fixed routes every single day.",
         },
     ];
 
@@ -124,6 +129,7 @@ const CarCategories = () => {
                                     alt={category.name}
                                     fill
                                     style={{ objectFit: "contain" }}
+                                    className={`transition-transform duration-300 ${category.scale || ""}`}
                                 />
                             </div>
                             <span
@@ -151,7 +157,7 @@ const CarCategories = () => {
                                 alt={activeCategoryData.name}
                                 fill
                                 style={{ objectFit: "contain" }}
-                                className="drop-shadow-lg"
+                                className={`drop-shadow-lg transition-transform duration-300 ${activeCategoryData.scale || ""}`}
                             />
                         </div>
 

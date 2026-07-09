@@ -62,7 +62,7 @@ export default function AboutUs() {
             <PageHero
                 title="About Us"
                 subtitle=""
-                backgroundImage="/images/about-us/banner/WhatsApp-Image-2025-02-17-at-11.22.49-PM.jpeg"
+                backgroundImage="/images/about-us/banner/about-banner.png"
                 height="md"
             />
 
