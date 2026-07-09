@@ -101,7 +101,7 @@ export const siteTestimonials: TestimonialItem[] = [
     {
         id: "fiserv-chennai",
         quote:
-            "We sincerely appreciate the Fiesta Team for their outstanding support during the recent Monsoon Vehicle Audit. Their proactive coordination, timely execution, and commitment to maintaining vehicles in excellent condition ensured a smooth and successful audit.The team's dedication to safety, maintenance, and operational excellence is truly commendable. We look forward to continuing this valuable partnership and maintaining these high standards.",
+            "We sincerely appreciate the Fiesta Team for their outstanding support during the recent Monsoon Vehicle Audit. Their proactive coordination, timely execution, and commitment to maintaining vehicles in excellent condition ensured a smooth and successful audit. The team's dedication to safety, maintenance, and operational excellence is truly commendable. We look forward to continuing this valuable partnership and maintaining these high standards.",
         company: "Fiserv",
         person: "Admin & Transport Executive",
         role: "Facility – Chennai",

@@ -100,8 +100,8 @@ const Testimonials = ({
                         className="testimonials-swiper !pb-20 !px-4"
                     >
                         {testimonials.map((testimonial) => (
-                            <SwiperSlide key={testimonial.id} className="h-full flex">
-                                <div className="testimonials-card h-[520px] w-full bg-white/60 backdrop-blur-sm border border-gray-100 rounded-3xl p-8 md:p-10 shadow-xl shadow-gray-200/20 flex flex-col justify-between transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 group overflow-hidden">
+                            <SwiperSlide key={testimonial.id} className="h-auto flex">
+                                <div className="testimonials-card h-full min-h-[520px] w-full bg-white/60 backdrop-blur-sm border border-gray-100 rounded-3xl p-8 md:p-10 shadow-xl shadow-gray-200/20 flex flex-col justify-between transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 group overflow-hidden">
                                     <div>
                                         <div className="flex justify-between items-start mb-8">
                                             <div className="w-12 h-12 bg-red-50 rounded-2xl flex items-center justify-center group-hover:bg-[#EC2028] btn-animated transition-colors duration-300">
