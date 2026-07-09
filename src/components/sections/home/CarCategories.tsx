@@ -53,6 +53,38 @@ const CarCategories = () => {
             description:
                 "Fiesta's luxury car services deliver the ultimate in sophistication and elegance. Our exclusive fleet of premium luxury vehicles provides unparalleled comfort, cutting-edge technology, and exceptional service. Perfect for high-profile executives, special events, and clients who demand the very best in corporate transportation.",
         },
+        {
+            id: "vellfire",
+            name: "Toyota Vellfire",
+            icon: "/images/home/car-categories/Toyota Vellfire.png",
+            image: "/images/home/car-categories/Toyota Vellfire.png",
+            description:
+                "Experience premium luxury travel with the Toyota Vellfire. This top-tier executive vehicle offers exceptional VIP comfort, an ultra-spacious cabin, and advanced amenities. It is the perfect choice for high-profile client transfers, VIP delegations, and luxury corporate transport where nothing but the absolute best will suffice.",
+        },
+        {
+            id: "tempo-traveller",
+            name: "Tempo Traveller",
+            icon: "/images/home/car-categories/Tempo.png",
+            image: "/images/home/car-categories/Tempo.png",
+            description:
+                "Fiesta's Tempo Traveller services offer spacious and reliable transportation for medium-sized groups. With ample legroom and luggage capacity, it is perfect for corporate outings, family trips, and group airport transfers. Enjoy a smooth, comfortable ride while keeping your entire team together in a single, well-maintained vehicle.",
+        },
+        {
+            id: "minibus",
+            name: "Mini Bus",
+            icon: "/images/home/car-categories/Fiesta Mini Bus .png",
+            image: "/images/home/car-categories/Fiesta Mini Bus .png",
+            description:
+                "Fiesta's Mini Bus fleet is ideal for group travel, employee commutes, and mid-sized corporate events. Balancing comfortable, spacious seating with efficient maneuverability, it provides a reliable and cost-effective group transport solution. Trust our professional drivers to handle your group logistics seamlessly and safely.",
+        },
+        {
+            id: "large-bus",
+            name: "Large Bus",
+            icon: "/images/home/car-categories/Large Bus.png",
+            image: "/images/home/car-categories/Large Bus.png",
+            description:
+                "Fiesta's Large Bus services provide comprehensive transport solutions for large corporate teams, major events, and excursions. Our buses are fully equipped with superior amenities to ensure passenger comfort and safety on every large-scale journey. Trust us for dependable, on-time mass transportation logistics.",
+        },
     ];
 
     const [activeCategory, setActiveCategory] = useState<string>("standard");
