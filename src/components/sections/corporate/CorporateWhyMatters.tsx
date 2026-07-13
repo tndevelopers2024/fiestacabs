@@ -27,7 +27,7 @@ const CorporateWhyMatters = () => {
                     <div className="w-full lg:w-1/2 relative min-h-[400px] lg:min-h-[520px] order-1 lg:order-2">
                         <div className="absolute inset-0 overflow-hidden h-full">
                             <Image
-                                src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/why-right-car-choosing-matters.jpg"
+                                src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/ccrs-why-matter.png"
                                 alt="Why Choosing the Right Corporate Car Rental Matters"
                                 fill
                                 className="object-cover object-center"

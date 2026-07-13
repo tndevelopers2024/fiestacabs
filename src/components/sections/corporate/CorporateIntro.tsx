@@ -12,7 +12,7 @@ const CorporateIntro = () => {
                     <div className="w-full lg:w-1/2 relative min-h-[400px] lg:min-h-[520px] order-1">
                         <div className="absolute inset-0 overflow-hidden h-full">
                             <Image
-                                src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/how-corporate-car-rental-improve.jpg"
+                                src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/ccrs-intro-img.png"
                                 alt="How Corporate Car Rentals Improve Business Productivity"
                                 fill
                                 className="object-cover object-center"

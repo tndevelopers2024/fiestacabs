@@ -9,7 +9,7 @@ const CorporateCTA = () => {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <Image
-                    src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/unnamed-7.jpg"
+                    src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/ccrs-cta-img.jpg"
                     alt="Upgrade Your Corporate Travel"
                     fill
                     className="object-cover"

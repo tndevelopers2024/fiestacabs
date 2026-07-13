@@ -34,7 +34,7 @@ const CorporateOftenMiss = () => {
                     <div className="w-full lg:w-[45%] relative min-h-[500px] lg:min-h-[600px]">
                         <div className="absolute inset-0 overflow-hidden h-full rounded-sm">
                             <Image
-                                src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/what-com-often-miss.jpg"
+                                src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/ccrs-offten-miss-img.png"
                                 alt="Choosing Corporate Car Rentals: What Companies Often Miss"
                                 fill
                                 className="object-cover object-center"

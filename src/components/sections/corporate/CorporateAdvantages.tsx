@@ -78,7 +78,7 @@ const CorporateAdvantages = () => {
                     <div className="w-full lg:w-[45%] relative min-h-[500px] lg:min-h-[800px]">
                         <div className="absolute inset-0 overflow-hidden h-full">
                             <Image
-                                src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/corporate-advantages.jpg"
+                                src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/ccrs-advantage-img.png"
                                 alt="Key Advantages for Corporate Rentals"
                                 fill
                                 className="object-cover object-center"

@@ -10,7 +10,7 @@ const CorporateHero = () => {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <Image
-                    src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/unnamed-e1764761325394.jpg"
+                    src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/ccrs-hero-banner-img.png"
                     alt="Corporate Car Rental Service"
                     fill
                     priority

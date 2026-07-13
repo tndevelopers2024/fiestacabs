@@ -60,7 +60,7 @@ const CorporateHowCreates = () => {
                     <div className="w-full lg:w-1/2 relative min-h-[400px] lg:min-h-[580px]">
                         <div className="absolute inset-0 overflow-hidden shadow-lg h-full">
                             <Image
-                                src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/how-fiesta-creates.jpg"
+                                src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/ccrs-how-create-img.png"
                                 alt="How Fiesta Creates Hassle Free Corporate Travel"
                                 fill
                                 className="object-cover object-center"

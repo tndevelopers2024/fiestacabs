@@ -11,7 +11,7 @@ const CorporateDelivers = () => {
                     <div className="w-full lg:w-1/2 relative min-h-[400px] lg:min-h-[520px] order-1">
                         <div className="absolute inset-0 overflow-hidden h-full">
                             <Image
-                                src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/how-fiesta-car-mobility-delivers.jpg"
+                                src="/images/services-offered/premium-car-rentals/corporate-car-rental-services/ccrs-deliver-img.png"
                                 alt="How Fiesta Smart Mobility Delivers Reliable Corporate Car Rental Services"
                                 fill
                                 className="object-cover object-center"
