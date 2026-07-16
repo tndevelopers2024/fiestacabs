@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Image from "next/image";
 
 interface CarCategory {
@@ -90,9 +90,54 @@ const CarCategories = () => {
             description:
                 "Fiesta's bus services are built for large-scale workforce movement. Ideal for organisations running multiple shifts or moving hundreds of employees daily, our buses combine seating capacity with route efficiency. Each vehicle is maintained to strict safety standards and staffed by trained drivers. Suited for factories, IT parks, and campuses that need reliable, high-capacity transport across fixed routes every single day.",
         },
+        {
+            id: "ultra-luxury",
+            name: "Ultra Luxury",
+            icon: "/images/home/car-categories/luxury.png",
+            image: "/images/home/car-categories/luxury.png",
+            description:
+                "Fiesta's ultra luxury services are reserved for the most demanding executive and VIP requirements. Our fleet includes vehicles such as the Toyota Vellfire, Mercedes-Benz S-Class, and Mercedes-Benz Sprinter/Commuter, or similar models, offering the highest level of comfort, privacy, and presence for top leadership, VVIP movements, and marquee corporate events. Backed by trained chauffeurs and meticulous vehicle upkeep, this category is built for clients who expect nothing less than the very best.",
+        },
+        {
+            id: "force-urbania",
+            name: "Force Urbania",
+            icon: "/images/home/car-categories/luxury.png",
+            image: "/images/home/car-categories/luxury.png",
+            description:
+                "Fiesta's Force Urbania (10-17 Seater) is built for mid-sized group travel that needs more room than a sedan but doesn't require a full-size bus. With flexible seating configurations, comfortable cabin space, and smooth handling even on longer routes, it suits corporate group transfers, airport pickups, and outstation trips for teams of varying sizes. A practical, well-balanced choice when you need to move a group together without over- or under-booking capacity.",
+        },
+        {
+            id: "luxury-mini-coach",
+            name: "Luxury Mini Coach",
+            icon: "/images/home/car-categories/luxury.png",
+            image: "/images/home/car-categories/luxury.png",
+            description:
+                "Fiesta's Luxury Mini Coach, featuring the Mercedes-Benz Mini Coach, is built for group travel that demands a higher standard of comfort and presence. With premium interiors, plush seating, and a refined cabin experience, it's suited for executive offsites, VIP group movements, and corporate events where image matters as much as capacity. A distinguished option for organisations that want their group travel to reflect the same standard as their individual executive transport.",
+        },
+        {
+            id: "luxury-coach",
+            name: "Luxury Coach",
+            icon: "/images/home/car-categories/luxury.png",
+            image: "/images/home/car-categories/luxury.png",
+            description:
+                "Fiesta's Luxury Coach, featuring the Volvo Coach, is built for large-group travel where comfort and reliability cannot be compromised. With spacious reclining seating, a smooth and stable ride, and a well-appointed cabin, it's suited for long-distance corporate travel, large offsites, and events requiring a full coach of executives or staff to travel together in comfort. A dependable choice when the group is large but the standard still needs to be premium.",
+        },
     ];
 
     const [activeCategory, setActiveCategory] = useState<string>("standard");
+    const scrollRef = useRef<HTMLDivElement>(null);
+
+    const scrollLeft = () => {
+        if (scrollRef.current) {
+            scrollRef.current.scrollBy({ left: -300, behavior: "smooth" });
+        }
+    };
+
+    const scrollRight = () => {
+        if (scrollRef.current) {
+            scrollRef.current.scrollBy({ left: 300, behavior: "smooth" });
+        }
+    };
 
     const activeCategoryData = categories.find(
         (cat) => cat.id === activeCategory
@@ -112,39 +157,66 @@ const CarCategories = () => {
                 </div>
 
                 {/* Category Tabs */}
-                <div className="flex flex-nowrap md:flex-wrap justify-start md:justify-center gap-8 mb-16 overflow-x-auto pb-4 hide-scrollbar">
-                    {categories.map((category) => (
-                        <button
-                            key={category.id}
-                            onMouseEnter={() => setActiveCategory(category.id)}
-                            onClick={() => setActiveCategory(category.id)}
-                            className={`flex flex-col items-center gap-3 transition-all duration-300 ${activeCategory === category.id
-                                ? "opacity-100"
-                                : "opacity-60 hover:opacity-80"
-                                }`}
-                        >
-                            <div className="relative w-20 h-16 md:w-24 md:h-20">
-                                <Image
-                                    src={category.icon}
-                                    alt={category.name}
-                                    fill
-                                    style={{ objectFit: "contain" }}
-                                    className={`transition-transform duration-300 ${category.scale || ""}`}
-                                />
-                            </div>
-                            <span
-                                className={`text-sm md:text-base font-semibold ${activeCategory === category.id
-                                    ? "text-gray-900"
-                                    : "text-gray-600"
+                <div className="relative mb-1 group px-2 md:px-8">
+                    {/* Left Button */}
+                    <button
+                        onClick={scrollLeft}
+                        aria-label="Scroll left"
+                        className="absolute left-0 top-[40%] -translate-y-1/2 z-10 p-2.5 bg-white rounded-full shadow-[0_4px_20px_rgba(0,0,0,0.15)] border border-gray-100 text-gray-600 hover:text-[#EC2028] hover:scale-110 transition-all hidden md:flex items-center justify-center opacity-0 group-hover:opacity-100"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </svg>
+                    </button>
+
+                    <div
+                        ref={scrollRef}
+                        className="flex flex-nowrap justify-start gap-8 overflow-x-auto pb-4 scroll-smooth md:[&::-webkit-scrollbar]:hidden md:[-ms-overflow-style:none] md:[scrollbar-width:none]"
+                    >
+                        {categories.map((category) => (
+                            <button
+                                key={category.id}
+                                onMouseEnter={() => setActiveCategory(category.id)}
+                                onClick={() => setActiveCategory(category.id)}
+                                className={`flex flex-col items-center gap-3 transition-all duration-300 ${activeCategory === category.id
+                                    ? "opacity-100"
+                                    : "opacity-60 hover:opacity-80"
                                     }`}
                             >
-                                {category.name}
-                            </span>
-                            {activeCategory === category.id && (
-                                <div className="w-full h-1 bg-[#EC2028] rounded-full" />
-                            )}
-                        </button>
-                    ))}
+                                <div className="relative w-20 h-16 md:w-24 md:h-20">
+                                    <Image
+                                        src={category.icon}
+                                        alt={category.name}
+                                        fill
+                                        style={{ objectFit: "contain" }}
+                                        className={`transition-transform duration-300 ${category.scale || ""}`}
+                                    />
+                                </div>
+                                <span
+                                    className={`text-sm md:text-base font-semibold ${activeCategory === category.id
+                                        ? "text-gray-900"
+                                        : "text-gray-600"
+                                        }`}
+                                >
+                                    {category.name}
+                                </span>
+                                {activeCategory === category.id && (
+                                    <div className="w-full h-1 bg-[#EC2028] rounded-full" />
+                                )}
+                            </button>
+                        ))}
+                    </div>
+
+                    {/* Right Button */}
+                    <button
+                        onClick={scrollRight}
+                        aria-label="Scroll right"
+                        className="absolute right-0 top-[40%] -translate-y-1/2 z-10 p-2.5 bg-white rounded-full shadow-[0_4px_20px_rgba(0,0,0,0.15)] border border-gray-100 text-gray-600 hover:text-[#EC2028] hover:scale-110 transition-all hidden md:flex items-center justify-center opacity-0 group-hover:opacity-100"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </button>
                 </div>
 
                 {/* Active Category Content */}
@@ -173,7 +245,7 @@ const CarCategories = () => {
                     </div>
                 )}
             </div>
-        </section>
+        </section >
     );
 };
 
