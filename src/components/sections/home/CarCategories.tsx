@@ -33,24 +33,24 @@ const CarCategories = () => {
         {
             id: "premium",
             name: "Premium",
-            icon: "/images/home/car-categories/premium-1.png",
-            image: "/images/home/car-categories/premium-1.png",
+            icon: "/images/home/car-categories/premium-2.png",
+            image: "/images/home/car-categories/premium-2.png",
             description:
                 "Fiesta's premium car services offer superior comfort and style for executives and special occasions. Our premium fleet features high-end vehicles with advanced amenities, ensuring a luxurious travel experience. Perfect for business meetings, airport transfers, and VIP transport with professional chauffeurs.",
         },
         {
             id: "muv",
             name: "MUV",
-            icon: "/images/home/car-categories/muv-1.png",
-            image: "/images/home/car-categories/muv-1.png",
+            icon: "/images/home/car-categories/muv-2.png",
+            image: "/images/home/car-categories/muv-2.png",
             description:
                 "Fiesta's MUV services provide spacious and versatile transportation for groups and families. Our multi-utility vehicles offer ample seating and luggage capacity, ideal for team outings, airport pickups, and group travel. Experience comfort and convenience with our well-maintained MUV fleet.",
         },
         {
             id: "luxury",
             name: "Luxury",
-            icon: "/images/home/car-categories/luxury-1.png",
-            image: "/images/home/car-categories/luxury-1.png",
+            icon: "/images/home/car-categories/luxury-2.png",
+            image: "/images/home/car-categories/luxury-2.png",
             description:
                 "Fiesta's luxury car services deliver the ultimate in sophistication and elegance. Our exclusive fleet of premium luxury vehicles provides unparalleled comfort, cutting-edge technology, and exceptional service. Perfect for high-profile executives, special events, and clients who demand the very best in corporate transportation.",
         },
@@ -93,32 +93,32 @@ const CarCategories = () => {
         {
             id: "ultra-luxury",
             name: "Ultra Luxury",
-            icon: "/images/home/car-categories/ultra-luxury.png",
-            image: "/images/home/car-categories/ultra-luxury.png",
+            icon: "/images/home/car-categories/ultra-luxury-1.png",
+            image: "/images/home/car-categories/ultra-luxury-1.png",
             description:
                 "Fiesta's ultra luxury services are reserved for the most demanding executive and VIP requirements. Our fleet includes vehicles such as the Toyota Vellfire, Mercedes-Benz S-Class, and Mercedes-Benz Sprinter/Commuter, or similar models, offering the highest level of comfort, privacy, and presence for top leadership, VVIP movements, and marquee corporate events. Backed by trained chauffeurs and meticulous vehicle upkeep, this category is built for clients who expect nothing less than the very best.",
         },
         {
             id: "force-urbania",
             name: "Force Urbania",
-            icon: "/images/home/car-categories/force-urbania.png",
-            image: "/images/home/car-categories/force-urbania.png",
+            icon: "/images/home/car-categories/force-urbania-1.png",
+            image: "/images/home/car-categories/force-urbania-1.png",
             description:
                 "Fiesta's Force Urbania (10-17 Seater) is built for mid-sized group travel that needs more room than a sedan but doesn't require a full-size bus. With flexible seating configurations, comfortable cabin space, and smooth handling even on longer routes, it suits corporate group transfers, airport pickups, and outstation trips for teams of varying sizes. A practical, well-balanced choice when you need to move a group together without over- or under-booking capacity.",
         },
         {
             id: "luxury-mini-coach",
             name: "Luxury Mini Coach",
-            icon: "/images/home/car-categories/luxury-mini-coach.png",
-            image: "/images/home/car-categories/luxury-mini-coach.png",
+            icon: "/images/home/car-categories/luxury-mini-coach-1.png",
+            image: "/images/home/car-categories/luxury-mini-coach-1.png",
             description:
                 "Fiesta's Luxury Mini Coach, featuring the Mercedes-Benz Mini Coach, is built for group travel that demands a higher standard of comfort and presence. With premium interiors, plush seating, and a refined cabin experience, it's suited for executive offsites, VIP group movements, and corporate events where image matters as much as capacity. A distinguished option for organisations that want their group travel to reflect the same standard as their individual executive transport.",
         },
         {
             id: "luxury-coach",
             name: "Luxury Coach",
-            icon: "/images/home/car-categories/luxury-coach.png",
-            image: "/images/home/car-categories/luxury-coach.png",
+            icon: "/images/home/car-categories/luxury-coach-1.png",
+            image: "/images/home/car-categories/luxury-coach-1.png",
             description:
                 "Fiesta's Luxury Coach, featuring the Volvo Coach, is built for large-group travel where comfort and reliability cannot be compromised. With spacious reclining seating, a smooth and stable ride, and a well-appointed cabin, it's suited for long-distance corporate travel, large offsites, and events requiring a full coach of executives or staff to travel together in comfort. A dependable choice when the group is large but the standard still needs to be premium.",
         },
@@ -152,7 +152,7 @@ const CarCategories = () => {
                         Cars
                     </p>
                     <h2 className="text-4xl md:text-4xl font-bold text-gray-900">
-                        Car Categories
+                        Fleet Categories
                     </h2>
                 </div>
 
