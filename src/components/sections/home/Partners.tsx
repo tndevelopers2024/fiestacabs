@@ -60,6 +60,11 @@ const Partners = () => {
             name: "Walmart Global Tech",
             logo: "/images/home/partners/walmart-global.png",
         },
+        {
+            id: 11,
+            name: "Aditya Birla",
+            logo: "/images/home/partners/aditya-birla-1.png",
+        },
     ];
 
     return (

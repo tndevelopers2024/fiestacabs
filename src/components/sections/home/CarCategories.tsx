@@ -20,7 +20,7 @@ const CarCategories = () => {
             icon: "/images/home/car-categories/ev.png",
             image: "/images/home/car-categories/ev.png",
             description:
-                "Fiesta's electric vehicle services represent our commitment to sustainable transportation. Our EV fleet offers zero-emission solutions for environmentally conscious businesses. Experience quiet, smooth rides while reducing your carbon footprint. Perfect for corporate transport with charging infrastructure support and cost-effective operations.",
+                "Fiesta's electric vehicle services represent our commitment to sustainable transportation. Our EV fleet includes both electric sedans and electric SUVs, giving businesses flexibility across trip types and group sizes. Whether it's a quiet executive commute or a longer corporate transfer, our EV fleet offers zero-emission solutions for environmentally conscious businesses. Experience quiet, smooth rides while reducing your carbon footprint. Perfect for corporate transport with charging infrastructure support and cost-effective operations.",
         },
         {
             id: "standard",
@@ -28,7 +28,7 @@ const CarCategories = () => {
             icon: "/images/home/car-categories/standard.png",
             image: "/images/home/car-categories/standard.png",
             description:
-                "Fiesta's standard car services deliver reliable and cost-effective transportation solutions without compromising on quality. Ideal for daily commuting and well-suited for employee transport services, our fleet of well-maintained vehicles ensures comfort, safety, and punctuality. Whether for work commutes, personal errands, or family travel, Fiesta offers a seamless travel experience backed by professional service and exceptional value. Free ride at great value.",
+                "Fiesta's standard car services deliver reliable and cost-effective transportation solutions without compromising on quality. Our standard fleet includes both hatchbacks and sedans, giving businesses and individuals a practical option for everyday travel. Ideal for daily commuting and well-suited for employee transport services, our fleet of well-maintained vehicles ensures comfort, safety, and punctuality. Whether for work commutes, personal errands, or family travel, Fiesta offers a seamless travel experience backed by professional service and exceptional value.",
         },
         {
             id: "premium",
@@ -36,15 +36,23 @@ const CarCategories = () => {
             icon: "/images/home/car-categories/premium-2.png",
             image: "/images/home/car-categories/premium-2.png",
             description:
-                "Fiesta's premium car services offer superior comfort and style for executives and special occasions. Our premium fleet features high-end vehicles with advanced amenities, ensuring a luxurious travel experience. Perfect for business meetings, airport transfers, and VIP transport with professional chauffeurs.",
+                "Fiesta's premium car services offer superior comfort and style for executives and special occasions. Our premium fleet includes vehicles such as the Toyota Innova Crysta, Toyota Hyryder, and MG Hector, or similar models, combining space with a more elevated driving experience. Our premium fleet features high-end vehicles with advanced amenities, ensuring a luxurious travel experience. Perfect for business meetings, airport transfers, and VIP transport with professional chauffeurs.",
         },
         {
             id: "muv",
             name: "MUV",
-            icon: "/images/home/car-categories/muv-2.png",
-            image: "/images/home/car-categories/muv-2.png",
+            icon: "/images/home/car-categories/muv.png",
+            image: "/images/home/car-categories/muv.png",
             description:
-                "Fiesta's MUV services provide spacious and versatile transportation for groups and families. Our multi-utility vehicles offer ample seating and luggage capacity, ideal for team outings, airport pickups, and group travel. Experience comfort and convenience with our well-maintained MUV fleet.",
+                "Fiesta's MUV services provide spacious and versatile transportation for groups and families. Our MUV fleet includes vehicles such as the Toyota Innova Crysta, Maruti Ertiga, and Kia Carens, or similar models, offering ample seating and luggage capacity, ideal for team outings, airport pickups, and group travel. Experience comfort and convenience with our well-maintained MUV fleet.",
+        },
+        {
+            id: "suv",
+            name: "SUV",
+            icon: "/images/home/car-categories/suv.png",
+            image: "/images/home/car-categories/suv.png",
+            description:
+                "Fiesta's SUV services combine rugged capability with executive-level comfort, ideal for both business travel and challenging terrain. Our SUV fleet includes vehicles such as the Toyota Fortuner, Mahindra XUV700, and MG Gloster, or similar models, offering commanding road presence, spacious interiors, and a smooth ride for longer journeys. Well suited for outstation trips, hilly terrain, and clients who expect a stronger, more assertive vehicle for their travel.",
         },
         {
             id: "luxury",
@@ -52,45 +60,9 @@ const CarCategories = () => {
             icon: "/images/home/car-categories/luxury-2.png",
             image: "/images/home/car-categories/luxury-2.png",
             description:
-                "Fiesta's luxury car services deliver the ultimate in sophistication and elegance. Our exclusive fleet of premium luxury vehicles provides unparalleled comfort, cutting-edge technology, and exceptional service. Perfect for high-profile executives, special events, and clients who demand the very best in corporate transportation.",
+                "Fiesta's luxury car services deliver the ultimate in sophistication and elegance. Our exclusive fleet includes vehicles such as the Mercedes-Benz E-Class and BMW 5 Series, or similar models, providing unparalleled comfort, cutting-edge technology, and exceptional service. Perfect for high-profile executives, special events, and clients who demand the very best in corporate transportation.",
         },
-        {
-            id: "vellfire",
-            name: "Vellfire",
-            icon: "/images/home/car-categories/Toyota Vellfire.png",
-            image: "/images/home/car-categories/Toyota Vellfire.png",
-            scale: "scale-[0.9]",
-            description:
-                "The Toyota Vellfire is Fiesta's premium choice for executive and VIP transport. With plush leather interiors, captain seats, and a quiet cabin, it is designed for senior leadership, client visits, and high-profile events. Every Vellfire comes with a trained chauffeur who understands the standards executive travel demands. A refined option when comfort and image matter as much as the destination.",
-        },
-        {
-            id: "tempo-traveller",
-            name: "Tempo Traveller",
-            icon: "/images/home/car-categories/Tempo.png",
-            image: "/images/home/car-categories/Tempo.png",
-            scale: "scale-[1.3]",
-            description:
-                "Fiesta's Tempo Travellers are built for group travel, from outstation trips to airport pickups for larger teams. Available in a range of seating configurations, they offer comfortable, well-ventilated cabins with ample luggage space. Popular for corporate offsites, team outings, and multi-passenger airport transfers, the Tempo Traveller gives groups a single, coordinated way to travel together.",
-        },
-        {
-            id: "minibus",
-            name: "Mini Bus",
-            icon: "/images/home/car-categories/Fiesta Mini Bus .png",
-            image: "/images/home/car-categories/Fiesta Mini Bus .png",
-            scale: "scale-[1.3]",
-            description:
-                "Fiesta's minibuses fill the gap between sedans and full-size buses, offering group transport without the scale of a large fleet. Well suited for mid-sized teams, office transfers, and short outstation trips, these vehicles balance comfort with manoeuvrability in congested city routes. A practical option for departments or smaller teams that need to travel together without booking multiple cars.",
-        },
-        {
-            id: "bus",
-            name: "Bus",
-            icon: "/images/home/car-categories/Large Bus.png",
-            image: "/images/home/car-categories/Large Bus.png",
-            scale: "scale-[1.3]",
-            description:
-                "Fiesta's bus services are built for large-scale workforce movement. Ideal for organisations running multiple shifts or moving hundreds of employees daily, our buses combine seating capacity with route efficiency. Each vehicle is maintained to strict safety standards and staffed by trained drivers. Suited for factories, IT parks, and campuses that need reliable, high-capacity transport across fixed routes every single day.",
-        },
-        {
+         {
             id: "ultra-luxury",
             name: "Ultra Luxury",
             icon: "/images/home/car-categories/ultra-luxury-1.png",
@@ -99,12 +71,48 @@ const CarCategories = () => {
                 "Fiesta's ultra luxury services are reserved for the most demanding executive and VIP requirements. Our fleet includes vehicles such as the Toyota Vellfire, Mercedes-Benz S-Class, and Mercedes-Benz Sprinter/Commuter, or similar models, offering the highest level of comfort, privacy, and presence for top leadership, VVIP movements, and marquee corporate events. Backed by trained chauffeurs and meticulous vehicle upkeep, this category is built for clients who expect nothing less than the very best.",
         },
         {
+            id: "tempo-traveller",
+            name: "Tempo Traveller",
+            icon: "/images/home/car-categories/Tempo.png",
+            image: "/images/home/car-categories/Tempo.png",
+            scale: "scale-[1.3]",
+            description:
+                "Fiesta's Tempo Travellers, including the Maharaja Tempo Traveller, are built for group travel, from outstation trips to airport pickups for larger teams. Available in a range of seating configurations, they offer comfortable, well-ventilated cabins with ample luggage space. Popular for corporate offsites, team outings, and multi-passenger airport transfers, the Tempo Traveller gives groups a single, coordinated way to travel together.",
+        },
+        // {
+        //     id: "vellfire",
+        //     name: "Vellfire",
+        //     icon: "/images/home/car-categories/Toyota Vellfire.png",
+        //     image: "/images/home/car-categories/Toyota Vellfire.png",
+        //     scale: "scale-[0.9]",
+        //     description:
+        //         "The Toyota Vellfire is Fiesta's premium choice for executive and VIP transport. With plush leather interiors, captain seats, and a quiet cabin, it is designed for senior leadership, client visits, and high-profile events. Every Vellfire comes with a trained chauffeur who understands the standards executive travel demands. A refined option when comfort and image matter as much as the destination.",
+        // },
+        {
             id: "force-urbania",
             name: "Force Urbania",
             icon: "/images/home/car-categories/force-urbania-1.png",
             image: "/images/home/car-categories/force-urbania-1.png",
             description:
                 "Fiesta's Force Urbania (10-17 Seater) is built for mid-sized group travel that needs more room than a sedan but doesn't require a full-size bus. With flexible seating configurations, comfortable cabin space, and smooth handling even on longer routes, it suits corporate group transfers, airport pickups, and outstation trips for teams of varying sizes. A practical, well-balanced choice when you need to move a group together without over- or under-booking capacity.",
+        },
+        {
+            id: "minibus",
+            name: "Mini Bus",
+            icon: "/images/home/car-categories/Fiesta Mini Bus .png",
+            image: "/images/home/car-categories/Fiesta Mini Bus .png",
+            scale: "scale-[1.3]",
+            description:
+                "Fiesta's minibuses (18-25 Seater) fill the gap between sedans and full-size buses, offering group transport without the scale of a large fleet. Well suited for mid-sized teams, office transfers, and short outstation trips, these vehicles balance comfort with manoeuvrability in congested city routes. A practical option for departments or smaller teams that need to travel together without booking multiple cars.",
+        },
+        {
+            id: "bus",
+            name: "Bus",
+            icon: "/images/home/car-categories/Large Bus.png",
+            image: "/images/home/car-categories/Large Bus.png",
+            scale: "scale-[1.3]",
+            description:
+                "Fiesta's bus services (30-55 Seater) are built for large-scale workforce movement. Ideal for organisations running multiple shifts or moving hundreds of employees daily, our buses combine seating capacity with route efficiency. Each vehicle is maintained to strict safety standards and staffed by trained drivers. Suited for factories, IT parks, and campuses that need reliable, high-capacity transport across fixed routes every single day.",
         },
         {
             id: "luxury-mini-coach",
