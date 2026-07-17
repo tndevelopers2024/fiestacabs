@@ -63,8 +63,8 @@ const Partners = () => {
         {
             id: 11,
             name: "Aditya Birla",
-            logo: "/images/home/partners/aditya-Birla.png",
-        },
+            logo: "/images/home/partners/Aditya-birla.png",
+        }
     ];
 
     return (
