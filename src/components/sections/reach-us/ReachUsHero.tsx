@@ -6,7 +6,7 @@ const ReachUsHero = () => {
         <section className="relative w-full min-h-[80vh]  text-white overflow-hidden flex items-center justify-center">
             <div className="absolute inset-0 z-0">
                 <Image
-                    src="/images/reach-us/at-a-car-dealership-buying-a-car-1.jpg"
+                    src="/images/reach-us/reach-us-bg-img.png"
                     alt="Reach Us"
                     fill
                     className="object-cover"

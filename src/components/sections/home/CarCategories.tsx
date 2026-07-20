@@ -35,6 +35,7 @@ const CarCategories = () => {
             name: "Premium",
             icon: "/images/home/car-categories/premium-2.png",
             image: "/images/home/car-categories/premium-2.png",
+            scale: "scale-[1.25]",
             description:
                 "Fiesta's premium car services offer superior comfort and style for executives and special occasions. Our premium fleet includes vehicles such as the Toyota Innova Crysta, Toyota Hyryder, and MG Hector, or similar models, combining space with a more elevated driving experience. Our premium fleet features high-end vehicles with advanced amenities, ensuring a luxurious travel experience. Perfect for business meetings, airport transfers, and VIP transport with professional chauffeurs.",
         },
@@ -51,6 +52,7 @@ const CarCategories = () => {
             name: "SUV",
             icon: "/images/home/car-categories/suv.png",
             image: "/images/home/car-categories/suv.png",
+            scale: "scale-[1.25]",
             description:
                 "Fiesta's SUV services combine rugged capability with executive-level comfort, ideal for both business travel and challenging terrain. Our SUV fleet includes vehicles such as the Toyota Fortuner, Mahindra XUV700, and MG Gloster, or similar models, offering commanding road presence, spacious interiors, and a smooth ride for longer journeys. Well suited for outstation trips, hilly terrain, and clients who expect a stronger, more assertive vehicle for their travel.",
         },
@@ -59,14 +61,16 @@ const CarCategories = () => {
             name: "Luxury",
             icon: "/images/home/car-categories/luxury-2.png",
             image: "/images/home/car-categories/luxury-2.png",
+            scale: "scale-[1.15]",
             description:
                 "Fiesta's luxury car services deliver the ultimate in sophistication and elegance. Our exclusive fleet includes vehicles such as the Mercedes-Benz E-Class and BMW 5 Series, or similar models, providing unparalleled comfort, cutting-edge technology, and exceptional service. Perfect for high-profile executives, special events, and clients who demand the very best in corporate transportation.",
         },
-         {
+        {
             id: "ultra-luxury",
             name: "Ultra Luxury",
             icon: "/images/home/car-categories/ultra-luxury-1.png",
             image: "/images/home/car-categories/ultra-luxury-1.png",
+            scale: "scale-[1.2]",
             description:
                 "Fiesta's ultra luxury services are reserved for the most demanding executive and VIP requirements. Our fleet includes vehicles such as the Toyota Vellfire, Mercedes-Benz S-Class, and Mercedes-Benz Sprinter/Commuter, or similar models, offering the highest level of comfort, privacy, and presence for top leadership, VVIP movements, and marquee corporate events. Backed by trained chauffeurs and meticulous vehicle upkeep, this category is built for clients who expect nothing less than the very best.",
         },
@@ -75,7 +79,7 @@ const CarCategories = () => {
             name: "Tempo Traveller",
             icon: "/images/home/car-categories/Tempo.png",
             image: "/images/home/car-categories/Tempo.png",
-            scale: "scale-[1.3]",
+            scale: "scale-[1.25] translate-y-[8px]",
             description:
                 "Fiesta's Tempo Travellers, including the Maharaja Tempo Traveller, are built for group travel, from outstation trips to airport pickups for larger teams. Available in a range of seating configurations, they offer comfortable, well-ventilated cabins with ample luggage space. Popular for corporate offsites, team outings, and multi-passenger airport transfers, the Tempo Traveller gives groups a single, coordinated way to travel together.",
         },
@@ -101,7 +105,7 @@ const CarCategories = () => {
             name: "Mini Bus",
             icon: "/images/home/car-categories/Fiesta Mini Bus .png",
             image: "/images/home/car-categories/Fiesta Mini Bus .png",
-            scale: "scale-[1.3]",
+            scale: "scale-[1.25] translate-y-[0px]",
             description:
                 "Fiesta's minibuses (18-25 Seater) fill the gap between sedans and full-size buses, offering group transport without the scale of a large fleet. Well suited for mid-sized teams, office transfers, and short outstation trips, these vehicles balance comfort with manoeuvrability in congested city routes. A practical option for departments or smaller teams that need to travel together without booking multiple cars.",
         },
@@ -110,7 +114,7 @@ const CarCategories = () => {
             name: "Bus",
             icon: "/images/home/car-categories/Large Bus.png",
             image: "/images/home/car-categories/Large Bus.png",
-            scale: "scale-[1.3]",
+            scale: "scale-[1]",
             description:
                 "Fiesta's bus services (30-55 Seater) are built for large-scale workforce movement. Ideal for organisations running multiple shifts or moving hundreds of employees daily, our buses combine seating capacity with route efficiency. Each vehicle is maintained to strict safety standards and staffed by trained drivers. Suited for factories, IT parks, and campuses that need reliable, high-capacity transport across fixed routes every single day.",
         },
@@ -119,6 +123,7 @@ const CarCategories = () => {
             name: "Luxury Mini Coach",
             icon: "/images/home/car-categories/luxury-mini-coach-1.png",
             image: "/images/home/car-categories/luxury-mini-coach-1.png",
+            scale: "scale-[1.15] translate-y-[0px]",
             description:
                 "Fiesta's Luxury Mini Coach, featuring the Mercedes-Benz Mini Coach, is built for group travel that demands a higher standard of comfort and presence. With premium interiors, plush seating, and a refined cabin experience, it's suited for executive offsites, VIP group movements, and corporate events where image matters as much as capacity. A distinguished option for organisations that want their group travel to reflect the same standard as their individual executive transport.",
         },
@@ -127,6 +132,7 @@ const CarCategories = () => {
             name: "Luxury Coach",
             icon: "/images/home/car-categories/luxury-coach-1.png",
             image: "/images/home/car-categories/luxury-coach-1.png",
+            scale: "scale-[1.15] translate-y-[0px]",
             description:
                 "Fiesta's Luxury Coach, featuring the Volvo Coach, is built for large-group travel where comfort and reliability cannot be compromised. With spacious reclining seating, a smooth and stable ride, and a well-appointed cabin, it's suited for long-distance corporate travel, large offsites, and events requiring a full coach of executives or staff to travel together in comfort. A dependable choice when the group is large but the standard still needs to be premium.",
         },
@@ -196,7 +202,7 @@ const CarCategories = () => {
                                         src={category.icon}
                                         alt={category.name}
                                         fill
-                                        style={{ objectFit: "contain" }}
+                                        style={{ objectFit: "contain", objectPosition: "bottom" }}
                                         className={`transition-transform duration-300 ${category.scale || ""}`}
                                     />
                                 </div>

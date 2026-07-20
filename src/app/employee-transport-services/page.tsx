@@ -200,7 +200,7 @@ const EmployeeTransportServicesPage = () => {
             <section className="relative w-full overflow-hidden h-[80vh] lg:h-[100vh] min-h-[650px] flex items-center">
                 <div className="absolute inset-0">
                     <Image
-                        src="/images/employee-transport/hero.jpg"
+                        src="/images/employee-transport/ets-bg-img.png"
                         alt="Employee transport services"
                         fill
                         priority
@@ -434,7 +434,7 @@ const EmployeeTransportServicesPage = () => {
                         </div>
                         <div className="relative h-[320px] md:h-[420px] rounded-md overflow-hidden">
                             <Image
-                                src="/images/employee-transport/kftsua-right-img.png"
+                                src="/images/employee-transport/key-feature-img.png"
                                 alt="Key features"
                                 fill
                                 style={{ objectFit: "cover" }}
@@ -518,7 +518,7 @@ const EmployeeTransportServicesPage = () => {
                         </div>
                         <div className="relative h-[320px] md:h-[420px] rounded-md overflow-hidden">
                             <Image
-                                src="/images/employee-transport/itsfc-right-img.png"
+                                src="/images/employee-transport/integrated-transport.png"
                                 alt="Integrated transport solutions"
                                 fill
                                 style={{ objectFit: "cover" }}

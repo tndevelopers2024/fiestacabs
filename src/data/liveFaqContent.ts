@@ -633,6 +633,74 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
             "question": "What should I do if I can't see a route near my house?",
             "answer": "If you can't find a stop near your home, you can submit a route request directly by contacting our team. We are constantly expanding across the country and use feedback from people like you to add new destinations for corporate professionals."
         }
+    ],
+    "/corporate-car-rental-in-pune": [
+        {
+            "question": "What is included in corporate car rental in Pune with Fiesta?",
+            "answer": "Corporate car rental in Pune includes airport transfers, business meeting transport, corporate event fleet deployment, executive mobility, and outstation trips. All bookings include a professional chauffeur, GPS-tracked vehicle, and GST-compliant invoicing."
+        },
+        {
+            "question": "What vehicles are available for corporate car rental in Pune?",
+            "answer": "The fleet includes the Hyundai Aura for budget city commutes, premium sedans for business meetings, the Toyota Innova Crysta for group travel, spacious SUVs like the Fortuner for executive use, and luxury sedans including the Mercedes-Benz E220 and BMW 5 Series for premium corporate events."
+        },
+        {
+            "question": "How far in advance should I book a corporate car rental in Pune?",
+            "answer": "Timely booking at least 4 hours in advance is recommended to guarantee vehicle availability. Cancellations made within 4 hours of the scheduled pickup may incur full charges."
+        },
+        {
+            "question": "Are the chauffeurs verified and trained for corporate travel?",
+            "answer": "Yes. Every chauffeur is a verified driver who has completed background checks, safety workshops, and behaviour assessments. Chauffeurs are trained in corporate etiquette, punctuality, and passenger safety. English speaking drivers are available on request."
+        },
+        {
+            "question": "What payment options are available for corporate car rental bookings?",
+            "answer": "Fiesta accepts net banking, UPI, and corporate account billing with centralised monthly invoicing. Short-term and long-term rental periods are both supported, from a single airport transfer to monthly leasing contracts."
+        },
+        {
+            "question": "Does Fiesta provide safety features like GPS tracking and women's safety measures?",
+            "answer": "Yes. All vehicles carry GPS tracking for real-time ride monitoring, insurance coverage for passenger protection, and women's safety measures including panic buttons and trip tracking for female travellers."
+        },
+        {
+            "question": "Can Fiesta handle multi-vehicle bookings for conferences or corporate events?",
+            "answer": "Yes. Fiesta manages M.I.C.E. transportation—Meetings, Incentives, Conferences, and Exhibitions—with coordinated multi-vehicle deployment, centralised billing, and a single point of contact for the entire event."
+        },
+        {
+            "question": "Is roadside assistance available during corporate trips?",
+            "answer": "Yes. 24x7 roadside assistance is available for any mechanical issue that arises during a trip, minimising disruption to business schedules and ensuring a comfortable journey is restored quickly."
+        }
+    ],
+    "/corporate-car-rental-in-hyderabad": [
+        {
+            "question": "What is included in corporate car rental in Hyderabad?",
+            "answer": "It includes a professionally trained chauffeur, a well maintained vehicle equipped with modern amenities such as air conditioning, GPS tracking and GST-compliant invoicing on every trip."
+        },
+        {
+            "question": "What vehicles are available for corporate car rental in Hyderabad?",
+            "answer": "The diverse fleet includes AC cars and non AC cars for city commutes, premium sedans and luxury sedans for corporate meetings, and executive cars including the Mercedes-Benz E220 and BMW 5 Series for VIP travel."
+        },
+        {
+            "question": "Are luxury car rentals available for executives?",
+            "answer": "Yes. Luxury car rentals are increasingly popular in Hyderabad, allowing businesses to provide high-end transportation options for executives and VIPs, and Fiesta's premium luxury cars are available on request."
+        },
+        {
+            "question": "How far in advance should I book?",
+            "answer": "Booking at least four hours ahead is recommended for city trips, and a day ahead for outstation travel or events that need a mini bus."
+        },
+        {
+            "question": "What payment and rental options are available?",
+            "answer": "Corporate car rental services in Hyderabad typically offer flexible pricing plans, including hourly, daily and monthly rental options, alongside net banking, UPI and corporate account billing."
+        },
+        {
+            "question": "Does Fiesta provide GPS tracking and safety features?",
+            "answer": "Yes. Many corporate car rental providers in Hyderabad utilise technology such as GPS tracking to enhance safety and ensure timely arrivals, and Fiesta applies the same standard across its fleet."
+        },
+        {
+            "question": "Can Fiesta handle group travel and multi-vehicle bookings?",
+            "answer": "Yes. Fiesta coordinates a mini bus alongside sedans for group travel, conferences and large-scale event logistics, with a single point of contact managing the entire booking."
+        },
+        {
+            "question": "Why do businesses choose Fiesta over other car rental companies in Hyderabad?",
+            "answer": "Corporate car rental services in Hyderabad are tailored to meet the specific needs of businesses, focusing on reliability, professionalism and punctuality, and Fiesta backs that up with 28 years of experience and a 4.8 rating across 729 reviews."
+        }
     ]
 };
 

@@ -267,6 +267,16 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         description: "Fiesta offers tailored corporate car rental in Bangalore — premium fleets, long-term contracts, and smart mobility solutions for modern businesses and enterprises.",
         keywords: "Corporate Car Rental in Bangalore"
     },
+    "/corporate-car-rental-in-pune": {
+        title: "Corporate Car Rental in Pune | Fiesta Cabs",
+        description: "Fiesta offers tailored corporate car rental in Pune — premium fleets, verified chauffeurs, and smart mobility solutions for businesses and enterprises.",
+        keywords: "Corporate Car Rental in Pune"
+    },
+    "/corporate-car-rental-in-hyderabad": {
+        title: "Corporate Car Rental in Hyderabad | Fiesta",
+        description: "Fiesta offers tailored corporate car rental in Hyderabad — premium fleets, verified chauffeurs, and smart mobility solutions across HITEC City and Gachibowli.",
+        keywords: "Corporate Car Rental in Hyderabad"
+    },
     "/best-car-rental-in-chennai": {
         title: "Best Car Rental in Chennai with Driver | Fiesta Cabs",
         description: "Looking for the best car rental in Chennai with driver? Fiesta Cabs offers reliable, affordable outstation and city car rental services. Book your ride today!",

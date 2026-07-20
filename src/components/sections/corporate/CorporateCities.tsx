@@ -60,6 +60,46 @@ const cities = [
             </svg>
         ),
     },
+    {
+        name: "Corporate Car Rental in Pune",
+        href: "/corporate-car-rental-in-pune",
+        description:
+            "Providing reliable corporate car rental in Pune for IT parks, manufacturing hubs, and executive travel with premium cars, trained chauffeurs, and transparent billing.",
+        icon: (
+            <svg viewBox="0 0 64 64" fill="none" className="w-10 h-10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                {/* Modern building/IT park icon to represent Pune */}
+                <rect x="16" y="24" width="12" height="32" />
+                <rect x="36" y="16" width="16" height="40" />
+                <rect x="20" y="28" width="4" height="4" />
+                <rect x="20" y="36" width="4" height="4" />
+                <rect x="20" y="44" width="4" height="4" />
+                <rect x="40" y="20" width="8" height="4" />
+                <rect x="40" y="28" width="8" height="4" />
+                <rect x="40" y="36" width="8" height="4" />
+                <rect x="40" y="44" width="8" height="4" />
+                <line x1="8" y1="56" x2="60" y2="56" />
+            </svg>
+        ),
+    },
+    {
+        name: "Corporate Car Rental in Hyderabad",
+        href: "/corporate-car-rental-in-hyderabad",
+        description:
+            "Delivering tailored corporate mobility solutions across HITEC City and Gachibowli with a wide inventory, well-maintained vehicles, and verified chauffeurs.",
+        icon: (
+            <svg viewBox="0 0 64 64" fill="none" className="w-10 h-10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                {/* Charminar-inspired icon to represent Hyderabad */}
+                <rect x="16" y="32" width="8" height="24" />
+                <rect x="40" y="32" width="8" height="24" />
+                <path d="M16 16 L24 16 L24 32 L16 32 Z" />
+                <path d="M40 16 L48 16 L48 32 L40 32 Z" />
+                <path d="M12 16 L28 16" />
+                <path d="M36 16 L52 16" />
+                <path d="M24 32 Q32 20 40 32" />
+                <line x1="8" y1="56" x2="56" y2="56" />
+            </svg>
+        ),
+    },
 ];
 
 const CorporateCities = () => {
