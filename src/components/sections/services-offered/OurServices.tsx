@@ -22,7 +22,7 @@ const services: ServiceItem[] = [
         title: "Premium Car Rental Services",
         description:
             "Our vehicles are equipped with plush interiors, creating the perfect atmosphere for your special day. Sub-services: Airport Transport Service.",
-        image: "/images/services-offered/our-service-img.png", 
+        image: "/images/services-offered/our-service-img.png",
         href: "/premium-car-rentals",
     },
 ];
