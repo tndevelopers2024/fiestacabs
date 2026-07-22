@@ -100,6 +100,23 @@ const cities = [
             </svg>
         ),
     },
+    {
+        name: "Corporate Car Rental in Delhi",
+        href: "/corporate-car-rental-in-delhi",
+        description:
+            "Seamless corporate car rental in Delhi spanning Connaught Place to Cyber City. Offering diverse fleets, executive transfers, and reliable airport pickups.",
+        icon: (
+            <svg viewBox="0 0 64 64" fill="none" className="w-10 h-10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                {/* India Gate-inspired icon to represent Delhi */}
+                <rect x="16" y="24" width="10" height="32" />
+                <rect x="38" y="24" width="10" height="32" />
+                <path d="M12 24 L52 24 L52 16 L12 16 Z" />
+                <path d="M16 16 L24 8 L40 8 L48 16 Z" />
+                <path d="M26 24 L26 40 Q32 32 38 40 L38 24 Z" />
+                <line x1="8" y1="56" x2="56" y2="56" />
+            </svg>
+        ),
+    },
 ];
 
 const CorporateCities = () => {

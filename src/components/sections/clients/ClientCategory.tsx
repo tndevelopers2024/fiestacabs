@@ -26,7 +26,7 @@ const ClientCategory = ({ id, title, clients }: ClientCategoryProps) => {
                             key={`${id}-${client.name}`}
                             className="flex h-32 md:h-36 items-center justify-center bg-white rounded-xl border border-slate-200 shadow-[0_10px_24px_rgba(15,23,42,0.06)] transition hover:-translate-y-1 hover:shadow-[0_18px_32px_rgba(15,23,42,0.08)]"
                         >
-                            <div className="relative h-20 w-32 md:h-24 md:w-36">
+                            <div className="relative w-[85%] h-[75%] md:w-[85%] md:h-[80%]">
                                 <Image
                                     src={client.image}
                                     alt={client.name}

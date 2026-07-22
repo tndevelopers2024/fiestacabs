@@ -277,6 +277,16 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         description: "Fiesta offers tailored corporate car rental in Hyderabad — premium fleets, verified chauffeurs, and smart mobility solutions across HITEC City and Gachibowli.",
         keywords: "Corporate Car Rental in Hyderabad"
     },
+    "/corporate-car-rental-in-delhi": {
+        title: "Corporate Car Rental in Delhi | Fiesta",
+        description: "Fiesta offers tailored corporate car rental in Delhi — premium fleets, verified chauffeurs, and smart mobility solutions across Connaught Place, Gurgaon, Noida, and NCR.",
+        keywords: "Corporate Car Rental in Delhi"
+    },
+    "/airport-transportation-services": {
+        title: "Airport Transportation Services | Fiesta",
+        description: "Professional chauffeurs, a diverse fleet, and transparent pricing for every airport pickup and drop booked in minutes, tracked in real time.",
+        keywords: "Airport Transportation Services, Airport Transfer, Fiesta"
+    },
     "/best-car-rental-in-chennai": {
         title: "Best Car Rental in Chennai with Driver | Fiesta Cabs",
         description: "Looking for the best car rental in Chennai with driver? Fiesta Cabs offers reliable, affordable outstation and city car rental services. Book your ride today!",

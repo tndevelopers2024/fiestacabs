@@ -8,69 +8,89 @@ import PageHero from "../../components/common/PageHero";
 export const metadata = getMetadata("/clients");
 
 const itClients = [
-    { name: "RITTAL", image: "/images/clients/it/rittal.png" },
-    { name: "Merck", image: "/images/clients/it/merck.png" },
-    { name: "MATHCO", image: "/images/clients/it/mathco.png" },
-    { name: "Mantra", image: "/images/clients/it/mantra.png" },
-    { name: "Groupon", image: "/images/clients/it/groupon.png" },
-    { name: "Grant Thornton", image: "/images/clients/it/grant-thornton.png" },
-    { name: "Gen", image: "/images/clients/it/gen.png" },
-    { name: "Comcast", image: "/images/clients/it/comcast-1.png" },
-    { name: "Cognizant", image: "/images/clients/it/cognizant.png" },
-    { name: "Amazon", image: "/images/clients/it/amazon.png" },
-    { name: "Walmart", image: "/images/clients/it/walmart.png" },
-    { name: "Walmart Global Tech", image: "/images/clients/it/walmart-global-tech-1.png" },
-    { name: "Vertex", image: "/images/clients/it/vertex-1.png" },
-    { name: "Tristha", image: "/images/clients/it/tristha.png" },
-    { name: "Thirdware", image: "/images/clients/it/thirdwave.png" },
-    { name: "Technosoft", image: "/images/clients/it/technosoft.png" },
-    { name: "TCS", image: "/images/clients/it/tcs.png" },
-    { name: "Tavant", image: "/images/clients/it/tavant.png" },
-    { name: "Tata", image: "/images/clients/it/tata.png" },
-    { name: "Shobiz", image: "/images/clients/it/shobiz.png" },
-    { name: "BIS", image: "/images/clients/it/bis.png" },
-    { name: "Bindz", image: "/images/clients/it/bindz.png" },
-    { name: "Omega Healthcare", image: "/images/clients/it/omega-healthcare.png" },
-    { name: "Infosys", image: "/images/clients/it/infosys.png" },
-    { name: "Hexaware", image: "/images/clients/it/hexaware.png" },
-    { name: "Symantec", image: "/images/clients/it/symantec.png" },
-    { name: "Tata Communications", image: "/images/clients/it/tata-communications.png" },
-    { name: "Huawei", image: "/images/clients/it/huawei.png" },
+    { name: "IT Client 2", image: "/images/clients/it-and-non-it-clients/2.png" },
+    { name: "IT Client 3", image: "/images/clients/it-and-non-it-clients/3.png" },
+    { name: "IT Client 4", image: "/images/clients/it-and-non-it-clients/4.png" },
+    { name: "IT Client 5", image: "/images/clients/it-and-non-it-clients/5.png" },
+    { name: "IT Client 6", image: "/images/clients/it-and-non-it-clients/6.png" },
+    { name: "IT Client 7", image: "/images/clients/it-and-non-it-clients/7.png" },
+    { name: "IT Client 8", image: "/images/clients/it-and-non-it-clients/8.png" },
+    { name: "IT Client 9", image: "/images/clients/it-and-non-it-clients/9.png" },
+    { name: "IT Client 10", image: "/images/clients/it-and-non-it-clients/10.png" },
+    { name: "IT Client 11", image: "/images/clients/it-and-non-it-clients/11.png" },
+    { name: "IT Client 12", image: "/images/clients/it-and-non-it-clients/12.png" },
+    { name: "IT Client 13", image: "/images/clients/it-and-non-it-clients/13.png" },
+    { name: "IT Client 14", image: "/images/clients/it-and-non-it-clients/14.png" },
+    { name: "IT Client 15", image: "/images/clients/it-and-non-it-clients/15.png" },
+    { name: "IT Client 16", image: "/images/clients/it-and-non-it-clients/16.png" },
+    { name: "IT Client 17", image: "/images/clients/it-and-non-it-clients/17.png" },
+    { name: "IT Client 18", image: "/images/clients/it-and-non-it-clients/18.png" },
+    { name: "IT Client 19", image: "/images/clients/it-and-non-it-clients/19.png" },
+    { name: "IT Client 20", image: "/images/clients/it-and-non-it-clients/20.png" },
 ];
 
 const manufacturingClients = [
-    { name: "Aditya Birla", image: "/images/clients/manufacturing/aditya-birla.png" },
-    { name: "Shriram Properties", image: "/images/clients/manufacturing/shriram-properties.png" },
-    { name: "Saint-Gobain", image: "/images/clients/manufacturing/saint-gobain-1.png" },
-    { name: "Rico", image: "/images/clients/manufacturing/rico.png" },
-    { name: "Resmed", image: "/images/clients/manufacturing/resmed.png" },
-    { name: "Praxair", image: "/images/clients/manufacturing/praxair.png" },
-    { name: "Mahindra", image: "/images/clients/manufacturing/mahindra-1.png" },
-    { name: "Loreal", image: "/images/clients/manufacturing/loreal.png" },
-    { name: "Gyproc", image: "/images/clients/manufacturing/gyproc.png" },
-    { name: "GGS", image: "/images/clients/manufacturing/ggs.png" },
-    { name: "FLSmidth", image: "/images/clients/manufacturing/flsmidth.png" },
-    { name: "Cello Furniture", image: "/images/clients/manufacturing/cello-furniture.png" },
-    { name: "Bharat Fih", image: "/images/clients/manufacturing/bharat-fih.png" },
-    { name: "Bosch", image: "/images/clients/manufacturing/bosch.png" },
-    { name: "Apollo Tyres", image: "/images/clients/manufacturing/apollo-tyres.png" },
-    { name: "Zydus", image: "/images/clients/manufacturing/zydus.png" },
-    { name: "Ashok Leyland", image: "/images/clients/manufacturing/ashok-leyland.png" },
-    { name: "Yamaha", image: "/images/clients/manufacturing/yamaha.png" },
-    { name: "Hitachi", image: "/images/clients/manufacturing/hitachi.png" },
+    { name: "Manufacturing Client 22", image: "/images/clients/manufacturing-new/22.png" },
+    { name: "Manufacturing Client 23", image: "/images/clients/manufacturing-new/23.png" },
+    { name: "Manufacturing Client 24", image: "/images/clients/manufacturing-new/24.png" },
+    { name: "Manufacturing Client 25", image: "/images/clients/manufacturing-new/25.png" },
+    { name: "Manufacturing Client 26", image: "/images/clients/manufacturing-new/26.png" },
+    { name: "Manufacturing Client 27", image: "/images/clients/manufacturing-new/27.png" },
+    { name: "Manufacturing Client 28", image: "/images/clients/manufacturing-new/28.png" },
+    { name: "Manufacturing Client 29", image: "/images/clients/manufacturing-new/29.png" },
+    { name: "Manufacturing Client 30", image: "/images/clients/manufacturing-new/30.png" },
+    { name: "Manufacturing Client 31", image: "/images/clients/manufacturing-new/31.png" },
+    { name: "Manufacturing Client 32", image: "/images/clients/manufacturing-new/32.png" },
+    { name: "Manufacturing Client 33", image: "/images/clients/manufacturing-new/33.png" },
+    { name: "Manufacturing Client 34", image: "/images/clients/manufacturing-new/34.png" },
+    { name: "Manufacturing Client 35", image: "/images/clients/manufacturing-new/35.png" },
+    { name: "Manufacturing Client 36", image: "/images/clients/manufacturing-new/36.png" },
+    { name: "Manufacturing Client 37", image: "/images/clients/manufacturing-new/37.png" },
+    { name: "Manufacturing Client 38", image: "/images/clients/manufacturing-new/38.png" },
+    { name: "Manufacturing Client 39", image: "/images/clients/manufacturing-new/39.png" },
+    { name: "Manufacturing Client 40", image: "/images/clients/manufacturing-new/40.png" },
 ];
 
 const educationClients = [
-    { name: "Shiv Nadar", image: "/images/clients/education/shiv-nadar.png" },
-    // { name: "SSN", image: "/images/clients/education/ssn-1.png" },
+    { name: "Education Client 43", image: "/images/clients/education-new/43.png" },
+    { name: "Education Client 44", image: "/images/clients/education-new/44.png" },
+    { name: "Education Client 45", image: "/images/clients/education-new/45.png" },
 ];
 
 const bankingClients = [
-    { name: "Wells Fargo", image: "/images/clients/banking/wells-fargo-2.png" },
-    { name: "Sundaram Finance", image: "/images/clients/banking/sundaram-finance.png" },
-    { name: "Fiserv", image: "/images/clients/banking/fiserv-1.png" },
-    { name: "Citi", image: "/images/clients/banking/citi-1.png" },
+    { name: "Banking Client 50", image: "/images/clients/banking-new/50.png" },
+    { name: "Banking Client 51", image: "/images/clients/banking-new/51.png" },
+    { name: "Banking Client 52", image: "/images/clients/banking-new/52.png" },
+    { name: "Banking Client 53", image: "/images/clients/banking-new/53.png" },
 ];
+
+const travelTourismClients = [
+    { name: "Travel & Tourism Client 47", image: "/images/clients/travel-and-tourism/47.png" },
+    { name: "Travel & Tourism Client 48", image: "/images/clients/travel-and-tourism/48.png" },
+];
+const hospitalityClients = [
+    { name: "Hospitality Client 55", image: "/images/clients/hospitality/55.png" },
+    { name: "Hospitality Client 56", image: "/images/clients/hospitality/56.png" },
+    { name: "Hospitality Client 57", image: "/images/clients/hospitality/57.png" },
+    { name: "Hospitality Client 58", image: "/images/clients/hospitality/58.png" },
+    { name: "Hospitality Client 59", image: "/images/clients/hospitality/59.png" },
+    { name: "Hospitality Client 60", image: "/images/clients/hospitality/60.png" },
+    { name: "Hospitality Client 61", image: "/images/clients/hospitality/61.png" },
+    { name: "Hospitality Client 62", image: "/images/clients/hospitality/62.png" },
+];
+const constructionClients = [
+    { name: "Construction Client 64", image: "/images/clients/construction/64.png" },
+    { name: "Construction Client 65", image: "/images/clients/construction/65.png" },
+];
+const mediaAdvertisingClients = [
+    { name: "Media Advertising Client 67", image: "/images/clients/media-advertising/67.png" },
+    { name: "Media Advertising Client 68", image: "/images/clients/media-advertising/68.png" },
+];
+const legalServicesClients = [
+    { name: "Legal Services Client 70", image: "/images/clients/legal-services/70.png" },
+    { name: "Legal Services Client 71", image: "/images/clients/legal-services/71.png" },
+];
+
 
 export default function ClientsPage() {
     return (
@@ -85,26 +105,46 @@ export default function ClientsPage() {
             <section className="max-w-6xl mx-auto px-4 py-10">
                 <div className="flex flex-wrap gap-3">
                     <Link href="#Mainit" className="px-4 py-2 rounded-full bg-[#EC2028] btn-animated text-white text-sm font-semibold hover:bg-[#c51c24] transition-colors">
-                        IT & Digital
+                        IT AND NON-IT CLIENT
                     </Link>
                     <Link href="#Manu" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
-                        Manufacturing & Industrial
+                        MANUFACTURING
                     </Link>
                     <Link href="#education1" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
-                        Education
+                        EDUCATION
+                    </Link>
+                    <Link href="#TravelTourism" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
+                        Travel & Tourism
                     </Link>
                     <Link href="#Banking" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
-                        Banking & Finance
+                        BANKING
+                    </Link>
+                    <Link href="#Hospitality" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
+                        HOSPITALITY
+                    </Link>
+                    <Link href="#Construction" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
+                        CONSTRUCTION
+                    </Link>
+                    <Link href="#MediaAdvertising" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
+                        Media Advertising
+                    </Link>
+                    <Link href="#LegalServices" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
+                        Legal Services
                     </Link>
                 </div>
             </section>
 
             {/* Client grids */}
             <section className="pb-16">
-                <ClientCategory id="Mainit" title="IT & Digital" clients={itClients} />
-                <ClientCategory id="Manu" title="Manufacturing & Industrial" clients={manufacturingClients} />
-                <ClientCategory id="education1" title="Education" clients={educationClients} />
-                <ClientCategory id="Banking" title="Banking & Finance" clients={bankingClients} />
+                <ClientCategory id="Mainit" title="IT AND NON-IT CLIENT" clients={itClients} />
+                <ClientCategory id="Manu" title="MANUFACTURING" clients={manufacturingClients} />
+                <ClientCategory id="education1" title="EDUCATION" clients={educationClients} />
+                <ClientCategory id="TravelTourism" title="Travel & Tourism" clients={travelTourismClients} />
+                <ClientCategory id="Banking" title="BANKING" clients={bankingClients} />
+                <ClientCategory id="Hospitality" title="HOSPITALITY" clients={hospitalityClients} />
+                <ClientCategory id="Construction" title="CONSTRUCTION" clients={constructionClients} />
+                <ClientCategory id="MediaAdvertising" title="Media Advertising" clients={mediaAdvertisingClients} />
+                <ClientCategory id="LegalServices" title="Legal Services" clients={legalServicesClients} />
             </section>
 
         </main>

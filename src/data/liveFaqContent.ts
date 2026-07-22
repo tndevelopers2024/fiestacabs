@@ -701,6 +701,62 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
             "question": "Why do businesses choose Fiesta over other car rental companies in Hyderabad?",
             "answer": "Corporate car rental services in Hyderabad are tailored to meet the specific needs of businesses, focusing on reliability, professionalism and punctuality, and Fiesta backs that up with 28 years of experience and a 4.8 rating across 729 reviews."
         }
+    ],
+    "/corporate-car-rental-in-delhi": [
+        {
+            "question": "What is included in corporate car rental in Delhi?",
+            "answer": "It includes a trained chauffeur, a well maintained vehicle, real time tracking and full support for the trip."
+        },
+        {
+            "question": "What vehicles are available for corporate car rental in Delhi?",
+            "answer": "The fleet includes sedans for daily travel, SUVs for group trips and luxury cars for executive travel."
+        },
+        {
+            "question": "Are long term rentals available for businesses?",
+            "answer": "Yes, packages are customized for short or long-term needs, with flexible rental plans available."
+        },
+        {
+            "question": "How does Fiesta handle airport transfer bookings?",
+            "answer": "Drivers track flight status directly, so business travelers aren't left waiting."
+        },
+        {
+            "question": "Can Fiesta manage transport for events or conferences?",
+            "answer": "Yes, tour packages combine multiple vehicles for a single event, managed through one point of contact."
+        }
+    ],
+    "/airport-transportation-services": [
+        {
+            "question": "How far in advance can I book airport transportation services?",
+            "answer": "Airport transportation can typically be booked up to 7 days in advance, which helps guarantee vehicle availability, especially during busy travel periods."
+        },
+        {
+            "question": "Is free cancellation available on airport transfer bookings?",
+            "answer": "Yes, free cancellation is available on select bookings, so plans can be adjusted if a flight schedule changes."
+        },
+        {
+            "question": "Which cities and airports does Fiesta cover?",
+            "answer": "Fiesta covers major cities including Delhi, and airport cab services more broadly extend to over 60 airports across India."
+        },
+        {
+            "question": "What vehicles are available for airport pickup and drop?",
+            "answer": "The fleet includes hatchbacks and sedans for everyday trips, SUVs for larger groups, and luxury cars such as BMW and Mercedes models for executive transfers."
+        },
+        {
+            "question": "Does Fiesta provide real-time tracking for airport transfers?",
+            "answer": "Yes, real-time tracking is available for every airport transfer, giving passengers visibility into the driver's location and estimated arrival."
+        },
+        {
+            "question": "Are drivers trained for airport pickups specifically?",
+            "answer": "Yes, professional chauffeurs are trained on flight tracking, terminal navigation and passenger safety, and wait with identification for easy pickup."
+        },
+        {
+            "question": "Can Fiesta handle corporate or group airport transfers?",
+            "answer": "Yes, Fiesta manages airport transportation for corporate clients and larger groups, including multi-vehicle bookings for events or team travel."
+        },
+        {
+            "question": "What makes a private airport transfer different from an app-based cab?",
+            "answer": "A pre-booked private transfer avoids surge pricing and guarantees a specific vehicle and driver in advance, while app-based cabs are typically assigned on demand at the time of the ride."
+        }
     ]
 };
 
