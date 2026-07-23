@@ -24,9 +24,9 @@ const ClientCategory = ({ id, title, clients }: ClientCategoryProps) => {
                     {clients.map((client) => (
                         <div
                             key={`${id}-${client.name}`}
-                            className="flex h-36 md:h-44 p-4 md:p-5 items-center justify-center bg-white rounded-xl border border-slate-200 shadow-[0_10px_24px_rgba(15,23,42,0.06)] transition hover:-translate-y-1 hover:shadow-[0_18px_32px_rgba(15,23,42,0.08)]"
+                            className="flex h-36 md:h-44 p-4 md:p-5 items-center justify-center bg-white rounded-xl border border-slate-200 shadow-[0_10px_24px_rgba(15,23,42,0.06)] transition hover:-translate-y-1 hover:shadow-[0_18px_32px_rgba(15,23,42,0.08)] overflow-hidden"
                         >
-                            <div className="relative w-[105%] h-[105%] md:w-[110%] md:h-[110%]">
+                            <div className="relative w-full h-full scale-[1.8] md:scale-[2.1]">
                                 <Image
                                     src={client.image}
                                     alt={client.name}
