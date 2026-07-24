@@ -44,7 +44,7 @@ const manufacturingClients = [
     { name: "Manufacturing Client 33", image: "/images/clients/manufacturing-new/33.png" },
     { name: "Manufacturing Client 34", image: "/images/clients/manufacturing-new/34.png" },
     { name: "Manufacturing Client 35", image: "/images/clients/manufacturing-new/35.png" },
-    { name: "Manufacturing Client 36", image: "/images/clients/manufacturing-new/36.png" },
+    { name: "Manufacturing Client 36", image: "/images/clients/manufacturing-new/36.png", scale: "scale-150" },
     { name: "Manufacturing Client 37", image: "/images/clients/manufacturing-new/37.png" },
     { name: "Manufacturing Client 38", image: "/images/clients/manufacturing-new/38.png" },
     { name: "Manufacturing Client 39", image: "/images/clients/manufacturing-new/39.png" },
@@ -60,13 +60,13 @@ const educationClients = [
 const bankingClients = [
     { name: "Banking Client 50", image: "/images/clients/banking-new/50.png" },
     { name: "Banking Client 51", image: "/images/clients/banking-new/51.png" },
-    { name: "Banking Client 52", image: "/images/clients/banking-new/52.png" },
+    { name: "Banking Client 52", image: "/images/clients/banking-new/52.png", scale: "scale-150" },
     { name: "Banking Client 53", image: "/images/clients/banking-new/53.png" },
 ];
 
 const travelTourismClients = [
     { name: "Travel & Tourism Client 47", image: "/images/clients/travel-and-tourism/47.png" },
-    { name: "Travel & Tourism Client 48", image: "/images/clients/travel-and-tourism/48.png" },
+    { name: "Travel & Tourism Client 48", image: "/images/clients/travel-and-tourism/48.png", scale: "scale-150" },
 ];
 const hospitalityClients = [
     { name: "Hospitality Client 55", image: "/images/clients/hospitality/55.png" },
