@@ -104,31 +104,31 @@ export default function ClientsPage() {
             {/* Category quick links */}
             <section className="max-w-6xl mx-auto px-4 py-10">
                 <div className="flex flex-wrap gap-3">
-                    <Link href="#Mainit" className="px-4 py-2 rounded-full bg-[#EC2028] btn-animated text-white text-sm font-semibold hover:bg-[#c51c24] transition-colors">
+                    <Link href="#it-and-non-it" className="px-4 py-2 rounded-full bg-[#EC2028] btn-animated text-white text-sm font-semibold hover:bg-[#c51c24] transition-colors">
                         IT AND NON-IT CLIENT
                     </Link>
-                    <Link href="#Manu" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
+                    <Link href="#manufacturing" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
                         MANUFACTURING
                     </Link>
-                    <Link href="#education1" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
+                    <Link href="#education" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
                         EDUCATION
                     </Link>
-                    <Link href="#TravelTourism" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
+                    <Link href="#travel-and-tourism" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
                         Travel & Tourism
                     </Link>
-                    <Link href="#Banking" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
+                    <Link href="#banking" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
                         BANKING
                     </Link>
-                    <Link href="#Hospitality" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
+                    <Link href="#hospitality" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
                         HOSPITALITY
                     </Link>
-                    <Link href="#Construction" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
+                    <Link href="#construction" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
                         CONSTRUCTION
                     </Link>
-                    <Link href="#MediaAdvertising" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
+                    <Link href="#media-advertising" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
                         Media Advertising
                     </Link>
-                    <Link href="#LegalServices" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
+                    <Link href="#legal-services" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
                         Legal Services
                     </Link>
                 </div>
@@ -136,15 +136,15 @@ export default function ClientsPage() {
 
             {/* Client grids */}
             <section className="pb-16">
-                <ClientCategory id="Mainit" title="IT AND NON-IT CLIENT" clients={itClients} />
-                <ClientCategory id="Manu" title="MANUFACTURING" clients={manufacturingClients} />
-                <ClientCategory id="education1" title="EDUCATION" clients={educationClients} />
-                <ClientCategory id="TravelTourism" title="Travel & Tourism" clients={travelTourismClients} />
-                <ClientCategory id="Banking" title="BANKING" clients={bankingClients} />
-                <ClientCategory id="Hospitality" title="HOSPITALITY" clients={hospitalityClients} />
-                <ClientCategory id="Construction" title="CONSTRUCTION" clients={constructionClients} />
-                <ClientCategory id="MediaAdvertising" title="Media Advertising" clients={mediaAdvertisingClients} />
-                <ClientCategory id="LegalServices" title="Legal Services" clients={legalServicesClients} />
+                <ClientCategory id="it-and-non-it" title="IT AND NON-IT CLIENT" clients={itClients} />
+                <ClientCategory id="manufacturing" title="MANUFACTURING" clients={manufacturingClients} />
+                <ClientCategory id="education" title="EDUCATION" clients={educationClients} />
+                <ClientCategory id="travel-and-tourism" title="Travel & Tourism" clients={travelTourismClients} />
+                <ClientCategory id="banking" title="BANKING" clients={bankingClients} />
+                <ClientCategory id="hospitality" title="HOSPITALITY" clients={hospitalityClients} />
+                <ClientCategory id="construction" title="CONSTRUCTION" clients={constructionClients} />
+                <ClientCategory id="media-advertising" title="Media Advertising" clients={mediaAdvertisingClients} />
+                <ClientCategory id="legal-services" title="Legal Services" clients={legalServicesClients} />
             </section>
 
         </main>
