@@ -114,7 +114,7 @@ export default function ClientsPage() {
                         EDUCATION
                     </Link>
                     <Link href="#travel-and-tourism" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
-                        Travel & Tourism
+                        TRAVEL & TOURISM
                     </Link>
                     <Link href="#banking" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
                         BANKING
@@ -126,10 +126,10 @@ export default function ClientsPage() {
                         CONSTRUCTION
                     </Link>
                     <Link href="#media-advertising" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
-                        Media Advertising
+                        MEDIA & ADVERTISING
                     </Link>
                     <Link href="#legal-services" className="px-4 py-2 rounded-full bg-white text-slate-900 text-sm font-semibold border border-slate-200 shadow-sm hover:border-[#EC2028] transition-colors">
-                        Legal Services
+                        LEGAL SERVICES
                     </Link>
                 </div>
             </section>
