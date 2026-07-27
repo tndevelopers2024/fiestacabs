@@ -139,12 +139,12 @@ export default function ClientsPage() {
                 <ClientCategory id="it-and-non-it" title="IT AND NON-IT CLIENT" clients={itClients} />
                 <ClientCategory id="manufacturing" title="MANUFACTURING" clients={manufacturingClients} />
                 <ClientCategory id="education" title="EDUCATION" clients={educationClients} />
-                <ClientCategory id="travel-and-tourism" title="Travel & Tourism" clients={travelTourismClients} />
+                <ClientCategory id="travel-and-tourism" title="TRAVEL & TOURISM" clients={travelTourismClients} />
                 <ClientCategory id="banking" title="BANKING" clients={bankingClients} />
                 <ClientCategory id="hospitality" title="HOSPITALITY" clients={hospitalityClients} />
                 <ClientCategory id="construction" title="CONSTRUCTION" clients={constructionClients} />
-                <ClientCategory id="media-advertising" title="Media Advertising" clients={mediaAdvertisingClients} />
-                <ClientCategory id="legal-services" title="Legal Services" clients={legalServicesClients} />
+                <ClientCategory id="media-advertising" title="MEDIA & ADVERTISING" clients={mediaAdvertisingClients} />
+                <ClientCategory id="legal-services" title="LEGAL SERVICES" clients={legalServicesClients} />
             </section>
 
         </main>
