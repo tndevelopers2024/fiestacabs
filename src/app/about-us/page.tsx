@@ -219,6 +219,16 @@ export default function AboutUs() {
                                 className="object-contain p-6"
                             />
                         </div>
+
+                        {/* Award Item 5 */}
+                        <div className="relative w-full h-[250px] sm:h-[300px] rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                            <Image
+                                src="/images/about-us/awards/5.jpeg"
+                                alt="Fiesta Awards & Recognitions"
+                                fill
+                                className="object-contain p-6"
+                            />
+                        </div>
                     </div>
                 </div>
             </section>
