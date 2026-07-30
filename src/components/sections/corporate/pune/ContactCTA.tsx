@@ -13,11 +13,11 @@ const ContactCTA = () => {
                     className="object-cover object-center"
                     quality={90}
                 />
-                <div className="absolute inset-0 bg-black/60 md:bg-black/50 bg-gradient-to-r from-transparent via-black/40 to-black/90"></div>
+                <div className="absolute inset-0 bg-black/60 md:bg-black/50 bg-gradient-to-r from-black/90 via-black/40 to-transparent"></div>
             </div>
 
             <div className="relative z-10 max-w-[1440px] mx-auto px-4 md:px-8">
-                <div className="md:w-1/2 md:ml-auto text-white">
+                <div className="md:w-1/2 md:mr-auto text-white">
                     <div className="flex items-center gap-2 mb-4">
                         <span className="font-semibold text-[15px] text-white">4.8 (729 Reviews)</span>
                         <div className="flex gap-1 text-[#FFA800]">

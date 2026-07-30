@@ -1,10 +1,13 @@
+import Image from "next/image";
+
 const ServicesOptions = () => {
     return (
         <section className="py-16 md:py-24 bg-gray-50">
             <div className="max-w-[1400px] mx-auto px-4 md:px-8">
-                <div className="flex flex-col space-y-8">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                    {/* Left: Content */}
                     <div>
-                        <h2 className="text-3xl md:text-3xl font-bold text-gray-900 leading-tight mb-8">
+                        <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-8">
                             Corporate Car Rental Services Fiesta Offers in Pune
                         </h2>
 
@@ -34,6 +37,16 @@ const ServicesOptions = () => {
                                 <p>Outstation trips from Pune to Mumbai, Mahabaleshwar, Shirdi, and other destinations are available on the same corporate account. Long-distance routes use the same verified drivers and well-maintained fleet as city bookings.</p>
                             </div>
                         </div>
+                    </div>
+
+                    {/* Right: Image */}
+                    <div className="relative w-full h-[450px] md:h-[600px] rounded-2xl overflow-hidden shadow-xl border border-gray-100">
+                        <Image
+                            src="/images/corporate-car-rental-in-pune/ccrsfoip-right img.png"
+                            alt="Corporate Car Rental Services in Pune"
+                            fill
+                            className="object-cover"
+                        />
                     </div>
                 </div>
             </div>

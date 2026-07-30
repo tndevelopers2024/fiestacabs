@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaHeadset, FaPlaneArrival, FaAward } from "react-icons/fa";
 
 const ChauffeursSupport = () => {
     return (
@@ -27,25 +28,34 @@ const ChauffeursSupport = () => {
                     </div>
                 </div>
 
-                {/* Additional Text Info Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 border-t border-gray-100">
-                    <div>
-                        <h3 className="text-xl font-bold text-gray-900 mb-4">Easy Booking and Real Time Support</h3>
-                        <p className="text-[#555555] text-[15px] leading-[1.7]">
+                {/* Additional Text Info Cards */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-10 md:pt-16 mt-8 md:mt-16 ">
+                    <div className="bg-white rounded-2xl p-8 border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                        <div className="w-14 h-14 bg-red-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#EC2028] transition-colors duration-300">
+                            <FaHeadset className="text-[24px] text-[#EC2028] group-hover:text-white transition-colors duration-300" />
+                        </div>
+                        <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-[#EC2028] transition-colors duration-300">Easy Booking and Real Time Support</h3>
+                        <p className="text-[#555555] text-[15px] leading-[1.7] flex-grow">
                             Airport transportation can be booked up to 7 days in advance, which suits travelers who prefer to lock in a pickup as soon as flight details are confirmed rather than booking at the last minute. Free cancellation is available on select bookings, so plans can change without a penalty if a flight is rescheduled. Real-time tracking is provided for the transfer itself, and dedicated help desks are available to assist with transportation queries at the airport, covering the kind of last-minute details and preferences that come up around travel. This removes many of the usual hassles of arranging a ride after a long flight.
                         </p>
                     </div>
 
-                    <div>
-                        <h3 className="text-xl font-bold text-gray-900 mb-4">Airport Transfers Made Stress Free and Hassle Free</h3>
-                        <p className="text-[#555555] text-[15px] leading-[1.7]">
+                    <div className="bg-white rounded-2xl p-8 border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                        <div className="w-14 h-14 bg-red-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#EC2028] transition-colors duration-300">
+                            <FaPlaneArrival className="text-[24px] text-[#EC2028] group-hover:text-white transition-colors duration-300" />
+                        </div>
+                        <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-[#EC2028] transition-colors duration-300">Airport Transfers Made Stress Free and Hassle Free</h3>
+                        <p className="text-[#555555] text-[15px] leading-[1.7] flex-grow">
                             The aim of a good airport transfer is a stress free start or end to a trip, with timely pickups, punctuality and a comfortable ride rather than an extra thing to plan around a flight, helping travelers save time on both ends. Fiesta works to ensure timely pickups and clear communication, the details that separate a smooth transfer from a hassle free one on paper alone.
                         </p>
                     </div>
 
-                    <div>
-                        <h3 className="text-xl font-bold text-gray-900 mb-4">Why Choose Fiesta for Airport Transportation Services</h3>
-                        <p className="text-[#555555] text-[15px] leading-[1.7]">
+                    <div className="bg-white rounded-2xl p-8 border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                        <div className="w-14 h-14 bg-red-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#EC2028] transition-colors duration-300">
+                            <FaAward className="text-[24px] text-[#EC2028] group-hover:text-white transition-colors duration-300" />
+                        </div>
+                        <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-[#EC2028] transition-colors duration-300">Why Choose Fiesta for Airport Transportation Services</h3>
+                        <p className="text-[#555555] text-[15px] leading-[1.7] flex-grow">
                             Fiesta focuses on reliability and punctuality across every airport transfer, backed by 28 years in the industry and a 4.8 rating across 729 reviews that reflects an unmatched travel experience and consistent customer support. Clients booking through the website or by phone get transparent pricing upfront, with no surprises added after the ride, and a support team reachable around the clock rather than through an app alone.
                         </p>
                     </div>

@@ -1,15 +1,30 @@
+import Image from "next/image";
+
 const FleetOptions = () => {
     return (
         <section className="py-16 md:py-24 bg-white">
             <div className="max-w-[1440px] mx-auto px-4 md:px-8">
-                <div className="flex flex-col mb-12">
-                    <h2 className="text-3xl md:text-3xl font-bold text-gray-900 leading-tight mb-4">
-                        Diverse Fleet for Corporate Car Rental in Hyderabad
-                    </h2>
-                    <div className="space-y-4 text-[#555555] text-[15px] leading-[1.7] max-w-4xl">
-                        <p>A diverse fleet, with cars ranging from compact hatchbacks to premium luxury cars, is what allows Fiesta to match the right vehicle to the right business need.</p>
-                        <p>Reputable corporate car rental services in Hyderabad focus on reliability by maintaining vehicles to a high standard, and Fiesta&apos;s maintained cars are properly serviced on a fixed schedule so the well maintained fleet is ready for a stress free travel experience on every trip.</p>
-                        <p>Many corporate car rental services in Hyderabad, Fiesta included, equip vehicles with modern amenities such as air conditioning and onboard refreshments to keep the journey comfortable from pickup to drop.</p>
+                {/* Header Grid: Image Left, Content Right */}
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-12">
+                    {/* Left side Image */}
+                    <div className="relative w-full min-h-[400px] md:min-h-[450px] rounded-2xl overflow-hidden shadow-xl border border-gray-100">
+                        <Image
+                            src="/images/corporate-car-rental-in-hyderabad/diverse-fleet.png"
+                            alt="Diverse Fleet for Corporate Car Rental in Hyderabad"
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
+                    {/* Right side Text */}
+                    <div className="flex flex-col">
+                        <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-6">
+                            Diverse Fleet for Corporate Car Rental in Hyderabad
+                        </h2>
+                        <div className="space-y-4 text-[#555555] text-[15px] leading-[1.7] max-w-4xl">
+                            <p>A diverse fleet, with cars ranging from compact hatchbacks to premium luxury cars, is what allows Fiesta to match the right vehicle to the right business need.</p>
+                            <p>Reputable corporate car rental services in Hyderabad focus on reliability by maintaining vehicles to a high standard, and Fiesta&apos;s maintained cars are properly serviced on a fixed schedule so the well maintained fleet is ready for a stress free travel experience on every trip.</p>
+                            <p>Many corporate car rental services in Hyderabad, Fiesta included, equip vehicles with modern amenities such as air conditioning and onboard refreshments to keep the journey comfortable from pickup to drop.</p>
+                        </div>
                     </div>
                 </div>
 

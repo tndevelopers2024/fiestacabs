@@ -6,16 +6,27 @@ const Introduction = () => {
         <section className="py-16 md:py-24 bg-white">
             <div className="max-w-[1440px] mx-auto px-4 md:px-8 space-y-16 md:space-y-24">
 
-                {/* Top Section - Text Only */}
-                <div className="max-w-[1400px] mx-auto">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-6">
-                        Corporate Car Rental in Hyderabad
-                    </h2>
-                    <div className="space-y-4 text-[#555555] text-[15px] leading-[1.7]">
-                        <p>Corporate car rental in Hyderabad covers everything from a single airport pickup to a full fleet for a week-long conference, and the right partner needs to understand the city&apos;s business corridors as well as the vehicles.</p>
-                        <p>Businesses across HITEC City, Gachibowli and the Financial District look for a car rental company that can offer car rental services with customized solutions, not a rigid one size fits all package, since corporate needs shift from week to week.</p>
-                        <p>Fiesta Smart Mobility is one of the leading companies offering corporate car rental services in Hyderabad, with a wide car rental inventory, transparent pricing and 28 years of experience behind every corporate car rental package.</p>
-                        <p>A 4.8 rating across 729 reviews reflects the exceptional service clients expect, whether the requirement is a single luxury sedan for a leadership visit or full support for group travel.</p>
+                {/* Top Section - Text & Image */}
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-[1400px] mx-auto">
+                    <div>
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-6">
+                            Corporate Car Rental in Hyderabad
+                        </h2>
+                        <div className="space-y-4 text-[#555555] text-[15px] leading-[1.7]">
+                            <p>Corporate car rental in Hyderabad covers everything from a single airport pickup to a full fleet for a week-long conference, and the right partner needs to understand the city&apos;s business corridors as well as the vehicles.</p>
+                            <p>Businesses across HITEC City, Gachibowli and the Financial District look for a car rental company that can offer car rental services with customized solutions, not a rigid one size fits all package, since corporate needs shift from week to week.</p>
+                            <p>Fiesta Smart Mobility is one of the leading companies offering corporate car rental services in Hyderabad, with a wide car rental inventory, transparent pricing and 28 years of experience behind every corporate car rental package.</p>
+                            <p>A 4.8 rating across 729 reviews reflects the exceptional service clients expect, whether the requirement is a single luxury sedan for a leadership visit or full support for group travel.</p>
+                        </div>
+                    </div>
+                    {/* Right: Image */}
+                    <div className="relative min-h-[450px] w-full overflow-hidden rounded-2xl shadow-xl border border-gray-100">
+                        <Image
+                            src="/images/corporate-car-rental-in-hyderabad/corporate-car-rental-in-hyderabad-intro.png"
+                            alt="Corporate Car Rental in Hyderabad"
+                            fill
+                            className="object-cover"
+                        />
                     </div>
                 </div>
 

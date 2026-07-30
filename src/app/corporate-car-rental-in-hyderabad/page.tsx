@@ -17,9 +17,9 @@ export default function CorporateCarRentalHyderabadPage() {
     return (
         <main className="min-h-screen relative">
             <HeroForm
-                title="Corporate Car Rental in Hyderabad"
-                subtitle="Transparent Pricing and Corporate Billing"
-                imageSrc="/images/corporate-car-rental-in-hyderabad/corporate-car-rental-in-hyderabad.png"
+                title="Corporate Car Rental in Hyderabad: Built for Cyberabad's Business Corridors"
+                subtitle="Verified Chauffeurs, Transparent Pricing, Corporate Billing"
+                imageSrc="/images/corporate-car-rental-in-hyderabad/crch-hero-img.png"
                 ctaText="Get A Free Quote"
             />
             <Introduction />

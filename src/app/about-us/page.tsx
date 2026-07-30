@@ -6,6 +6,7 @@ import PageHero from "../../components/common/PageHero";
 import WhyChooseUs from "../../components/sections/aboutus/WhyChooseUs";
 import MissionVisible from "../../components/sections/aboutus/MissionVisible";
 import Cta from "../../components/sections/aboutus/Cta";
+import AwardsCarousel from "../../components/sections/aboutus/AwardsCarousel";
 
 export const metadata = getMetadata("/about-us");
 
@@ -179,57 +180,7 @@ export default function AboutUs() {
                         </h2>
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
-                        {/* Award Item 1 */}
-                        <div className="relative w-full h-[250px] sm:h-[300px] rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                            <Image
-                                src="/images/about-us/awards/1781326142135.png"
-                                alt="Fiesta Awards & Recognitions"
-                                fill
-                                className="object-contain p-6"
-                            />
-                        </div>
-
-                        {/* Award Item 2 */}
-                        <div className="relative w-full h-[250px] sm:h-[300px] rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                            <Image
-                                src="/images/about-us/awards/2.jpeg"
-                                alt="Fiesta Awards & Recognitions"
-                                fill
-                                className="object-contain p-6"
-                            />
-                        </div>
-
-                        {/* Award Item 3 */}
-                        <div className="relative w-full h-[250px] sm:h-[300px] rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                            <Image
-                                src="/images/about-us/awards/3.jpeg"
-                                alt="Fiesta Awards & Recognitions"
-                                fill
-                                className="object-contain p-6"
-                            />
-                        </div>
-
-                        {/* Award Item 4 */}
-                        <div className="relative w-full h-[250px] sm:h-[300px] rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                            <Image
-                                src="/images/about-us/awards/4.jpeg"
-                                alt="Fiesta Awards & Recognitions"
-                                fill
-                                className="object-contain p-6"
-                            />
-                        </div>
-
-                        {/* Award Item 5 */}
-                        <div className="relative w-full h-[250px] sm:h-[300px] rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                            <Image
-                                src="/images/about-us/awards/5.jpeg"
-                                alt="Fiesta Awards & Recognitions"
-                                fill
-                                className="object-contain p-6"
-                            />
-                        </div>
-                    </div>
+                    <AwardsCarousel />
                 </div>
             </section>
 

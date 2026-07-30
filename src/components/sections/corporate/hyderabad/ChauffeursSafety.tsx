@@ -28,17 +28,27 @@ const ChauffeursSafety = () => {
                         </div>
                     </div>
 
-                    {/* Safety Standards Section - Text Only */}
-                    <div className="max-w-[1400px]">
-                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight mb-6">
-                            Safety Standards and Real Time Monitoring
-                        </h2>
-                        <ul className="space-y-4 text-[#555555] text-[15px] leading-[1.7] list-disc pl-5">
-                            <li><strong>GPS Tracking:</strong> Real time monitoring on every vehicle gives corporate clients accurate ETAs and full visibility of each trip, particularly useful on outstation routes toward Warangal or Srisailam.</li>
-                            <li><strong>Insurance Coverage:</strong> Every well maintained vehicle carries valid insurance and a current fitness certificate for passenger protection.</li>
-                            <li><strong>Verified Drivers:</strong> Corporate car rental services in Hyderabad prioritise safety by employing trained chauffeurs who are well versed in safe driving practices and customer service, and every driver is background checked before being cleared for corporate routes.</li>
-                            <li><strong>Roadside Assistance:</strong> 24x7 roadside assistance keeps hassle free operations running smoothly, covering any mechanical issue during a trip and ensuring hassle free rides on both city and highway routes.</li>
-                        </ul>
+                    {/* Safety Standards Section - Image Left, Content Right */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center max-w-[1400px]">
+                        <div className="relative min-h-[400px] md:min-h-[500px] w-full overflow-hidden rounded-xl shadow-lg">
+                            <Image
+                                src="/images/corporate-car-rental-in-hyderabad/saftey-img.png"
+                                alt="Safety Standards and Real Time Monitoring"
+                                fill
+                                className="object-cover"
+                            />
+                        </div>
+                        <div className="flex flex-col justify-center">
+                            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight mb-6">
+                                Safety Standards and Real Time Monitoring
+                            </h2>
+                            <ul className="space-y-4 text-[#555555] text-[15px] leading-[1.7] list-disc pl-5">
+                                <li><strong>GPS Tracking:</strong> Real time monitoring on every vehicle gives corporate clients accurate ETAs and full visibility of each trip, particularly useful on outstation routes toward Warangal or Srisailam.</li>
+                                <li><strong>Insurance Coverage:</strong> Every well maintained vehicle carries valid insurance and a current fitness certificate for passenger protection.</li>
+                                <li><strong>Verified Drivers:</strong> Corporate car rental services in Hyderabad prioritise safety by employing trained chauffeurs who are well versed in safe driving practices and customer service, and every driver is background checked before being cleared for corporate routes.</li>
+                                <li><strong>Roadside Assistance:</strong> 24x7 roadside assistance keeps hassle free operations running smoothly, covering any mechanical issue during a trip and ensuring hassle free rides on both city and highway routes.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

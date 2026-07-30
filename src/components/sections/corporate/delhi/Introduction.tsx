@@ -6,14 +6,25 @@ const Introduction = () => {
         <section className="py-16 md:py-24 bg-white">
             <div className="max-w-[1440px] mx-auto px-4 md:px-8 space-y-16 md:space-y-24">
 
-                {/* Top Section - Text Only */}
-                <div className="max-w-[1400px] mx-auto">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-6">
-                        Corporate Car Rental in Delhi, Built for the Way You Actually Travel
-                    </h2>
-                    <div className="space-y-4 text-[#555555] text-[15px] leading-[1.7]">
-                        <p>Corporate car rental in Delhi spans several hubs, from Connaught Place in the city core to Cyber City in Gurgaon, and a Gurgaon-to-airport pickup moves very differently from a trip within the city center. Route knowledge matters as much as the vehicle itself across Delhi NCR.</p>
-                        <p>Fiesta Smart Mobility offers corporate car rental services in Delhi with a diverse fleet and customized solutions built around the actual trip, backed by 28 years in the industry across India and a 4.8 rating across 729 reviews that keeps the focus on customer satisfaction.</p>
+                {/* Top Section - Text & Image */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-center max-w-[1400px] mx-auto">
+                    <div>
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-6">
+                            Corporate Car Rental in Delhi, Built for the Way You Actually Travel
+                        </h2>
+                        <div className="space-y-4 text-[#555555] text-[15px] leading-[1.7]">
+                            <p>Corporate car rental in Delhi spans several hubs, from Connaught Place in the city core to Cyber City in Gurgaon, and a Gurgaon-to-airport pickup moves very differently from a trip within the city center. Route knowledge matters as much as the vehicle itself across Delhi NCR.</p>
+                            <p>Fiesta Smart Mobility offers corporate car rental services in Delhi with a diverse fleet and customized solutions built around the actual trip, backed by 28 years in the industry across India and a 4.8 rating across 729 reviews that keeps the focus on customer satisfaction.</p>
+                        </div>
+                    </div>
+                    {/* Right: Image */}
+                    <div className="relative min-h-[400px] md:min-h-[450px] w-full overflow-hidden rounded-2xl shadow-xl border border-gray-100">
+                        <Image
+                            src="/images/corporate-car-rental-in-delhi/cc-delhi.png"
+                            alt="Corporate Car Rental in Delhi"
+                            fill
+                            className="object-cover"
+                        />
                     </div>
                 </div>
 

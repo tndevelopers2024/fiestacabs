@@ -7,7 +7,7 @@ const CorporateLandscape = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center">
                     <div className="relative min-h-[400px] md:min-h-[500px] w-full overflow-hidden rounded-lg shadow-lg order-2 md:order-1">
                         <Image
-                            src="/images/corporate-car-rental-in-delhi/landscape-in-india.jpg"
+                            src="/images/corporate-car-rental-in-delhi/crc-lanescale.png"
                             alt="The Corporate Car Rental Landscape in India"
                             fill
                             className="object-cover"

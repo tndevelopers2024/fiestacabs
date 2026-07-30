@@ -1,24 +1,36 @@
+import Image from "next/image";
+
 const HowToBookBilling = () => {
     return (
         <section className="py-16 md:py-24 bg-white">
             <div className="max-w-[1440px] mx-auto px-4 md:px-8">
                 <div className="space-y-16 md:space-y-24  mx-auto">
                     {/* Booking Process Section */}
-                    <div>
-                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight mb-6">
-                            Booking Process
-                        </h2>
-                        <div className="bg-gray-50 rounded-xl p-8 border border-gray-100 mb-4">
-                            <ol className="list-decimal pl-5 space-y-4 text-[#555555] text-[15px] leading-[1.7] font-medium">
-                                <li><strong>Send enquiry</strong> with pickup, drop point and vehicle preference.</li>
-                                <li><strong>Receive a fixed plan</strong> for the trip based on business requirements.</li>
-                                <li><strong>Confirm the booking</strong> and get driver and vehicle details ahead of the ride.</li>
-                                <li><strong>Complete the trip</strong>, with the support team available for any last-minute changes.</li>
-                            </ol>
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                        <div>
+                            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight mb-6">
+                                Booking Process
+                            </h2>
+                            <div className="bg-gray-50 rounded-xl p-8 border border-gray-100 mb-4 shadow-sm">
+                                <ol className="list-decimal pl-5 space-y-4 text-[#555555] text-[15px] leading-[1.7] font-medium">
+                                    <li><strong>Send enquiry</strong> with pickup, drop point and vehicle preference.</li>
+                                    <li><strong>Receive a fixed plan</strong> for the trip based on business requirements.</li>
+                                    <li><strong>Confirm the booking</strong> and get driver and vehicle details ahead of the ride.</li>
+                                    <li><strong>Complete the trip</strong>, with the support team available for any last-minute changes.</li>
+                                </ol>
+                            </div>
+                            <p className="text-[#555555] text-[15px] leading-[1.7]">
+                                Booking ahead helps guarantee vehicle availability, particularly for events or during peak travel periods across Delhi.
+                            </p>
                         </div>
-                        <p className="text-[#555555] text-[15px] leading-[1.7]">
-                            Booking ahead helps guarantee vehicle availability, particularly for events or during peak travel periods across Delhi.
-                        </p>
+                        <div className="relative min-h-[350px] md:min-h-[400px] w-full overflow-hidden rounded-2xl shadow-xl border border-gray-100">
+                            <Image
+                                src="/images/corporate-car-rental-in-delhi/delhi-booking-process.png"
+                                alt="Delhi Corporate Booking Process"
+                                fill
+                                className="object-cover"
+                            />
+                        </div>
                     </div>
 
                     {/* Corporate Billing Section */}
