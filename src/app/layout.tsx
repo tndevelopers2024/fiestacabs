@@ -13,8 +13,8 @@ import ScrollToTop from "../components/common/ScrollToTop";
 
 export const metadata: Metadata = {
   title: {
-    default: "Expert Employee Transport Services | Fiesta Smart Mobility",
-    template: "%s - Fiesta Cabs",
+    default: "Expert Employee Transport Services | Fiestacabs Smart Mobility",
+    template: "%s - Fiestacabs Smart Mobility",
   },
   description: "Fiesta Smart Mobility offers secure, employee transport services and premium car rental solutions across India. Experience punctual and eco-friendly commutes",
   keywords: ["employee transport services", "corporate car rental", "shuttle service India", "premium car rentals", "staff transportation", "mobility solutions", "Fiesta Smart Mobility", "intercity cabs", "wedding car rental"],
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
   },
   openGraph: {
     url: "https://fiestacabs.com",
-    siteName: "Fiesta Smart Mobility",
+    siteName: "Fiestacabs Smart Mobility",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Fiesta Smart Mobility",
+        alt: "Fiestacabs Smart Mobility",
       },
     ],
     locale: "en_US",
@@ -58,6 +58,41 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "WebSite",
+                  "@id": "https://fiestacabs.com/#website",
+                  "url": "https://fiestacabs.com/",
+                  "name": "Fiestacabs Smart Mobility",
+                  "alternateName": [
+                    "Fiesta Smart Mobility",
+                    "Fiestacabs",
+                    "Fiesta Cabs",
+                    "Fiesta Smart Mobility Private Limited"
+                  ]
+                },
+                {
+                  "@type": "Organization",
+                  "@id": "https://fiestacabs.com/#organization",
+                  "name": "Fiesta Smart Mobility Private Limited",
+                  "alternateName": ["Fiestacabs Smart Mobility", "Fiestacabs", "Fiesta Smart Mobility"],
+                  "url": "https://fiestacabs.com/",
+                  "logo": "https://fiestacabs.com/opengraph-image.png",
+                  "sameAs": [
+                    "https://www.instagram.com/fiestasmartmobility/",
+                    "https://www.facebook.com/FiestaSmartMobility",
+                    "https://www.linkedin.com/company/fiestasmartmobility"
+                  ]
+                }
+              ]
+            }),
+          }}
+        />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-E4EM5ZZ3FR"
           strategy="afterInteractive"

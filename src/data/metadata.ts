@@ -340,6 +340,9 @@ export const getMetadata = (route: string) => {
         openGraph: {
             title: data.title,
             description: data.description,
+            siteName: "Fiestacabs Smart Mobility",
+            url: `https://fiestacabs.com${route === "/" ? "" : route}`,
+            type: "website",
         },
         twitter: {
             title: data.title,
