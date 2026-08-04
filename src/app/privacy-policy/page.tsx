@@ -265,8 +265,8 @@ export default function PrivacyPolicy() {
                             <p>In accordance with Indian law, the Company has appointed a Grievance Officer:</p>
                             <div className="mt-4 p-6 bg-gray-50 rounded-2xl border border-gray-100 italic">
                                 <p><span className="font-bold not-italic">Grievance Officer:</span> Legal Head - Fiesta Smart Mobility</p>
-                                <p><span className="font-bold not-italic">Email:</span> grievances@fiestacabs.com</p>
-                                <p><span className="font-bold not-italic">Contact Number:</span> +91 96004 37002</p>
+                                <p><span className="font-bold not-italic">Email:</span> grievance@fiestaindia.net</p>
+                                <p><span className="font-bold not-italic">Contact Number:</span> +91 72002 99877</p>
                             </div>
                             <p className="pt-2">We will address grievances within the timeframe required by law.</p>
                         </Section>
