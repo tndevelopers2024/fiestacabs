@@ -12,14 +12,14 @@ const WhyStruggle = () => {
                             Why Struggle With Cabs and Taxis?
                         </h2>
                         <p className="text-[#555555] text-[16px] leading-relaxed mb-10">
-                            In a city as fast-paced as Hyderabad, relying on cabs, taxis, or personal cars for everyday travel can be unreliable and expensive. With Fiesta, there&apos;s no need to constantly book, rebook, or request on the fly. Our affordable model is designed to offer consistent, reliable transport every day.
+                            Relying on ad hoc cabs, taxis, or personal vehicles for daily staff commutes creates unpredictable costs and coordination overhead for growing organisations. Fiesta removes this burden with a fixed, centrally managed shuttle programme that gives your business consistent, reliable transport every day.
                         </p>
 
                         <h2 className="text-3xl md:text-[32px] font-bold text-gray-900 mb-6 leading-tight">
-                            Fiesta Rewards You for Riding Smart
+                            A True Long-Term Partner
                         </h2>
                         <p className="text-[#555555] text-[16px] leading-relaxed mb-6">
-                            Riding with Fiesta often comes with added benefits. Regular contests, company-wide initiatives, and seasonal campaigns give employees the chance to win free rewards and offers. And yes, sometimes that includes popular giveaways like smartphones, gadgets, and more, all just for riding smarter.
+                            Fiesta works as a long-term transport partner, with dedicated account support as your organisation&apos;s shuttle programme scales.
                         </p>
                     </div>
 

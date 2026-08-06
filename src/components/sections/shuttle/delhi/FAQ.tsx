@@ -39,7 +39,7 @@ const FAQ = () => {
                         FAQ
                     </h2>
                     <p className="text-gray-600 text-base leading-relaxed max-w-2xl mx-auto">
-                        We understand your travel needs and are here to make your journey smooth and hassle-free. From airport pickups to on-time drop-offs, our team ensures a reliable, safe, and convenient ride every time
+                        We understand your organisation's commuting needs and are here to make daily employee travel smooth and hassle-free. From fixed pick-up points to on-time drop-offs, our team ensures a reliable, safe, and convenient ride every time.
                     </p>
                 </div>
                 {/* Full Width Accordion */}

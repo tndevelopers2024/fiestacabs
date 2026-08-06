@@ -12,7 +12,7 @@ const StayUpToDate = () => {
                             Stay Up to Date With Every Ride
                         </h2>
                         <p className="text-[#555555] text-[15px] leading-relaxed mb-12">
-                            No more wondering when or where, professionals today rely on website updates, email alerts, in-app banners, and social media pages to stay informed. If it&apos;s exciting offers, ride details, route changes, or schedule updates, staying in the loop has never been easier.
+                            No more wondering when or where. Ride details, route changes, and schedule updates are shared directly with your admin team and employees through website updates, email alerts, and in-app notifications, so staying in the loop has never been easier.
                         </p>
 
                         <h2 className="text-3xl lg:text-[38px] font-bold text-[#2A2A2A] mb-6 leading-[1.2] tracking-tight">

@@ -33,7 +33,7 @@ const CTA = () => {
                     </h2>
 
                     <p className="text-gray-200 text-[15px] leading-relaxed mb-8">
-                        Say goodbye to traffic stress and unreliable public transport. With Fiesta&apos;s shuttle service, every ride is safe, on time, and comfortable designed to make daily travel easier for you and your team.
+                        Say goodbye to traffic stress and unreliable public transport. With Fiesta's shuttle service, every ride is safe, on time, and comfortable, designed to make daily commuting easier and more reliable for your entire workforce.
                     </p>
 
                     <ul className="space-y-3 mb-8">

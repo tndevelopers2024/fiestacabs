@@ -106,20 +106,20 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
             "answer": "A shuttle service is a transportation option where a vehicle operates on a fixed route, usually between two or more locations, to pick up and drop off passengers at scheduled times."
         },
         {
-            "question": "What is shuttle service in a job?",
-            "answer": "In a job or workplace setting, shuttle service refers to company-arranged transportation that helps employees commute conveniently between their homes, offices, or nearby transit points."
+            "question": "How is billing handled for corporate shuttle services?",
+            "answer": "Fiesta offers centralised enterprise billing with monthly invoicing, so your organisation receives a single consolidated invoice rather than managing individual trip payments."
         },
         {
-            "question": "How do I become a good shuttle driver?",
-            "answer": "To be a good shuttle driver, you need safe driving skills, punctuality, good communication, customer service etiquette, and knowledge of routes. Maintaining professionalism and ensuring passenger comfort are key."
+            "question": "What is a corporate shuttle service?",
+            "answer": "A corporate shuttle service is a company-arranged transport solution that moves employees between their homes, transit hubs, and office locations on fixed routes and scheduled times, managed and billed directly to the organisation."
         },
         {
-            "question": "What is a shuttle service car?",
-            "answer": "A shuttle service car is a vehicle—such as a van, SUV, or luxury car—used to transport individuals or groups between designated locations. These cars are comfortable, reliable, and often chauffeur-driven."
+            "question": "Can Fiesta customise shuttle routes for our office locations?",
+            "answer": "Yes. Fiesta works with your HR or operations team to design routes, pick-up points, and time slots based on your shift patterns, office locations, and workforce size."
         },
         {
-            "question": "What is airport shuttle service?",
-            "answer": "An airport shuttle service is a transportation option that takes passengers to and from the airport. It helps travelers avoid parking hassles, ensures timely drop-offs/pickups, and offers a stress-free travel experience."
+            "question": "Does Fiesta provide shuttle services for multiple offices or campuses?",
+            "answer": "Yes. Fiesta supports single and multi-location corporate accounts, with coordinated scheduling across offices, campuses, and industrial parks."
         },
         {
             "question": "Gate to Gate Connectivity",
@@ -143,7 +143,7 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
         },
         {
             "question": "Easy Payments and Corporate Integrations",
-            "answer": "Integrate payments seamlessly with internet banking , Amazon Pay , and other digital wallets. We also offer enterprise billing for businesses looking for monthly invoicing options."
+            "answer": "Fiesta simplifies billing for organisations with centralised enterprise invoicing and flexible monthly billing cycles. Your finance or admin team receives a single consolidated invoice, removing the need to manage individual trip payments or reimbursements. GST-compliant invoicing is provided for every billing cycle."
         }
     ],
     "/wedding-cars": [
@@ -586,8 +586,8 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
             "answer": "Yes, we offer flexible scheduling to accommodate varying employee shifts and operational requirements. You can contact us or fill out our web form to arrange tailored transport solutions."
         },
         {
-            "question": "What is your main service option for airport transfers in Pune?",
-            "answer": "For airport transfers, we provide air-conditioned buses ranging from 17-seater to 50-seater vehicles, based on your group size and specific requirements."
+            "question": "Can Fiesta scale the shuttle service as our headcount grows in Pune?",
+            "answer": "Yes. Fiesta's fleet allocation, from 17-seater minibuses to 50-seater buses, can be scaled up as your workforce grows, with routes adjusted to match new office locations or shift patterns."
         }
     ],
     "/shuttle-services-in-chennai": [
@@ -614,24 +614,24 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
     ],
     "/shuttle-services-in-mumbai": [
         {
-            "question": "How can corporate professionals book a shuttle from home to the office?",
-            "answer": "Corporate professionals can use the Fiesta app to submit a booking, select their destination, and confirm pickup from home. The app helps people book easily and reduce daily commute stress."
+            "question": "How does a company set up a shuttle programme with Fiesta in Mumbai?",
+            "answer": "Organisations share their office location, employee addresses, and shift timings with our team, and Fiesta designs routes and pick-up points accordingly, all managed centrally through your admin or HR team."
         },
         {
-            "question": "How do I find and select my drop-off points for my destination?",
-            "answer": "You can find and select nearby drop-off points directly in the Fiesta app to choose the most convenient destination and manage travel across the city with less stress."
+            "question": "How are drop-off points decided for our employees?",
+            "answer": "Drop-off points are planned around your office location and employee residential clusters, ensuring minimal walking distance and consistent, predictable routes."
         },
         {
-            "question": "Can corporate professionals track their shuttle in real time?",
-            "answer": "Yes, corporate professionals can use the Fiesta app with GPS tracking to see the real-time shuttle location to plan better and reach their destination on time."
+            "question": "Can our employees track the shuttle in real time?",
+            "answer": "Yes. Every Fiesta shuttle is GPS-enabled, giving employees and your admin team real-time visibility into arrival times and route progress."
         },
         {
-            "question": "How can people submit and manage shuttle bookings easily?",
-            "answer": "People can submit, book, and manage their shuttle rides using the Fiesta app. Corporate professionals can select routes, track vehicles, and reach their destination with less stress."
+            "question": "Who manages bookings and scheduling for our shuttle programme?",
+            "answer": "Booking and scheduling are coordinated directly with your organisation's admin or HR team, with Fiesta handling route allocation, vehicle assignment, and day-to-day operations."
         },
         {
-            "question": "What should I do if I can't see a route near my house?",
-            "answer": "If you can't find a stop near your home, you can submit a route request directly by contacting our team. We are constantly expanding across the country and use feedback from people like you to add new destinations for corporate professionals."
+            "question": "What if we need a new pick-up point added for our employees?",
+            "answer": "Your organisation can request additional pick-up points at any time. Fiesta continuously expands its route network based on employer requirements and evolving workforce locations."
         }
     ],
     "/corporate-car-rental-in-pune": [

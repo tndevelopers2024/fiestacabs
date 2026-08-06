@@ -33,14 +33,14 @@ const keyFeatures: FeatureItem[] = [
     {
         title: "Easy Payments and Corporate Integrations",
         description:
-            " Integrate payments seamlessly with internet banking, Amazon Pay, and other digital wallets. We also offer enterprise billing for businesses looking for monthly invoicing options.",
+            "Fiesta simplifies billing for organisations with centralised enterprise invoicing and flexible monthly billing cycles. Your finance or admin team receives a single consolidated invoice, removing the need to manage individual trip payments or reimbursements. GST-compliant invoicing is provided for every billing cycle.",
     },
 ];
 
 const KeyFeatures = () => {
     return (
         <section className="w-full py-14 md:py-16">
-            <div className="max-w-[1440px] mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+            <div className="max-w-[1440px] mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-10 items-stretch">
                 <div>
                     <p className="text-[#EC2028] uppercase tracking-wider font-semibold mb-2">Key</p>
                     <h3 className="text-3xl md:text-4xl font-bold mb-5">Features That Make Fiesta Stand Out</h3>
@@ -55,7 +55,7 @@ const KeyFeatures = () => {
                         ))}
                     </div>
                 </div>
-                <div className="relative h-[420px] md:h-[620px] rounded-md overflow-hidden">
+                <div className="relative w-full h-[420px] lg:h-full rounded-2xl overflow-hidden">
                     <Image
                         src="/images/shuttle-service/key-features.png"
                         alt="Key shuttle service features"

@@ -196,7 +196,7 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         keywords: "shuttle-services-in-hyderabad"
     },
     "/shuttle-services-in-mumbai": {
-        title: "Corporate Car Rental in Mumbai | Fiesta Cabs",
+        title: "Corporate Shuttle Service in Mumbai | Fiesta Cabs - Fiestacabs Smart Mobility",
         description: "Fiesta Cabs offers premium corporate car rentals in Mumbai — cars, minivans, and buses for business travel, corporate events, and executive airport transfers.",
         keywords: "Corporate Car Rental in Mumbai"
     },

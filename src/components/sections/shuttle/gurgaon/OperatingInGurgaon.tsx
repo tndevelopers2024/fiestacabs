@@ -71,14 +71,8 @@ const OperatingInGurgaon = () => {
                                 <div>
                                     <p className="font-bold text-gray-900 mb-1">Stay Up to Date</p>
                                     <p className="text-sm leading-relaxed">
-                                        We keep things interactive. Whether it's service alerts, route updates, holiday schedules, or exciting offers, we share all essential updates through our:
+                                        We keep things interactive. Fiesta shares route changes, schedule updates, and service alerts directly with your admin team and employees through website updates, email alerts, and in-app notifications.
                                     </p>
-                                    <ul className="list-disc ml-5 mt-2 text-sm space-y-1">
-                                        <li>Website</li>
-                                        <li>Email notifications</li>
-                                        <li>In-app banners</li>
-                                        <li>Social media pages</li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>

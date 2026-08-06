@@ -37,7 +37,7 @@ const BuildPlan = () => {
                     </ul>
 
                     <p className="text-gray-200 text-[16px] leading-relaxed mb-6">
-                        Why rely on cars, cabs, or slow public buses when you can upgrade your daily commute with a shuttle that puts your team&apos;s productivity first?
+                        Why rely on individual ad hoc transport when you can invest in a dedicated shuttle programme that puts your organisation&apos;s productivity and reliability first?
                     </p>
 
                     <p className="text-white font-bold text-[16px] leading-relaxed mb-10 italic">

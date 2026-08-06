@@ -39,7 +39,7 @@ const StayConnected = () => {
                             Booking That Works for Your Team
                         </h2>
                         <p className="text-[#555555] text-[16px] leading-relaxed mb-6">
-                            Pre-booking a seat is quick and convenient with multiple payment options, including digital methods like wallets or card payments. Teams can reserve in advance, use internal codes, and check ride schedules with ease.
+                            Seat allocation is managed directly with your organisation through advance booking and centralised monthly billing. Your HR or admin team can reserve seats, manage schedules, and review ride details without individual payment handling.
                         </p>
                         <p className="text-[#555555] text-[16px] leading-relaxed mb-6">
                             Riders can also view important ride details, including vehicle number, driver info, and arrival estimates, making it easy to track their commute.

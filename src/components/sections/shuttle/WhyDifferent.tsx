@@ -23,11 +23,7 @@ const WhyDifferent = () => {
                     </p>
                     <h4 className="text-2xl font-semibold mb-2">Affordability Meets Convenience</h4>
                     <p className="text-gray-700 leading-relaxed mb-6">
-                        Worried about parking hassles near transit hubs?
-
-                        We offer affordable parking spaces and optional affordable parking spaces add-ons near high-demand pick up points, allowing a true door-to-hub solution that eliminates friction from the daily routine.
-
-                        With Fiesta, there’s no need to juggle between public transportation options or navigate through mind-boggling traffic—all while trying to get to or from work on time.
+                        Managing transport logistics near busy transit hubs and campuses can strain time and resources. Fiesta's shuttle service removes this burden with a true gate-to-hub solution, eliminating the need for your organisation to coordinate parking, last-mile transfers, or ad hoc transport arrangements. One partner handles the entire commute logistics for your workforce.
                     </p>
                     <Button href="/reach-us" className=" bg-[#EC2028] btn-animated ">
                         Talk to Our Team

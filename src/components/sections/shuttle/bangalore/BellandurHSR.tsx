@@ -24,7 +24,7 @@ const BellandurHSR = () => {
                             Stay Up to Date
                         </h3>
                         <p className="text-[#555555] text-[16px] leading-relaxed">
-                            Staying informed about commutes shouldn&apos;t require manual effort. Today&apos;s workforce relies on website updates, email alerts, in-app banners, and social media pages to keep track of exciting offers, ride details, or route changes.
+                            Staying informed about commutes shouldn&apos;t require manual effort. Fiesta shares route changes, schedule updates, and service alerts directly with your admin team and employees through website updates, email alerts, and in-app notifications.
                         </p>
                     </div>
 

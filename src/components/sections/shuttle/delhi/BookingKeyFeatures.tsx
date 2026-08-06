@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 const BookingKeyFeatures = () => {
     const listItems = [
-        "Smooth app-based booking with internet banking and wallets like Amazon Pay",
-        "Share ride details with ease (great for safety and coordination)",
-        "Referral code integration for effortless team expansion",
-        "Participation in referrals contest and special campaigns"
+        "Centralised booking managed through your organisation, with consolidated monthly invoicing",
+        "Ride details shared for safety and coordination",
+        "Simple onboarding process for adding new employees to your shuttle programme",
+        "Dedicated account support as your transport plan scales with your team"
     ];
 
     const Icon = () => (
