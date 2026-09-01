@@ -33,7 +33,7 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
     "/careers": {
         title: "Careers - Join Our Team | Fiesta Smart Mobility",
         description: "Explore career opportunities at Fiesta Smart Mobility. Join 300+ professionals in shaping the future of integrated transport services in India.",
-        keywords: "Fiesta Smart Mobility, Fiesta Cabs, careers"
+        keywords: "Fiesta Smart Mobility, Fiestacabs Smart Mobility, careers"
     },
     "/clients": {
         title: "Our Clients | Fiesta Smart Mobility India",
@@ -52,7 +52,7 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
     },
     "/employee-transportation-services-in-hyderabad": {
         title: "Employee Transport Services in Hyderabad | Fiesta",
-        description: "Fiesta Cabs offers dependable employee transport in Hyderabad with 24/7 support, secure rides, and punctual daily commutes for businesses of all sizes.",
+        description: "Fiestacabs Smart Mobility offers dependable employee transport in Hyderabad with 24/7 support, secure rides, and punctual daily commutes for businesses of all sizes.",
         keywords: "Employee Transport Services in Hyderabad"
     },
     "/employee-transportation-services-in-delhi": {
@@ -71,8 +71,8 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         keywords: "Employee Transportation Services in Kolkata"
     },
     "/employee-transportation-services-in-bangalore": {
-        title: "Employee Transportation in Bangalore | Fiesta Cabs",
-        description: "Fiesta Cabs offers secure, prompt, and comfortable employee transportation in Bangalore — ideal for IT companies, startups, and enterprises across the city.",
+        title: "Employee Transportation in Bangalore | Fiestacabs Smart Mobility",
+        description: "Fiestacabs Smart Mobility offers secure, prompt, and comfortable employee transportation in Bangalore — ideal for IT companies, startups, and enterprises across the city.",
         keywords: "Employee Transportation Services in Bangalore"
     },
     "/employee-transportation-services-in-chennai": {
@@ -82,12 +82,12 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
     },
     "/employee-transportation-services-in-mumbai": {
         title: "Employee Transport Services in Hyderabad | Fiesta",
-        description: "Fiesta Cabs offers dependable employee transport in Hyderabad with 24/7 support, secure rides, and punctual daily commutes for businesses of all sizes.",
+        description: "Fiestacabs Smart Mobility offers dependable employee transport in Hyderabad with 24/7 support, secure rides, and punctual daily commutes for businesses of all sizes.",
         keywords: "Employee Transportation Services in Mumbai"
     },
     "/employee-transportation-services-in-pune": {
         title: "Employee Transportation Services in Pune | Fiesta",
-        description: "Fiesta Cabs provides safe, reliable, and comfortable employee transportation in Pune — smart travel solutions designed for the modern corporate workforce.",
+        description: "Fiestacabs Smart Mobility provides safe, reliable, and comfortable employee transportation in Pune — smart travel solutions designed for the modern corporate workforce.",
         keywords: "Employee Transportation Services in Pune"
     },
     "/gallery": {
@@ -103,7 +103,7 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
     "/outstation-cabs-in-bangalore": {
         title: "Outstation Cabs in Bangalore | Fiesta Smart Mobility",
         description: "Safe and timely outstation cabs in Bangalore for intercity travel. Professional chauffeurs and comfortable rides to Mysore, Coorg, and beyond.",
-        keywords: "Fiesta Smart Mobility, Fiesta Cabs, outstation cabs, intercity taxi, outstation car rental, long distance cabs, outstation cabs from bangalore, intercity taxi bangalore"
+        keywords: "Fiesta Smart Mobility, Fiestacabs Smart Mobility, outstation cabs, intercity taxi, outstation car rental, long distance cabs, outstation cabs from bangalore, intercity taxi bangalore"
     },
     "/outstation-cabs-in-chennai": {
         title: "Outstation Cabs in Chennai | Fiesta Smart Mobility",
@@ -133,7 +133,7 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
     "/outstation-cabs-in-hyderabad": {
         title: "Outstation Cabs in Hyderabad | Fiesta Smart Mobility",
         description: "Reliable outstation cabs in Hyderabad for hassle-free intercity travel. Professional chauffeurs and safe rides to Vijayawada, Warangal, and more.",
-        keywords: "Fiesta Smart Mobility, Fiesta Cabs, outstation cabs, intercity taxi, outstation car rental, long distance cabs, outstation cabs from hyderabad, intercity taxi hyderabad"
+        keywords: "Fiesta Smart Mobility, Fiestacabs Smart Mobility, outstation cabs, intercity taxi, outstation car rental, long distance cabs, outstation cabs from hyderabad, intercity taxi hyderabad"
     },
     "/outstation-rides": {
         title: "Outstation Rides | Safe Intercity Travel | Fiesta",
@@ -148,7 +148,7 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
     "/privacy-policy": {
         title: "Privacy Policy - Fiesta Smart Mobility",
         description: "Our privacy policy outlines how we handle your personal information and ensure your data security while using Fiesta Smart Mobility services.",
-        keywords: "Fiesta Smart Mobility, Fiesta Cabs, privacy, policy"
+        keywords: "Fiesta Smart Mobility, Fiestacabs Smart Mobility, privacy, policy"
     },
     "/reach-us": {
         title: "Contact Fiesta Smart Mobility | We're Here to Help",
@@ -161,7 +161,7 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         keywords: "Services Offered"
     },
     "/shutle-services-in-pune": {
-        title: "Corporate Shuttle Service in Pune | Fiesta Cabs",
+        title: "Corporate Shuttle Service in Pune | Fiestacabs Smart Mobility",
         description: "Fiesta Smart Mobility provides efficient corporate shuttle services in Pune — reliable daily commutes designed for businesses and employees seeking seamless travel.",
         keywords: "Corporate Shuttle Service in Pune"
     },
@@ -176,12 +176,12 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         keywords: "Shuttle Service in Bangalore"
     },
     "/shuttle-service-in-delhi": {
-        title: "Corporate Shuttle Service in Delhi | Fiesta Cabs",
+        title: "Corporate Shuttle Service in Delhi | Fiestacabs Smart Mobility",
         description: "Fiesta's shuttle service in Delhi makes office commutes effortless with reliable, gate-to-gate coverage across Connaught Place, Nehru Place, and nearby hubs.",
         keywords: "Shuttle Service in Delhi"
     },
     "/shuttle-service-in-gurgaon": {
-        title: "Corporate Shuttle Service in Gurgaon | Fiesta Cabs",
+        title: "Corporate Shuttle Service in Gurgaon | Fiestacabs Smart Mobility",
         description: "Fiesta's corporate shuttle service in Gurgaon simplifies your team's daily commute with reliable, gate-to-gate service across all major Gurgaon business hubs.",
         keywords: "Shuttle Service in Gurgaon"
     },
@@ -196,14 +196,14 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         keywords: "shuttle-services-in-hyderabad"
     },
     "/shuttle-services-in-mumbai": {
-        title: "Corporate Shuttle Service in Mumbai | Fiesta Cabs - Fiestacabs Smart Mobility",
-        description: "Fiesta Cabs offers premium corporate car rentals in Mumbai — cars, minivans, and buses for business travel, corporate events, and executive airport transfers.",
+        title: "Corporate Shuttle Service in Mumbai | Fiestacabs Smart Mobility - Fiestacabs Smart Mobility",
+        description: "Fiestacabs Smart Mobility offers premium corporate car rentals in Mumbai — cars, minivans, and buses for business travel, corporate events, and executive airport transfers.",
         keywords: "Corporate Car Rental in Mumbai"
     },
     "/terms-and-conditions": {
         title: "Terms & Conditions - Fiesta Smart Mobility",
         description: "Read the terms and conditions for using Fiesta Smart Mobility services. Understand our booking policies, user responsibilities, and service agreements.",
-        keywords: "Fiesta Smart Mobility, Fiesta Cabs, terms, conditions"
+        keywords: "Fiesta Smart Mobility, Fiestacabs Smart Mobility, terms, conditions"
     },
     "/wedding-car-rental-in-chennai": {
         title: "Wedding Car Rental in Chennai | Style & Comfort",
@@ -263,12 +263,12 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         keywords: "Wedding Car Rental"
     },
     "/corporate-car-rental-in-bangalore": {
-        title: "Corporate Car Rental in Bangalore | Fiesta Cabs",
+        title: "Corporate Car Rental in Bangalore | Fiestacabs Smart Mobility",
         description: "Fiesta offers tailored corporate car rental in Bangalore — premium fleets, long-term contracts, and smart mobility solutions for modern businesses and enterprises.",
         keywords: "Corporate Car Rental in Bangalore"
     },
     "/corporate-car-rental-in-pune": {
-        title: "Corporate Car Rental in Pune | Fiesta Cabs",
+        title: "Corporate Car Rental in Pune | Fiestacabs Smart Mobility",
         description: "Fiesta offers tailored corporate car rental in Pune — premium fleets, verified chauffeurs, and smart mobility solutions for businesses and enterprises.",
         keywords: "Corporate Car Rental in Pune"
     },
@@ -288,8 +288,8 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         keywords: "Airport Transportation Services, Airport Transfer, Fiesta"
     },
     "/best-car-rental-in-chennai": {
-        title: "Best Car Rental in Chennai with Driver | Fiesta Cabs",
-        description: "Looking for the best car rental in Chennai with driver? Fiesta Cabs offers reliable, affordable outstation and city car rental services. Book your ride today!",
+        title: "Best Car Rental in Chennai with Driver | Fiestacabs Smart Mobility",
+        description: "Looking for the best car rental in Chennai with driver? Fiestacabs Smart Mobility offers reliable, affordable outstation and city car rental services. Book your ride today!",
         keywords: "Car Rental in Chennai"
     },
     "/blog/office-pickup-and-drop-service-in-delhi": {

@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/icon.png',
+    apple: '/icon.png',
+  },
   robots: {
     index: true,
     follow: true,
@@ -69,18 +74,13 @@ export default function RootLayout({
                   "@id": "https://fiestacabs.com/#website",
                   "url": "https://fiestacabs.com/",
                   "name": "Fiestacabs Smart Mobility",
-                  "alternateName": [
-                    "Fiesta Smart Mobility",
-                    "Fiestacabs",
-                    "Fiesta Cabs",
-                    "Fiesta Smart Mobility Private Limited"
-                  ]
+                  "alternateName": "Fiesta Smart Mobility"
                 },
                 {
                   "@type": "Organization",
                   "@id": "https://fiestacabs.com/#organization",
-                  "name": "Fiesta Smart Mobility Private Limited",
-                  "alternateName": ["Fiestacabs Smart Mobility", "Fiestacabs", "Fiesta Smart Mobility"],
+                  "name": "Fiestacabs Smart Mobility",
+                  "alternateName": "Fiesta Smart Mobility",
                   "url": "https://fiestacabs.com/",
                   "logo": "https://fiestacabs.com/opengraph-image.png",
                   "sameAs": [
