@@ -2653,7 +2653,7 @@ export const blogPosts: BlogPost[] = [
             { type: 'p', text: "For organizations managing large workforces, employee transportation can become difficult to coordinate internally. A professional employee transportation partner can provide the vehicles, drivers, technology, and operational support needed to create a more consistent commuting experience." },
             { type: 'p', text: "Fiesta Smart Mobility combines employee transport solutions with cabs, buses and shuttle services, professional drivers, GPS tracking, real-time visibility, route planning and maintained vehicles for corporate transportation requirements." },
             { type: 'p', text: "For companies reviewing their company transport policy for employees in India, the priority should be simple: safe employees, reliable transportation, efficient routes and measurable transport management." },
-            { type: 'p', text: "Explore Fiesta Smart Mobility's employee transportation services" }
+            { type: 'p', text: "Explore Fiesta Smart Mobility's <a href='https://fiestacabs.vercel.app/employee-transport-services' class='text-[#EC2028] hover:underline'>employee transportation services</a>" }
         ],
         faqs: [
             { id: "1", question: "What is a company travel policy for employees?", answer: "A company travel policy defines rules for business-related employee travel, including eligibility, approved travel, expenses, transportation, accommodation and reimbursement. A company transport policy is narrower and specifically governs employee transportation such as office pickup and drop-off, shuttle services and shift transportation." },

@@ -205,18 +205,14 @@ export default async function BlogPostPage({ params }: PageProps) {
                 {currentPost.content.map((block: ContentBlock | string, idx: number) => {
                   if (typeof block === "string") {
                     return (
-                      <p key={idx} className="leading-relaxed text-[17px] text-slate-700">
-                        {block}
-                      </p>
+                      <p key={idx} className="leading-relaxed text-[17px] text-slate-700" dangerouslySetInnerHTML={{ __html: block }} />
                     );
                   }
 
                   switch (block.type) {
                     case "p":
                       return (
-                        <p key={idx} className="leading-relaxed text-[17px] text-slate-700">
-                          {block.text}
-                        </p>
+                        <p key={idx} className="leading-relaxed text-[17px] text-slate-700" dangerouslySetInnerHTML={{ __html: block.text }} />
                       );
                     case "icon-p":
                       return (
@@ -224,7 +220,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                           {block.icon === 'phone' && <FaPhoneAlt className="shrink-0 mt-0.5" />}
                           {block.icon === 'calendar' && <FaCalendarAlt className="shrink-0 mt-0.5" />}
                           {block.icon === 'car' && <FaCar className="shrink-0 mt-0.5" />}
-                          <span>{block.text}</span>
+                          <span dangerouslySetInnerHTML={{ __html: block.text }} />
                         </p>
                       );
                     case "h2":
