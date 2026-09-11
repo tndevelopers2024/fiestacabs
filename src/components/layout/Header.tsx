@@ -40,7 +40,7 @@ const Header = () => {
 
     return (
         <header className="fixed top-6 left-0 w-full z-50 px-4 md:px-8">
-            <div className="max-w-7xl mx-auto bg-white rounded-full shadow-2xl px-6 py-2.5 flex items-center justify-between border border-gray-100">
+            <div className="max-w-7xl mx-auto bg-white rounded-full shadow-2xl px-6 lg:px-4 xl:px-6 py-2.5 flex items-center justify-between border border-gray-100">
 
                 {/* Logo Section */}
                 <div className="flex items-center shrink-0">
@@ -58,7 +58,7 @@ const Header = () => {
                 </div>
 
                 {/* Desktop Navigation */}
-                <nav className="hidden lg:flex items-center justify-center space-x-8 text-[15px] font-semibold flex-1 px-8 text-gray-700">
+                <nav className="hidden lg:flex items-center justify-center space-x-4 xl:space-x-6 2xl:space-x-8 text-[13px] xl:text-[15px] font-semibold flex-1 px-2 xl:px-6 2xl:px-8 whitespace-nowrap text-gray-700">
                     <Link href="/" className="hover:text-[#EC2028] transition-colors">
                         Home
                     </Link>
@@ -146,7 +146,7 @@ const Header = () => {
 
                 {/* CTA Button */}
                 <div className="hidden lg:block shrink-0">
-                    <Button onClick={openModal} className="bg-[#EC2028] btn-animated ">
+                    <Button onClick={openModal} className="bg-[#EC2028] btn-animated whitespace-nowrap lg:px-4 lg:text-sm xl:px-8 xl:text-base">
                         Share Your Requirement
                     </Button>
                 </div>
