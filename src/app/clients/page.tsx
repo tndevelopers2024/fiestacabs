@@ -11,7 +11,6 @@ const itClients = [
     { name: "IT Client 2", image: "/images/clients/it-and-non-it-clients/2.png" },
     { name: "IT Client 3", image: "/images/clients/it-and-non-it-clients/3.png" },
     { name: "IT Client 4", image: "/images/clients/it-and-non-it-clients/4.png" },
-    { name: "IT Client 5", image: "/images/clients/it-and-non-it-clients/5.png" },
     { name: "IT Client 6", image: "/images/clients/it-and-non-it-clients/6.png" },
     { name: "IT Client 7", image: "/images/clients/it-and-non-it-clients/7.png" },
     { name: "IT Client 8", image: "/images/clients/it-and-non-it-clients/8.png" },
