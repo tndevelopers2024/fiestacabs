@@ -326,6 +326,16 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         title: "Office Pickup and Drop Service in Pune | Fiesta Smart Mobility",
         description: "Structured office pickup and drop service in Pune for corporate clients. Fixed routes, verified chauffeurs, GPS tracking, monthly packages. Covering Hinjewadi, Kharadi, Baner, Magarpatta and more.",
         keywords: "Office Pickup and Drop Service in Pune"
+    },
+    "/airport-taxi-in-pune": {
+        title: "Pune Airport Transport Service | Airport Taxi in Pune",
+        description: "Dependable Pune airport transport service. On-time pickup, transparent pricing, and clean cars for Pune airport drops and pickups.",
+        keywords: "Pune Airport Taxi, Pune Airport Transport Service, Airport Taxi in Pune"
+    },
+    "/airport-transportation-in-delhi": {
+        title: "Delhi Airport Transportation Services | Fiesta",
+        description: "Delhi airport transportation services for travellers arriving at and departing from Indira Gandhi International Airport. On-time pickup and fixed fares.",
+        keywords: "Delhi Airport Transportation, Delhi Airport Taxi, Indira Gandhi International Airport Transfer"
     }
 
 };

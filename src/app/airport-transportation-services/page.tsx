@@ -9,6 +9,7 @@ import Coverage from "@/src/components/sections/airport-transportation/Coverage"
 import ChauffeursSupport from "@/src/components/sections/airport-transportation/ChauffeursSupport";
 import ComparisonTable from "@/src/components/sections/airport-transportation/ComparisonTable";
 import ContactCTA from "@/src/components/sections/airport-transportation/ContactCTA";
+import Cities from "@/src/components/sections/airport-transportation/Cities";
 import FAQ from "@/src/components/sections/airport-transportation/FAQ";
 
 export const metadata = getMetadata("/airport-transportation-services");
@@ -26,6 +27,7 @@ export default function AirportTransportationServicesPage() {
             <ServicesOffered />
             <FleetOptions />
             <Coverage />
+            <Cities />
             <ChauffeursSupport />
             <ComparisonTable />
             <ContactCTA />
