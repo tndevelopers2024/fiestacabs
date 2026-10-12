@@ -8,6 +8,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/about-us",
     "/airport-transportation-services",
+    "/airport-transportation-in-delhi",
+    "/airport-transportation-in-pune",
     "/best-car-rental-in-chennai",
     "/blog",
     "/blog/best-car-rental-in-chennai-with-driver-affordable-reliable-service",

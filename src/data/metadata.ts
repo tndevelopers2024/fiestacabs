@@ -327,6 +327,11 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         description: "Structured office pickup and drop service in Pune for corporate clients. Fixed routes, verified chauffeurs, GPS tracking, monthly packages. Covering Hinjewadi, Kharadi, Baner, Magarpatta and more.",
         keywords: "Office Pickup and Drop Service in Pune"
     },
+    "/airport-transportation-in-pune": {
+        title: "Pune Airport Transport Service | Airport Taxi in Pune",
+        description: "Dependable Pune airport transport service. On-time pickup, transparent pricing, and clean cars for Pune airport drops and pickups.",
+        keywords: "Pune Airport Taxi, Pune Airport Transport Service, Airport Taxi in Pune"
+    },
     "/airport-taxi-in-pune": {
         title: "Pune Airport Transport Service | Airport Taxi in Pune",
         description: "Dependable Pune airport transport service. On-time pickup, transparent pricing, and clean cars for Pune airport drops and pickups.",
