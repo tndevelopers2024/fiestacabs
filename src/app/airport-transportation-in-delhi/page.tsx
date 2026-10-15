@@ -75,7 +75,7 @@ export default function AirportTransportationDelhiPage() {
             <HeroForm
                 title="Delhi Airport Transportation Services"
                 subtitle="Organized Delhi airport transportation services with fixed bookings, a named driver, and a confirmed vehicle."
-                imageSrc="/images/airport-transportation-services/airport-transportation-services-hero-img.png"
+                imageSrc="/images/airport-transportation-in-delhi/Golden-Hour Departures at an Indian Airport.png"
                 ctaText="Get A Free Quote"
             />
             
@@ -101,7 +101,7 @@ export default function AirportTransportationDelhiPage() {
                         </div>
                         <div className="relative min-h-[380px] md:min-h-[460px] w-full overflow-hidden rounded-2xl shadow-xl border border-gray-100">
                             <Image
-                                src="/images/airport-transportation-services/comparing.png"
+                                src="/images/airport-transportation-in-delhi/Luxury Sedan and Jet at Sunset.png"
                                 alt="Delhi Airport Transportation Services by Fiesta Smart Mobility"
                                 fill
                                 className="object-cover"
@@ -513,10 +513,20 @@ export default function AirportTransportationDelhiPage() {
                 </div>
             </section>
 
-            <section className="py-24 w-full bg-[#EC2028]/5 border-y border-red-100/60">
-                <div className="max-w-4xl mx-auto px-4 lg:px-8 text-center">
-                    <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">Book your Delhi airport transfer</h2>
-                    <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-8">
+            <section className="relative py-24 md:py-28 w-full overflow-hidden">
+                <div className="absolute inset-0 z-0">
+                    <Image
+                        src="/images/airport-transportation-in-delhi/tourist-carrying-luggage.jpg"
+                        alt="Book your Delhi airport transfer"
+                        fill
+                        className="object-cover object-center"
+                        quality={90}
+                    />
+                    <div className="absolute inset-0 bg-black/65"></div>
+                </div>
+                <div className="relative z-10 max-w-4xl mx-auto px-4 lg:px-8 text-center text-white">
+                    <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">Book your Delhi airport transfer</h2>
+                    <p className="text-gray-200 text-lg md:text-xl leading-relaxed mb-8">
                         Plan your airport travel with a partner that shows up on time and quotes a fixed fare. Reach our team to book a Delhi airport pickup or drop, or to set up a corporate account for regular travel.
                     </p>
                     <BookNowButton className="px-10 py-4 font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1">

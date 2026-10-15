@@ -77,7 +77,7 @@ export default function AirportTaxiPunePage() {
             <HeroForm
                 title="Pune Airport Transport Service by Fiesta Smart Mobility"
                 subtitle="Dependable Pune airport transport service built around on-time pickup, transparent pricing, and clean, well-maintained cars."
-                imageSrc="/images/airport-transportation-services/airport-transportation-services-hero-img.png"
+                imageSrc="/images/airport-transportation-in-pune/Sunset Airport Pickup with Chauffeur.png"
                 ctaText="Get A Free Quote"
             />
             
@@ -100,7 +100,7 @@ export default function AirportTaxiPunePage() {
                         </div>
                         <div className="relative min-h-[380px] md:min-h-[460px] w-full overflow-hidden rounded-2xl shadow-xl border border-gray-100">
                             <Image
-                                src="/images/airport-transportation-services/you-can-count-on.png"
+                                src="/images/airport-transportation-in-pune/Executive Arrival at Modern Glass Entrance.png"
                                 alt="Pune Airport Transport Service by Fiesta Smart Mobility"
                                 fill
                                 className="object-cover"
@@ -312,9 +312,9 @@ export default function AirportTaxiPunePage() {
             <section className="py-20 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 lg:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-                        <div className="relative h-[380px] sm:h-[440px] lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+                        <div className="relative h-[600px] sm:h-[600px] lg:h-[700px] w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100">
                             <Image
-                                src="/images/airport-transportation-services/book-airport-transportation.jpg"
+                                src="/images/airport-transportation-in-pune/Golden Hour Airport Arrival.png"
                                 alt="Pune Airport Cab Booking Process"
                                 fill
                                 className="object-cover hover:scale-105 transition-transform duration-500"
@@ -377,7 +377,7 @@ export default function AirportTaxiPunePage() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                         <div className="relative h-[420px] sm:h-[480px] lg:h-[540px] w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100">
                             <Image
-                                src="/images/airport-transportation-services/professional-chauffeurs.png"
+                                src="/images/airport-transportation-in-pune/ChatGPT Image Sep 30, 2026, 04_37_08 PM.png"
                                 alt="Safety Standards Behind Every Ride - Professional Chauffeurs"
                                 fill
                                 className="object-cover hover:scale-105 transition-transform duration-500"
@@ -518,11 +518,21 @@ export default function AirportTaxiPunePage() {
                 </div>
             </section>
 
-            <section className="py-24 w-full bg-[#EC2028]/5 border-y border-red-100/60">
-                <div className="max-w-4xl mx-auto px-4 lg:px-8 text-center">
-                    <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">Book Your Pune Airport Transfer Today</h2>
-                    <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-8">
-                        A smooth Pune airport transfer sets the tone for the rest of the trip. With Fiesta Smart Mobility, travelers get a taxi service that's punctual, upfront about pricing, and available whenever a flight lands or departs, day or night. Book in advance and skip the uncertainty of a last minute airport cab search at the terminal door.
+            <section className="relative py-24 md:py-28 w-full overflow-hidden">
+                <div className="absolute inset-0 z-0">
+                    <Image
+                        src="/images/airport-transportation-in-pune/Golden Hour at Terminal 5.png"
+                        alt="Book Your Pune Airport Transfer Today"
+                        fill
+                        className="object-cover object-center"
+                        quality={90}
+                    />
+                    <div className="absolute inset-0 bg-black/65"></div>
+                </div>
+                <div className="relative z-10 max-w-4xl mx-auto px-4 lg:px-8 text-center text-white">
+                    <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">Book Your Pune Airport Transfer Today</h2>
+                    <p className="text-gray-200 text-lg md:text-xl leading-relaxed mb-8">
+                        A smooth Pune airport transfer sets the tone for the rest of the trip. With Fiesta Smart Mobility, travelers get a taxi service that&apos;s punctual, upfront about pricing, and available whenever a flight lands or departs, day or night. Book in advance and skip the uncertainty of a last minute airport cab search at the terminal door.
                     </p>
                     <BookNowButton className="px-10 py-4 font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                         Book Your Airport Transfer
