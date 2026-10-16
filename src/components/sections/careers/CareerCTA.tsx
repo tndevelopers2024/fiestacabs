@@ -1,10 +1,11 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
+import CareerApplicationModal from "./CareerApplicationModal";
 
 const CareerCTA = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
         <section className="relative py-24 bg-white overflow-hidden">
@@ -30,19 +31,26 @@ const CareerCTA = () => {
                         </p>
 
                         <div className="flex flex-wrap justify-center gap-4">
-                            <Link
-                                href="/reach-us"
-                                className="bg-[#EC2028] text-white px-10 py-4 rounded-full font-bold hover:bg-white hover:text-black transition-all transform hover:-translate-y-1 shadow-xl inline-flex items-center gap-2"
+                            <button
+                                type="button"
+                                onClick={() => setIsModalOpen(true)}
+                                className="bg-[#EC2028] text-white px-10 py-4 rounded-full font-bold hover:bg-white hover:text-black transition-all transform hover:-translate-y-1 shadow-xl inline-flex items-center gap-2 cursor-pointer"
                             >
                                 Apply Now
                                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                 </svg>
-                            </Link>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <CareerApplicationModal
+                isOpen={isModalOpen}
+                onClose={() => setIsModalOpen(false)}
+                initialPosition="Tender & Proposals - Executive"
+            />
         </section>
     );
 };

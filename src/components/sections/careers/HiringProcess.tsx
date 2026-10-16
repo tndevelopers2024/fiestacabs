@@ -1,6 +1,8 @@
-import React from 'react';
+"use client";
+
+import React, { useState } from 'react';
 import { FaFileSignature, FaPhoneVolume, FaUserTie, FaCheckDouble, FaIdCard, FaMapLocationDot, FaLifeRing } from 'react-icons/fa6';
-import Link from 'next/link';
+import CareerApplicationModal from './CareerApplicationModal';
 
 const steps = [
     {
@@ -26,6 +28,14 @@ const steps = [
 ];
 
 const HiringProcess = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [modalPosition, setModalPosition] = useState("Tender & Proposals - Executive");
+
+    const handleOpenModal = (position: string) => {
+        setModalPosition(position);
+        setIsModalOpen(true);
+    };
+
     return (
         <section className="py-24 bg-white overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -55,14 +65,15 @@ const HiringProcess = () => {
                         <p className="text-gray-600 mb-12 text-lg mt-6">We conduct an efficient process and keep candidates updated every step of the way. If you are ready for a structured, responsible role and wish to grow with a company committed to reliable transportation, we look forward to hearing from you.</p>
 
                         <div className="mt-12 flex flex-wrap gap-4 items-center">
-                            <Link
-                                href="/reach-us"
-                                className="bg-[#EC2028] text-white px-8 py-3 rounded-full font-bold hover:bg-black transition-all shadow-lg"
+                            <button
+                                type="button"
+                                onClick={() => handleOpenModal("Tender & Proposals - Executive")}
+                                className="bg-[#EC2028] text-white px-8 py-3 rounded-full font-bold hover:bg-black transition-all shadow-lg cursor-pointer"
                             >
                                 Apply Now
-                            </Link>
+                            </button>
                             <span className="text-gray-500 text-sm">
-                                Or send resume to: <a href="hr_executive@fiestaindia.net" className="text-black font-bold hover:underline">hr_executive@fiestaindia.net</a>
+                                Or send resume to: <a href="mailto:hr_executive@fiestaindia.net" className="text-black font-bold hover:underline">hr_executive@fiestaindia.net</a>
                             </span>
                         </div>
                     </div>
@@ -90,16 +101,24 @@ const HiringProcess = () => {
                                 </li>
                             </ul>
 
-                            <Link
-                                href="/reach-us"
-                                className="w-full bg-white text-[#EC2028] py-4 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-gray-100 transition-all"
+                            <button
+                                type="button"
+                                onClick={() => handleOpenModal("Driver")}
+                                className="w-full bg-white text-[#EC2028] py-4 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-gray-100 transition-all cursor-pointer shadow-md"
                             >
                                 Register as a Driver
-                            </Link>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
+
+            {/* Application Form Modal */}
+            <CareerApplicationModal
+                isOpen={isModalOpen}
+                onClose={() => setIsModalOpen(false)}
+                initialPosition={modalPosition}
+            />
         </section>
     );
 };

@@ -2,29 +2,34 @@ import React from 'react';
 import { FaChevronDown } from 'react-icons/fa';
 
 const jobCategories = [
-    {
-        name: "Finance & Accounts",
-        jobs: [
-            { 
-                title: "Accounts Executive", 
-                location: "Chennai, TN",
-                experience: "2 Years",
-                requirement: "Male preferred",
-                count: "2 Positions",
-                skills: "Graduate, Tally & Excel knowledge"
-            }
-        ]
-    },
+    //  {
+    //     name: "Finance & Accounts",
+    //     jobs: [
+    //         { 
+    //             title: "Accounts Executive", 
+    //             location: "Chennai, TN",
+    //             experience: "2 Years",
+    //             requirement: "Male preferred",
+    //             count: "2 Positions",
+    //             skills: "Graduate, Tally & Excel knowledge"
+    //         }
+    //     ]
+    // },
     {
         name: "Business Development & Operations",
         jobs: [
             {
                 title: "Tender & Proposals - Executive",
-                location: "Chennai, TN",
-                experience: "Any Degree",
+                location: "Chennai, Hyderabad, Gurgaon, Pune",
+                experience: "2+ Years",
                 requirement: "Male preferred",
                 count: "1 Position",
                 skills: "e-tender & GeM Portal knowledge"
+            },
+            {
+                title: "Senior Operation Executive",
+                location: "Gurgaon",
+                experience: "3+ Years"
             }
         ]
     }
@@ -106,7 +111,7 @@ const OpenPositions = () => {
                         </p>
                     </div>
                     <a
-                        href="mailto:careers@fiestacabs.com"
+                        href="mailto:hr_executive@fiestaindia.net"
                         className="bg-black text-white px-10 py-5 rounded-full font-bold hover:bg-gray-800 transition-all text-lg shadow-xl"
                     >
                         Send your resume
