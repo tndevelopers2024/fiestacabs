@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { FaBuilding, FaArchway } from "react-icons/fa6";
+import { FaBuilding, FaArchway, FaMonument, FaBuildingColumns } from "react-icons/fa6";
 
 const Cities = () => {
     const cities = [
@@ -17,6 +17,18 @@ const Cities = () => {
             desc: "Seamless airport pickups and drops at Indira Gandhi International Airport (DEL) at transparent rates.",
             icon: <FaArchway />,
             link: "/airport-transportation-in-delhi"
+        },
+        {
+            name: "Airport Transportation in Hyderabad",
+            desc: "Dependable airport pickups and drops at Rajiv Gandhi International Airport (HYD) with professional flight tracking.",
+            icon: <FaMonument />,
+            link: "/airport-transportation-in-hyderabad"
+        },
+        {
+            name: "Airport Transportation in Chennai",
+            desc: "Verified chauffeurs and on-time pickups at Chennai International Airport (MAA) from Fiesta's home headquarters since 1998.",
+            icon: <FaBuildingColumns />,
+            link: "/airport-transportation-in-chennai"
         }
     ];
 
@@ -32,18 +44,18 @@ const Cities = () => {
                     </p>
                 </div>
 
-                <div className="flex flex-wrap justify-center gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     {cities.map((city, index) => (
                         <Link
                             key={index}
                             href={city.link}
-                            className="bg-red-50 p-8 rounded-2xl shadow-sm border-b-4 border-red-500 hover:shadow-xl transition-all duration-300 group flex flex-col items-center text-center w-full md:w-[calc(33.333%-16px)] lg:w-[calc(30%-16px)] min-h-[300px]"
+                            className="bg-red-50 p-7 rounded-2xl shadow-sm border-b-4 border-red-500 hover:shadow-xl transition-all duration-300 group flex flex-col items-center text-center min-h-[300px]"
                         >
-                            <div className="bg-white text-gray-700 w-24 h-24 rounded-full flex items-center justify-center text-4xl mb-6 shadow-sm group-hover:scale-110 transition-transform duration-300">
+                            <div className="bg-white text-gray-700 w-20 h-20 rounded-full flex items-center justify-center text-3xl mb-5 shadow-sm group-hover:scale-110 transition-transform duration-300">
                                 {city.icon}
                             </div>
-                            <h4 className="text-xl font-bold mb-4 text-gray-900">{city.name}</h4>
-                            <p className="text-gray-600 text-sm leading-relaxed">{city.desc}</p>
+                            <h4 className="text-lg font-bold mb-3 text-gray-900">{city.name}</h4>
+                            <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">{city.desc}</p>
                         </Link>
                     ))}
                 </div>

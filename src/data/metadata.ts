@@ -341,8 +341,17 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         title: "Delhi Airport Transportation Services | Fiesta",
         description: "Delhi airport transportation services for travellers arriving at and departing from Indira Gandhi International Airport. On-time pickup and fixed fares.",
         keywords: "Delhi Airport Transportation, Delhi Airport Taxi, Indira Gandhi International Airport Transfer"
+    },
+    "/airport-transportation-in-hyderabad": {
+        title: "Hyderabad Airport Cabs | Rajiv Gandhi International Airport Taxi",
+        description: "Reliable Hyderabad airport cabs by Fiesta Smart Mobility. Pre-book Rajiv Gandhi International Airport (HYD) pickups and drops with flight tracking and transparent pricing.",
+        keywords: "Hyderabad Airport Cabs, Hyderabad Airport Taxi, Rajiv Gandhi International Airport Transfer, RGIA Cab Booking"
+    },
+    "/airport-transportation-in-chennai": {
+        title: "Chennai Airport Cab Service | Chennai Airport Taxi | Fiesta",
+        description: "Dependable Chennai airport cab service by Fiesta Smart Mobility. Pre-book Chennai International Airport (MAA) pickups and drops with verified drivers, zero surge, and live flight tracking.",
+        keywords: "Chennai Airport Cab Service, Chennai Airport Taxi, Chennai International Airport Transfer, MAA Airport Cabs"
     }
-
 };
 
 export const getMetadata = (route: string) => {
