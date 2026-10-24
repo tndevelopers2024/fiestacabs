@@ -14,7 +14,7 @@ const Header = () => {
     const [activeSubDropdown, setActiveSubDropdown] = useState<string | null>(null);
     const pathname = usePathname();
     const isServicesPath =
-        pathname === "/services-offered" || pathname === "/employee-transport-services";
+        pathname === "/services-offered" || pathname === "/employee-transport-services" || pathname === "/cab-service" || pathname === "/bus-service" || pathname === "/shuttle-service";
 
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -104,8 +104,8 @@ const Header = () => {
                                     <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
                                 </Link>
                                 <div className="absolute left-full top-0 ml-1 w-64 bg-white text-gray-800 rounded-lg shadow-lg opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-300 transform origin-top-left z-50">
-                                    <Link href="#" className="block px-4 py-2 hover:bg-gray-100">Cab Service</Link>
-                                    <Link href="#" className="block px-4 py-2 hover:bg-gray-100">Bus Service</Link>
+                                    <Link href="/cab-service" className="block px-4 py-2 hover:bg-gray-100">Cab Service</Link>
+                                    <Link href="/bus-service" className="block px-4 py-2 hover:bg-gray-100">Bus Service</Link>
                                     <Link href="/shuttle-service" className="block px-4 py-2 hover:bg-gray-100">Shuttle Service</Link>
                                 </div>
                             </div>
@@ -258,8 +258,8 @@ const Header = () => {
                                     <div className="pb-2 border-b border-gray-50">
                                         <Link href="/employee-transport-services" className="block font-bold text-gray-800 py-1" onClick={toggleMobileMenu}>Employee Transport Services</Link>
                                         <div className="pl-4 space-y-1 text-sm text-gray-500">
-                                            <Link href="/employee-transport-services" className="block hover:text-[#EC2028] py-1" onClick={toggleMobileMenu}>Cab Service</Link>
-                                            <Link href="/employee-transport-services" className="block hover:text-[#EC2028] py-1" onClick={toggleMobileMenu}>Bus Service</Link>
+                                            <Link href="/cab-service" className="block hover:text-[#EC2028] py-1" onClick={toggleMobileMenu}>Cab Service</Link>
+                                            <Link href="/bus-service" className="block hover:text-[#EC2028] py-1" onClick={toggleMobileMenu}>Bus Service</Link>
                                             <Link href="/shuttle-service" className="block hover:text-[#EC2028] py-1" onClick={toggleMobileMenu}>Shuttle Service</Link>
                                         </div>
                                     </div>

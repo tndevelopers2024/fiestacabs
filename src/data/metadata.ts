@@ -30,6 +30,16 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         description: "Celebrate your wedding in Delhi NCR with Fiesta's chauffeur-driven cars. Grand entrances, guest transfers, and reliable service ensuring elegance and peace of mind.",
         keywords: "Car Rent for Marriage in Delhi"
     },
+    "/cab-service": {
+        title: "Cab Service by Fiesta Smart Mobility | Reliable Cabs Across India",
+        description: "Book reliable cab services by Fiesta Smart Mobility. Professional drivers, well-maintained fleet, upfront pricing for city rides, airport transfers, and outstation trips.",
+        keywords: "Cab Service, Fiesta Smart Mobility, cab booking, airport taxi, outstation taxi, city cabs"
+    },
+    "/bus-service": {
+        title: "Corporate Bus Transportation & Bus Service | Fiesta Smart Mobility",
+        description: "Reliable corporate bus transportation and employee bus services by Fiesta Smart Mobility. Buses, minibuses, luxury coaches with live tracking and verified drivers.",
+        keywords: "Corporate Bus Transportation, Bus Service, Fiesta Smart Mobility, corporate bus rental, employee shuttle bus, luxury coaches"
+    },
     "/careers": {
         title: "Careers - Join Our Team | Fiesta Smart Mobility",
         description: "Explore career opportunities at Fiesta Smart Mobility. Join 300+ professionals in shaping the future of integrated transport services in India.",

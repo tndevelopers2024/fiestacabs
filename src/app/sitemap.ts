@@ -35,6 +35,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog/top-shuttle-service-solutions-for-your-daily-commute-needs",
     "/blog/understanding-nodal-point-transport-key-insights-and-applications",
     "/car-rent-for-marriage-in-delhi",
+    "/cab-service",
+    "/bus-service",
     "/careers",
     "/clients",
     "/corporate-car-rental-in-bangalore",
