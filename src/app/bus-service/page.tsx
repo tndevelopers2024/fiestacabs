@@ -83,7 +83,7 @@ export default function BusServicePage() {
             <HeroForm
                 title="Corporate Bus Transportation"
                 subtitle="Fiesta Smart Mobility provides reliable bus service and corporate bus transportation solutions for organizations that need safe, comfortable, and well-managed employee mobility. Our fleet includes buses, minibuses, luxury minibuses, and luxury coaches, giving businesses practical options for different workforce and route requirements."
-                imageSrc="/images/bus-service/bus-service-hero.jpg"
+                imageSrc="/images/bus-service/WhatsApp Image 2026-10-27 at 4.05.45 PM.jpeg"
                 ctaText="Request A Proposal"
             />
 
@@ -133,7 +133,7 @@ export default function BusServicePage() {
                         <div className="relative">
                             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-100">
                                 <Image
-                                    src="/images/bus-service/bus-service-overview.jpg"
+                                    src="/images/bus-service/WhatsApp Image 2026-10-27 at 4.10.40 PM.jpeg"
                                     alt="Corporate employees boarding modern bus outside office campus"
                                     width={700}
                                     height={525}
@@ -257,7 +257,7 @@ export default function BusServicePage() {
                     </div>
 
                     {/* Fleet Lineup Banner */}
-                    <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-200 mb-12">
+                  {/*  <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-200 mb-12">
                         <Image
                             src="/images/bus-service/bus-fleet-coaches.jpg"
                             alt="Fiesta corporate bus, minibus, and luxury coach fleet lineup"
@@ -265,7 +265,7 @@ export default function BusServicePage() {
                             height={675}
                             className="w-full h-auto object-cover"
                         />
-                    </div>
+                    </div> */}
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {/* Volvo Bus and Premium Coach Options */}
@@ -589,7 +589,7 @@ export default function BusServicePage() {
             <section className="relative py-20 md:py-28 overflow-hidden bg-black">
                 <div className="absolute inset-0">
                     <Image
-                        src="/images/bus-service/bus-cta-banner.jpg"
+                        src="/images/bus-service/WhatsApp Image 2026-10-27 at 4.14.07 PM.jpeg"
                         alt="Plan a Hassle-Free Corporate Journey with Fiesta"
                         fill
                         className="object-cover opacity-35"

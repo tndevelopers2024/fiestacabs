@@ -115,7 +115,7 @@ export default function CabServicePage() {
                         <div className="relative">
                             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-100">
                                 <Image
-                                    src="/images/cab-service/cab-service-overview.jpg"
+                                    src="/images/cab-service/WhatsApp Image 2026-10-27 at 3.52.39 PM.jpeg"
                                     alt="Chauffeur opening door for business passenger"
                                     width={700}
                                     height={525}
@@ -282,7 +282,7 @@ export default function CabServicePage() {
                             <div className="lg:col-span-5">
                                 <div className="rounded-2xl overflow-hidden shadow-md">
                                     <Image
-                                        src="/images/cab-service/cab-outstation-travel.jpg"
+                                        src="/images/cab-service/WhatsApp Image 2026-10-27 at 3.57.09 PM.jpeg"
                                         alt="Outstation taxi travel on scenic open highway"
                                         width={500}
                                         height={375}
@@ -363,7 +363,7 @@ export default function CabServicePage() {
                     </div>
 
                     {/* Fleet Lineup Banner Image */}
-                    <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-200 mb-12">
+                  {/*   <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-200 mb-12">
                         <Image
                             src="/images/cab-service/cab-fleet-lineup.jpg"
                             alt="Fiesta comprehensive cab fleet lineup from hatchbacks to luxury cars"
@@ -371,7 +371,7 @@ export default function CabServicePage() {
                             height={675}
                             className="w-full h-auto object-cover"
                         />
-                    </div>
+                    </div>*/}
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
                         {/* Economy Cars */}
@@ -652,7 +652,7 @@ export default function CabServicePage() {
             <section className="relative py-20 md:py-28 overflow-hidden bg-black">
                 <div className="absolute inset-0">
                     <Image
-                        src="/images/cab-service/cab-cta-banner.jpg"
+                        src="/images/cab-service/WhatsApp Image 2026-10-27 at 3.59.56 PM.jpeg"
                         alt="Book Your Cab with Fiesta Smart Mobility"
                         fill
                         className="object-cover opacity-35"
