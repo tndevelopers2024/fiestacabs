@@ -93,11 +93,12 @@ const OfficeLocations = () => {
         },
         {
             title: "Hyderabad",
-            description: "8-1-402/336, Sathya Colony, Qutub Shahi Tombs, Hyderabad, Telangana 500104, India",
-            calls: [" +91 9100109864"],
+            description: "8-1-43/1/A/26, Pioneer Plaza, 7 Tombs Road, Shaikpet, Hyderabad, Telangana 500008, India",
+            calls: ["+91 9100109864"],
             mail: "sales_hyd@fiestaindia.net",
-            mapLink: "https://maps.app.goo.gl/w4K4xbCb9DULN7VM6",
-            mapEmbed: "https://maps.google.com/maps?q=Fiesta+Smart+Mobility+Shaikpet+Golconda+Hyderabad&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            mapLink: "https://www.google.com/maps/search/?api=1&query=Fiesta+Smart+Mobility,+8-1-43%2F1%2FA%2F26%2C+Pioneer+Plaza%2C+7+Tombs+Road%2C+Shaikpet%2C+Hyderabad+-+500008",
+            searchQuery: "Fiesta Smart Mobility, 8-1-43/1/A/26, Pioneer Plaza, 7 Tombs Road, Shaikpet, Hyderabad - 500008",
+            mapEmbed: "https://maps.google.com/maps?q=Fiesta+Smart+Mobility,+8-1-43%2F1%2FA%2F26%2C+Pioneer+Plaza%2C+7+Tombs+Road%2C+Shaikpet%2C+Hyderabad+-+500008&t=&z=15&ie=UTF8&iwloc=&output=embed"
         },
         {
             title: "Mumbai",

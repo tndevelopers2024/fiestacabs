@@ -121,9 +121,8 @@ const Footer = () => {
                     </div>
 
                     <div className="border-t border-gray-100 pt-8 mt-4 flex flex-col md:flex-row justify-between items-center text-sm">
-                        <div className="flex items-center gap-2 mb-4 md:mb-0">
-                            <div className="flex items-center gap-2 mb-4 md:mb-0">
-                            </div>
+                        <div className="flex items-center gap-2 mb-4 md:mb-0 text-gray-500 font-medium text-xs md:text-sm text-center md:text-left">
+                            <span>An ISO 9001:2015 and ISO/IEC 27001:2022 Certified Company</span>
                         </div>
                         <div className="text-gray-500 font-medium text-center md:text-left flex flex-col md:flex-row gap-4 items-center">
                             <span>Copyright © {new Date().getFullYear()}. Fiesta Smart Mobility Private Limited.</span>
