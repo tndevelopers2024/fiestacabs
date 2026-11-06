@@ -88,7 +88,7 @@ const OfficeLocations = () => {
             calls: ["080 - 4124 8273", "+91 99164 54848"],
             mail: "racblr@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/QGNFBJghyjpjiJBH9",
-            mapEmbed: "https://maps.google.com/maps?q=Fiesta+Smart+Mobility+Bengaluru&t=&z=15&ie=UTF8&iwloc=&output=embed",
+            mapEmbed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31098.830309870784!2d77.663636!3d13.013128!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11dbdff663f3%3A0x7c5ac1922bd2db2a!2sFiesta%20Smart%20Mobility!5e0!3m2!1sen!2sin!4v1793949586784!5m2!1sen!2sin",
             searchQuery: "Fiesta Smart Mobility - Bengaluru"
         },
         {
