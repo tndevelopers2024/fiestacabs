@@ -19,7 +19,7 @@ const OfficeCard = ({ office }: { office: OfficeInfo }) => (
                 href={office.mapLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-3 py-1 text-xs font-semibold btn-animated/10 text-[#EC2028] rounded-full border border-[#EC2028]/20 hover:bg-[#EC2028] hover:text-white transition-colors"
+                className="px-3 py-1 text-xs font-semibold bg-[#EC2028]/10 text-[#EC2028] rounded-full border border-[#EC2028]/20 hover:bg-[#EC2028] hover:text-white transition-colors"
             >
                 On map
             </Link>
