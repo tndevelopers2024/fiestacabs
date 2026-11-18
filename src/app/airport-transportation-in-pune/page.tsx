@@ -551,6 +551,22 @@ export default function AirportTaxiPunePage() {
                         </div>
                         <div className="flex flex-wrap items-center gap-4">
                             <Link
+                                href="/airport-transportation-in-bangalore"
+                                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white border border-gray-200 text-gray-800 font-semibold text-sm hover:border-[#EC2028] hover:text-[#EC2028] transition-all shadow-sm"
+                            >
+                                <FaPlaneDeparture className="text-[#EC2028]" />
+                                Bangalore Airport Transfer
+                                <FaArrowRight size={12} />
+                            </Link>
+                            <Link
+                                href="/airport-transportation-in-mumbai"
+                                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white border border-gray-200 text-gray-800 font-semibold text-sm hover:border-[#EC2028] hover:text-[#EC2028] transition-all shadow-sm"
+                            >
+                                <FaPlaneDeparture className="text-[#EC2028]" />
+                                Mumbai Airport Transfer
+                                <FaArrowRight size={12} />
+                            </Link>
+                            <Link
                                 href="/airport-transportation-in-chennai"
                                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white border border-gray-200 text-gray-800 font-semibold text-sm hover:border-[#EC2028] hover:text-[#EC2028] transition-all shadow-sm"
                             >

@@ -757,6 +757,158 @@ export const LIVE_ROUTE_FAQS: Record<string, RouteFAQItem[]> = {
             "question": "What makes a private airport transfer different from an app-based cab?",
             "answer": "A pre-booked private transfer avoids surge pricing and guarantees a specific vehicle and driver in advance, while app-based cabs are typically assigned on demand at the time of the ride."
         }
+    ],
+    "/airport-transportation-in-mumbai": [
+        {
+            "question": "What is the distance between Mumbai Airport and Mumbai Central Railway Station?",
+            "answer": "Mumbai Central railway station is roughly 15 to 20 kilometres from the airport, depending on the terminal and the route. Travel time is usually 45 to 75 minutes, depending on traffic."
+        },
+        {
+            "question": "Does Uber work in Mumbai?",
+            "answer": "Yes, Uber operates in Mumbai, along with other app-based services such as Ola. Fares depend on ride type, trip length and demand."
+        },
+        {
+            "question": "Can I use Uber from Mumbai Airport?",
+            "answer": "Yes, Uber offers rides from Mumbai airport at all hours, with advance booking options. Pickup points are designated, so check the app for the zone that applies to your terminal."
+        },
+        {
+            "question": "How much does it cost to park a car at Mumbai Airport?",
+            "answer": "Parking charges depend on the duration and the parking area, and the airport operator revises them from time to time. Check the official airport website for the current rates before you travel."
+        },
+        {
+            "question": "How do I transfer from Terminal 2 to Terminal 1 at Mumbai International Airport?",
+            "answer": "The two terminals are separate buildings a few kilometres apart, so you need a road transfer. The airport lists its inter-terminal options on its official website, and a pre-booked cab is the most direct choice with luggage."
+        },
+        {
+            "question": "How much does a taxi cost from Mumbai Airport?",
+            "answer": "The fare depends on the destination, the vehicle and traffic. Prepaid taxis follow regulated rates, and Fiesta provides a quote on request before you confirm."
+        },
+        {
+            "question": "Is it cheaper to book a taxi in advance or at the airport?",
+            "answer": "Advance booking gives a fixed price and a confirmed vehicle, and it avoids surge pricing at peak hours. Booking at the counter can be quicker for a solo traveller, but queues and availability vary."
+        },
+        {
+            "question": "Which cab is cheaper in Mumbai?",
+            "answer": "Prepaid taxis and app-based rides can cost less on short trips, while app fares rise during surge periods. For corporate travel, the cheaper option is the one with a fixed quote, a GST invoice and no cancellation risk."
+        },
+        {
+            "question": "Does Fiesta provide GST invoices for airport transfers?",
+            "answer": "Yes, every Fiesta transfer is billed with a GST-compliant invoice. Corporate accounts can also receive a consolidated monthly invoice."
+        }
+    ],
+    "/airport-transport-service-mumbai": [
+        {
+            "question": "What is the distance between Mumbai Airport and Mumbai Central Railway Station?",
+            "answer": "Mumbai Central railway station is roughly 15 to 20 kilometres from the airport, depending on the terminal and the route. Travel time is usually 45 to 75 minutes, depending on traffic."
+        },
+        {
+            "question": "Does Uber work in Mumbai?",
+            "answer": "Yes, Uber operates in Mumbai, along with other app-based services such as Ola. Fares depend on ride type, trip length and demand."
+        },
+        {
+            "question": "Can I use Uber from Mumbai Airport?",
+            "answer": "Yes, Uber offers rides from Mumbai airport at all hours, with advance booking options. Pickup points are designated, so check the app for the zone that applies to your terminal."
+        },
+        {
+            "question": "How much does it cost to park a car at Mumbai Airport?",
+            "answer": "Parking charges depend on the duration and the parking area, and the airport operator revises them from time to time. Check the official airport website for the current rates before you travel."
+        },
+        {
+            "question": "How do I transfer from Terminal 2 to Terminal 1 at Mumbai International Airport?",
+            "answer": "The two terminals are separate buildings a few kilometres apart, so you need a road transfer. The airport lists its inter-terminal options on its official website, and a pre-booked cab is the most direct choice with luggage."
+        },
+        {
+            "question": "How much does a taxi cost from Mumbai Airport?",
+            "answer": "The fare depends on the destination, the vehicle and traffic. Prepaid taxis follow regulated rates, and Fiesta provides a quote on request before you confirm."
+        },
+        {
+            "question": "Is it cheaper to book a taxi in advance or at the airport?",
+            "answer": "Advance booking gives a fixed price and a confirmed vehicle, and it avoids surge pricing at peak hours. Booking at the counter can be quicker for a solo traveller, but queues and availability vary."
+        },
+        {
+            "question": "Which cab is cheaper in Mumbai?",
+            "answer": "Prepaid taxis and app-based rides can cost less on short trips, while app fares rise during surge periods. For corporate travel, the cheaper option is the one with a fixed quote, a GST invoice and no cancellation risk."
+        },
+        {
+            "question": "Does Fiesta provide GST invoices for airport transfers?",
+            "answer": "Yes, every Fiesta transfer is billed with a GST-compliant invoice. Corporate accounts can also receive a consolidated monthly invoice."
+        }
+    ],
+    "/airport-transportation-in-bangalore": [
+        {
+            "question": "Which cab service is best at Bangalore airport?",
+            "answer": "The best choice depends on your needs. Official airport taxis suit solo travellers, app-based cabs suit quick rides, and a pre-booked private operator suits corporate teams that need a GST invoice and a confirmed vehicle."
+        },
+        {
+            "question": "How much does an airport taxi cost in Bangalore?",
+            "answer": "The fare depends on the destination, vehicle and toll charges. Published listings show pickup fares from around ₹574, and Fiesta provides a quote on request."
+        },
+        {
+            "question": "Is Banglore airport taxi cheaper than Uber?",
+            "answer": "Official airport taxis offer fixed pricing, while Uber fares depend on ride type, trip length and demand. During peak hours, surge pricing can make app fares higher."
+        },
+        {
+            "question": "What is the best taxi app for Bangalore airport?",
+            "answer": "Several apps operate from designated pickup zones at the airport. For a planned business transfer, a pre-booked service with a fixed quote is more dependable than an on-demand app."
+        },
+        {
+            "question": "Which cab service is the cheapest in Bangalore?",
+            "answer": "The cheapest option changes with time of day and demand. For corporate travel, the better measure is a clear quote with no hidden fees, no cancellation risk and a GST invoice."
+        },
+        {
+            "question": "How do I get from Bangalore Cantonment railway station to Kempegowda airport?",
+            "answer": "The station is roughly 35 to 40 km from the airport, and the drive passes through Hebbal and Bellary Road. A pre-booked cab is the most direct option, and BMTC Vayu Vajra buses are an economical alternative."
+        },
+        {
+            "question": "Is it cheaper to book a taxi in advance or at the airport?",
+            "answer": "Advance booking fixes the price and the vehicle, and it avoids surge fares at peak times. Booking at the airport depends on queue length and availability."
+        },
+        {
+            "question": "How to order an airport taxi?",
+            "answer": "Share your flight details, pickup location, headcount and luggage with Fiesta, then confirm the quote. You receive the driver and vehicle details before the trip."
+        },
+        {
+            "question": "Does Fiesta provide GST invoices for airport transfers?",
+            "answer": "Yes, every Fiesta transfer is billed with a GST-compliant invoice. Corporate accounts can also receive a consolidated monthly invoice."
+        }
+    ],
+    "/airport-transport-service-bangalore": [
+        {
+            "question": "Which cab service is best at Bangalore airport?",
+            "answer": "The best choice depends on your needs. Official airport taxis suit solo travellers, app-based cabs suit quick rides, and a pre-booked private operator suits corporate teams that need a GST invoice and a confirmed vehicle."
+        },
+        {
+            "question": "How much does an airport taxi cost in Bangalore?",
+            "answer": "The fare depends on the destination, vehicle and toll charges. Published listings show pickup fares from around ₹574, and Fiesta provides a quote on request."
+        },
+        {
+            "question": "Is Banglore airport taxi cheaper than Uber?",
+            "answer": "Official airport taxis offer fixed pricing, while Uber fares depend on ride type, trip length and demand. During peak hours, surge pricing can make app fares higher."
+        },
+        {
+            "question": "What is the best taxi app for Bangalore airport?",
+            "answer": "Several apps operate from designated pickup zones at the airport. For a planned business transfer, a pre-booked service with a fixed quote is more dependable than an on-demand app."
+        },
+        {
+            "question": "Which cab service is the cheapest in Bangalore?",
+            "answer": "The cheapest option changes with time of day and demand. For corporate travel, the better measure is a clear quote with no hidden fees, no cancellation risk and a GST invoice."
+        },
+        {
+            "question": "How do I get from Bangalore Cantonment railway station to Kempegowda airport?",
+            "answer": "The station is roughly 35 to 40 km from the airport, and the drive passes through Hebbal and Bellary Road. A pre-booked cab is the most direct option, and BMTC Vayu Vajra buses are an economical alternative."
+        },
+        {
+            "question": "Is it cheaper to book a taxi in advance or at the airport?",
+            "answer": "Advance booking fixes the price and the vehicle, and it avoids surge fares at peak times. Booking at the airport depends on queue length and availability."
+        },
+        {
+            "question": "How to order an airport taxi?",
+            "answer": "Share your flight details, pickup location, headcount and luggage with Fiesta, then confirm the quote. You receive the driver and vehicle details before the trip."
+        },
+        {
+            "question": "Does Fiesta provide GST invoices for airport transfers?",
+            "answer": "Yes, every Fiesta transfer is billed with a GST-compliant invoice. Corporate accounts can also receive a consolidated monthly invoice."
+        }
     ]
 };
 

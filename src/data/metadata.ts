@@ -361,6 +361,26 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         title: "Chennai Airport Cab Service | Chennai Airport Taxi | Fiesta",
         description: "Dependable Chennai airport cab service by Fiesta Smart Mobility. Pre-book Chennai International Airport (MAA) pickups and drops with verified drivers, zero surge, and live flight tracking.",
         keywords: "Chennai Airport Cab Service, Chennai Airport Taxi, Chennai International Airport Transfer, MAA Airport Cabs"
+    },
+    "/airport-transportation-in-mumbai": {
+        title: "Airport Transport Service Mumbai | Mumbai Airport Cabs | Fiesta",
+        description: "Reliable Mumbai airport cab service by Fiesta Smart Mobility. Pre-book Chhatrapati Shivaji Maharaj International Airport (BOM) pickups and drops with verified chauffeurs, zero surge, and live flight tracking.",
+        keywords: "Airport Transport Service Mumbai, Mumbai Airport Cabs, Mumbai Airport Taxi, Chhatrapati Shivaji Maharaj International Airport Transfer, BOM Airport Cabs"
+    },
+    "/airport-transport-service-mumbai": {
+        title: "Airport Transport Service Mumbai | Mumbai Airport Cabs | Fiesta",
+        description: "Reliable Mumbai airport cab service by Fiesta Smart Mobility. Pre-book Chhatrapati Shivaji Maharaj International Airport (BOM) pickups and drops with verified chauffeurs, zero surge, and live flight tracking.",
+        keywords: "Airport Transport Service Mumbai, Mumbai Airport Cabs, Mumbai Airport Taxi, Chhatrapati Shivaji Maharaj International Airport Transfer, BOM Airport Cabs"
+    },
+    "/airport-transportation-in-bangalore": {
+        title: "Airport Transport Service Bangalore | Bangalore Airport Cabs | Fiesta",
+        description: "Dependable Bangalore airport cab service by Fiesta Smart Mobility. Pre-book Kempegowda International Airport (BLR) pickups and drops with verified chauffeurs, zero surge, and real-time tracking.",
+        keywords: "Airport Transport Service Bangalore, Bangalore Airport Cabs, Bangalore Airport Taxi, Kempegowda International Airport Transfer, BLR Airport Cabs"
+    },
+    "/airport-transport-service-bangalore": {
+        title: "Airport Transport Service Bangalore | Bangalore Airport Cabs | Fiesta",
+        description: "Dependable Bangalore airport cab service by Fiesta Smart Mobility. Pre-book Kempegowda International Airport (BLR) pickups and drops with verified chauffeurs, zero surge, and real-time tracking.",
+        keywords: "Airport Transport Service Bangalore, Bangalore Airport Cabs, Bangalore Airport Taxi, Kempegowda International Airport Transfer, BLR Airport Cabs"
     }
 };
 
