@@ -35,6 +35,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog/office-pickup-and-drop-service-in-kolkata",
     "/blog/office-pickup-and-drop-service-in-mumbai",
     "/blog/office-pickup-and-drop-service-in-pune",
+    "/blog/outstation-cab-booking",
+    "/blog/shuttle-services-in-hyderabad",
     "/blog/top-corporate-employee-transportation-for-enhanced-efficiency",
     "/blog/top-shuttle-service-solutions-for-your-daily-commute-needs",
     "/blog/understanding-nodal-point-transport-key-insights-and-applications",

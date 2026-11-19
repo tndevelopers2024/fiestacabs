@@ -337,6 +337,16 @@ export const PAGE_METADATA: Record<string, PageMetadata> = {
         description: "Structured office pickup and drop service in Pune for corporate clients. Fixed routes, verified chauffeurs, GPS tracking, monthly packages. Covering Hinjewadi, Kharadi, Baner, Magarpatta and more.",
         keywords: "Office Pickup and Drop Service in Pune"
     },
+    "/blog/shuttle-services-in-hyderabad": {
+        title: "Shuttle Services in Hyderabad: Gate-to-Gate Corporate Commutes | Fiesta",
+        description: "Gate-to-gate corporate shuttle services in Hyderabad across HITEC City, Gachibowli, & Madhapur. Trained drivers, GPS tracking, zero delays, and centralized billing.",
+        keywords: "Shuttle Services in Hyderabad, Corporate Shuttle Service Hyderabad, Office Shuttle Bus HITEC City, Employee Transport Hyderabad"
+    },
+    "/blog/outstation-cab-booking": {
+        title: "Outstation Cab Booking with Fiesta: Safe, Transparent Intercity Travel",
+        description: "Book reliable outstation cabs across India with Fiesta Smart Mobility. Verified drivers, transparent pricing, 24/7 support, and sedans, SUVs, Innova Crystas.",
+        keywords: "Outstation Cab Booking, Outstation Cabs India, Intercity Taxi Service, Innova Crysta Outstation Cab, Fiesta Outstation Cabs"
+    },
     "/airport-transportation-in-pune": {
         title: "Pune Airport Transport Service | Airport Taxi in Pune",
         description: "Dependable Pune airport transport service. On-time pickup, transparent pricing, and clean cars for Pune airport drops and pickups.",
