@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
+import { Autoplay, Pagination, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -10,8 +10,20 @@ import "swiper/css/effect-fade";
 import Link from "next/link";
 import Image from "next/image";
 
+interface BannerSlide {
+    id: number;
+    image?: string;
+    desktopImage?: string;
+    mobileImage?: string;
+    title: string;
+    subtitle: string;
+    cta?: string;
+    ctaLink: string;
+    isGraphic?: boolean;
+}
+
 const Banner = () => {
-    const slides = [
+    const slides: BannerSlide[] = [
         {
             id: 1,
             image: "/images/home/banner/banner-1.jpg", // Placeholder - you might need to add a real image or use a color
@@ -40,7 +52,28 @@ const Banner = () => {
             cta: "Know More",
             ctaLink: "#milestones",
         },
+        {
+            id: 4,
+            desktopImage: "/images/home/banner/fiesta-iso-hero-banner-desktop1.png",
+            mobileImage: "/images/home/banner/fiesta-iso-hero-banner-mobile1.png",
+            title: "An ISO 9001:2015 and ISO/IEC 27001:2022 Certified Company",
+            subtitle:
+                "Fiesta Smart Mobility now holds internationally recognised certifications for quality management and information security, backing every journey with proven processes.",
+            cta: "Know More",
+            ctaLink: "#milestones",
+            isGraphic: true,
+        },
     ];
+
+    const handleScrollTo = (e: React.MouseEvent<HTMLAnchorElement>, link: string) => {
+        if (link.startsWith("#")) {
+            e.preventDefault();
+            const element = document.getElementById(link.substring(1));
+            if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+            }
+        }
+    };
 
     return (
         <section className="relative w-full h-[100vh] lg:h-[110vh] text-white overflow-hidden">
@@ -62,81 +95,99 @@ const Banner = () => {
                 speed={1000}
                 className="mySwiper w-full h-full"
             >
-                {slides.map((slide) => (
-                    <SwiperSlide key={slide.id}>
-                        <div className="relative w-full h-full flex items-center justify-center">
-                            {/* Background Image -desktop view*/}
-                            <div className="hidden lg:block absolute inset-0 z-0 ">
-                                <Image
-                                    src={slide.image}
-                                    alt={slide.title}
-                                    fill
-                                    style={{
-                                        objectFit: "cover",
-                                        // backgroundSize: "cover",
-                                        // backgroundPosition: "center",
-                                        // backgroundRepeat: "no-repeat",
-                                        // backgroundAttachment: "fixed",
-                                    }}
-                                    priority={slide.id === 1}
-                                    className="transform scale-105"
-                                />
-                                {/* Premium gradient overlay */}
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/70 z-10" />
-                            </div>
-                            {/* Background Image -mobile view*/}
-                            <div className="lg:hidden absolute inset-0 z-0">
-                                <Image
-                                    src={slide.image}
-                                    alt={slide.title}
-                                    fill
-                                    style={{
-                                        objectFit: "cover",
-                                        // backgroundSize: "cover",
-                                        // backgroundPosition: "center",
-                                        // backgroundRepeat: "no-repeat",
-                                        // backgroundAttachment: "fixed",
-                                    }}
-                                    priority={slide.id === 1}
-                                    className="transform scale-105"
-                                />
-                                {/* Premium gradient overlay */}
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/70 z-10" />
-                            </div>
+                {slides.map((slide) => {
+                    const desktopImg = slide.desktopImage || slide.image || "";
+                    const mobileImg = slide.mobileImage || slide.image || "";
 
-                            {/* Content */}
-                            <div className="relative z-10 text-center px-4 max-w-5xl mx-auto flex flex-col items-center pt-24 lg:pt-32">
-                                <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 tracking-tight text-white drop-shadow-xl leading-tight">
-                                    {slide.title}
-                                </h1>
-                                <p className="text-lg md:text-xl lg:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto font-medium leading-relaxed drop-shadow-md">
-                                    {slide.subtitle}
-                                </p>
-                                <Link
-                                    href={slide.ctaLink}
-                                    onClick={(e) => {
-                                        if (slide.ctaLink.startsWith("#")) {
-                                            e.preventDefault();
-                                            const element = document.getElementById(slide.ctaLink.substring(1));
-                                            if (element) {
-                                                element.scrollIntoView({ behavior: "smooth" });
-                                            }
-                                        }
-                                    }}
-                                    className="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-white transition-all duration-300 bg-[#EC2028] btn-animated rounded-full hover:bg-[#c51c24] hover:shadow-[0_8px_25px_rgba(236,32,40,0.5)] hover:-translate-y-1 overflow-hidden"
-                                >
-                                    <span className="relative z-10 flex items-center gap-2">
-                                        {slide.cta}
-                                        <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                        </svg>
-                                    </span>
-                                    <div className="absolute inset-0 h-full w-full bg-white/20 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500 ease-out"></div>
-                                </Link>
+                    return (
+                        <SwiperSlide key={slide.id}>
+                            <div className="relative w-full h-full flex items-center justify-center">
+                                {/* Background Image - desktop view */}
+                                <div className="hidden lg:block absolute inset-0 z-0 ">
+                                    <Image
+                                        src={desktopImg}
+                                        alt={slide.title}
+                                        fill
+                                        style={{
+                                            objectFit: "cover",
+                                        }}
+                                        priority={slide.id === 1}
+                                        className={slide.isGraphic ? "" : "transform scale-105"}
+                                        sizes="100vw"
+                                    />
+                                    {/* Premium gradient overlay for standard slides */}
+                                    {!slide.isGraphic && (
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/70 z-10" />
+                                    )}
+                                </div>
+
+                                {/* Background Image - mobile view */}
+                                <div className="lg:hidden absolute inset-0 z-0">
+                                    <Image
+                                        src={mobileImg}
+                                        alt={slide.title}
+                                        fill
+                                        style={{
+                                            objectFit: "cover",
+                                        }}
+                                        priority={slide.id === 1}
+                                        className={slide.isGraphic ? "" : "transform scale-105"}
+                                        sizes="100vw"
+                                    />
+                                    {/* Premium gradient overlay for standard slides */}
+                                    {!slide.isGraphic && (
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/70 z-10" />
+                                    )}
+                                </div>
+
+                                {/* Content */}
+                                {slide.isGraphic ? (
+                                    <>
+                                        {/* Accessible semantic text for SEO & Screen Readers */}
+                                        <div className="sr-only">
+                                            <h2>{slide.title}</h2>
+                                            <p>{slide.subtitle}</p>
+                                        </div>
+
+                                        {/* Clickable slide area */}
+                                        {slide.ctaLink && (
+                                            <Link
+                                                href={slide.ctaLink}
+                                                onClick={(e) => handleScrollTo(e, slide.ctaLink)}
+                                                className="absolute inset-0 z-20 focus:outline-none cursor-pointer"
+                                                aria-label={`${slide.title} - ${slide.cta || "Know More"}`}
+                                            >
+                                                <span className="sr-only">{slide.cta || "Know More"}</span>
+                                            </Link>
+                                        )}
+                                    </>
+                                ) : (
+                                    <div className="relative z-10 text-center px-4 max-w-5xl mx-auto flex flex-col items-center pt-24 lg:pt-32">
+                                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 tracking-tight text-white drop-shadow-xl leading-tight">
+                                            {slide.title}
+                                        </h1>
+                                        <p className="text-lg md:text-xl lg:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto font-medium leading-relaxed drop-shadow-md">
+                                            {slide.subtitle}
+                                        </p>
+                                        <Link
+                                            href={slide.ctaLink}
+                                            onClick={(e) => handleScrollTo(e, slide.ctaLink)}
+                                            className="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-white transition-all duration-300 bg-[#EC2028] btn-animated rounded-full hover:bg-[#c51c24] hover:shadow-[0_8px_25px_rgba(236,32,40,0.5)] hover:-translate-y-1 overflow-hidden"
+                                        >
+                                            <span className="relative z-10 flex items-center gap-2">
+                                                {slide.cta}
+                                                <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                </svg>
+                                            </span>
+                                            <div className="absolute inset-0 h-full w-full bg-white/20 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500 ease-out"></div>
+                                        </Link>
+                                    </div>
+                                )}
                             </div>
-                        </div>
-                    </SwiperSlide>
-                ))}
+                        </SwiperSlide>
+                    );
+                })}
             </Swiper>
 
             {/* Global CSS for Swiper pagination override */}
