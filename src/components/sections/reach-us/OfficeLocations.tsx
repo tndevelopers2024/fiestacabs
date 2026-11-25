@@ -111,7 +111,7 @@ const OfficeLocations = () => {
         {
             title: "Pune",
             description: "Niche Façade ,Office No. 204, 2nd Floor 232 Road, Plot Number: 26 & 27 & Survey Number, Sakore Nagar, Viman Nagar, Pune, Maharashtra 411014",
-            calls: ["+91 82913 82323"],
+            calls: ["+91 73055 44559"],
             mail: "sales_pune@fiestaindia.net",
             mapLink: "https://maps.app.goo.gl/9d8pzRVaK5fVS7kR6",
             mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.4857543944813!2d73.907461!3d18.5642866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c104b4db8bd7%3A0x24b74b5c89240c6f!2sFiesta%20Smart%20Mobility%20-%20Pune!5e0!3m2!1sen!2sin!4v1779783649238!5m2!1sen!2sin"
