@@ -90,7 +90,7 @@ export default function AirportTransportationBangalorePage() {
             <HeroForm
                 title="Airport Transport Service Bangalore"
                 subtitle="Kempegowda International Airport (BLR) pickups and drops with verified chauffeurs, transparent upfront pricing, zero surge, and live GPS tracking."
-                imageSrc="/images/airport-transportation-in-bangalore/bangalore-airport-hero.png"
+                imageSrc="/images/airport-transportation-in-bangalore/WhatsApp Image 2026-11-25 at 4.27.38 PM.jpeg"
                 ctaText="Get A Free Quote"
             />
             
@@ -114,7 +114,7 @@ export default function AirportTransportationBangalorePage() {
                         </div>
                         <div className="relative min-h-[380px] md:min-h-[460px] w-full overflow-hidden rounded-2xl shadow-xl border border-gray-100">
                             <Image
-                                src="/images/airport-transportation-in-bangalore/bangalore-airport-intro.png"
+                                src="/images/airport-transportation-in-bangalore/WhatsApp Image 2026-11-25 at 4.28.00 PM.jpeg"
                                 alt="Airport Transport Service Bangalore by Fiesta Smart Mobility"
                                 fill
                                 className="object-cover"
@@ -676,7 +676,7 @@ export default function AirportTransportationBangalorePage() {
             <section className="relative py-24 md:py-28 w-full overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/images/airport-transportation-in-bangalore/bangalore-airport-cta.jpg"
+                        src="/images/airport-transportation-in-bangalore/WhatsApp Image 2026-11-25 at 4.28.23 PM.jpeg"
                         alt="Request an Airport Cab Booking in Bangalore"
                         fill
                         className="object-cover object-center"

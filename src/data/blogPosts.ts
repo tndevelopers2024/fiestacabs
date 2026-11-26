@@ -4055,6 +4055,7 @@ export const blogPosts: BlogPost[] = [
         image: "/images/blog/shuttle-services-in-hyderabad/hero.jpg",
         bannerImage: "/images/blog/shuttle-services-in-hyderabad/hero.jpg",
         excerpt: "Shuttle services in Hyderabad connect the city’s large IT, BPO, and corporate workforce across HITEC City, Gachibowli, and Madhapur with gate-to-gate coverage, trained drivers, and zero delays.",
+        hideFeaturedImage: true,
         content: [
             { type: 'p', text: "Shuttle services in Hyderabad connect the city’s large IT, BPO, and corporate workforce to major business hubs across HITEC City, Gachibowli, and Madhapur day in, day out." },
             { type: 'p', text: "Hyderabad’s traffic is a daily reality. Without a structured corporate shuttle service, employees navigate congestion alone, arriving at the office stressed and distracted rather than focused and ready to work." },
@@ -4197,7 +4198,8 @@ export const blogPosts: BlogPost[] = [
         date: "November 19, 2026",
         image: "/images/blog/outstation-cab-booking/hero.jpg",
         bannerImage: "/images/blog/outstation-cab-booking/hero.jpg",
-        excerpt: "Planning intercity travel across India? Outstation cab booking with Fiesta Smart Mobility provides verified drivers, transparent fares, 24/7 support, and well-maintained sedans, SUVs, and Innova Crystas.",
+      excerpt: "Planning intercity travel across India? Outstation cab booking with Fiesta Smart Mobility provides verified drivers, transparent fares, 24/7 support, and well-maintained sedans, SUVs, and Innova Crystas.",
+        hideFeaturedImage: true,
         content: [
             { type: 'p', text: "Planning a journey beyond city limits should not feel like a puzzle. Outstation cab booking is meant to make long-distance travel simple, predictable and comfortable, whether you are heading out on a weekend getaway or a business trip." },
             { type: 'p', text: "Fiesta Smart Mobility Private Limited has spent 28 years building trusted transport solutions for Indian businesses. Established in 1998 in Chennai, the company now operates across India with a team of 300+ employees and a ₹1.2 billion turnover." },

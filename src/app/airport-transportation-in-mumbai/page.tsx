@@ -115,7 +115,7 @@ export default function AirportTransportationMumbaiPage() {
                         </div>
                         <div className="relative min-h-[380px] md:min-h-[460px] w-full overflow-hidden rounded-2xl shadow-xl border border-gray-100">
                             <Image
-                                src="/images/airport-transportation-in-mumbai/mumbai-airport-intro.png"
+                                src="/images/airport-transportation-in-mumbai/WhatsApp Image 2026-11-25 at 4.34.57 PM.jpeg"
                                 alt="Airport Transport Service Mumbai by Fiesta Smart Mobility"
                                 fill
                                 className="object-cover"
@@ -878,7 +878,7 @@ export default function AirportTransportationMumbaiPage() {
 
                         <div className="relative h-[420px] sm:h-[480px] lg:h-[560px] w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100">
                             <Image
-                                src="/images/airport-transportation-in-mumbai/mumbai-airport-chauffeur.png"
+                                src="/images/airport-transportation-in-mumbai/WhatsApp Image 2026-11-25 at 4.35.31 PM.jpeg"
                                 alt="Professional Chauffeur for Mumbai Airport Transportation"
                                 fill
                                 className="object-cover hover:scale-105 transition-transform duration-500"
@@ -929,7 +929,7 @@ export default function AirportTransportationMumbaiPage() {
             <section className="relative py-24 md:py-28 w-full overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/images/airport-transportation-in-mumbai/mumbai-airport-cta.jpg"
+                        src="/images/airport-transportation-in-mumbai/WhatsApp Image 2026-11-25 at 4.35.53 PM.jpeg"
                         alt="Request an Airport Transfer Quote for Mumbai"
                         fill
                         className="object-cover object-center"
