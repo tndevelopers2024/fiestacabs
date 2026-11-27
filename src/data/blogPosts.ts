@@ -4245,7 +4245,7 @@ export const blogPosts: BlogPost[] = [
             { type: 'p', text: "From hatchbacks to luxury brands, Fiesta can match your trip to the right car models. The outstation page highlights brands such as Toyota, Kia, Audi, BMW, Benz, Volvo and Jaguar for travellers who want a premium experience." },
             { type: 'h3', text: "Fleet Categories Across Fiesta" },
             { type: 'p', text: "Fiesta’s wider fleet includes EV, standard, premium, MUV, SUV, luxury and ultra-luxury cars, plus tempo travellers, Force Urbania, mini buses, buses and luxury coaches. Availability varies by city, so confirm the vehicle you need when you request your quote." },
-            { type: 'image', src: "/images/blog/outstation-cab-booking/intercity-fleet.jpg", alt: "Fiesta premium intercity cabs fleet with professional chauffeur welcoming passenger" },
+            // { type: 'image', src: "/images/blog/outstation-cab-booking/intercity-fleet.jpg", alt: "Fiesta premium intercity cabs fleet with professional chauffeur welcoming passenger" },
             { type: 'h2', text: "One-Way and Round Trip Cab Booking" },
             { type: 'h3', text: "One-Way Outstation Cab Booking" },
             { type: 'p', text: "A one-way trip suits travellers who only need to reach a destination. It is ideal for airport transfers, urgent trips and relocations, because you avoid paying for a return you will not use. Always confirm how the fare is calculated." },

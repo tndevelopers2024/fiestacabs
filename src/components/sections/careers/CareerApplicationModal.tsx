@@ -12,8 +12,8 @@ interface CareerApplicationModalProps {
 }
 
 const defaultPositions = [
-    "Tender & Proposals - Executive",
-    "Senior Operation Executive",
+    "Business Development Executive",
+    "Executive Operations",
     "Driver",
     "Other Position",
 ];
@@ -29,7 +29,7 @@ export default function CareerApplicationModal({
         email: "",
         phone: "",
         location: "",
-        position: initialPosition || "Tender & Proposals - Executive",
+        position: initialPosition || "Business Development Executive",
         experience: "",
         currentCompany: "",
     });
@@ -51,7 +51,7 @@ export default function CareerApplicationModal({
         if (isOpen) {
             setFormData((prev) => ({
                 ...prev,
-                position: initialPosition || prev.position || "Tender & Proposals - Executive",
+                position: initialPosition || prev.position || "Business Development Executive",
             }));
             setIsSuccess(false);
             setErrorMessage("");

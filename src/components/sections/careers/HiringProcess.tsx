@@ -29,7 +29,7 @@ const steps = [
 
 const HiringProcess = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const [modalPosition, setModalPosition] = useState("Tender & Proposals - Executive");
+    const [modalPosition, setModalPosition] = useState("Business Development Executive");
 
     const handleOpenModal = (position: string) => {
         setModalPosition(position);
@@ -67,7 +67,7 @@ const HiringProcess = () => {
                         <div className="mt-12 flex flex-wrap gap-4 items-center">
                             <button
                                 type="button"
-                                onClick={() => handleOpenModal("Tender & Proposals - Executive")}
+                                onClick={() => handleOpenModal("Business Development Executive")}
                                 className="bg-[#EC2028] text-white px-8 py-3 rounded-full font-bold hover:bg-black transition-all shadow-lg cursor-pointer"
                             >
                                 Apply Now

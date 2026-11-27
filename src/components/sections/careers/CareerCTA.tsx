@@ -49,7 +49,7 @@ const CareerCTA = () => {
             <CareerApplicationModal
                 isOpen={isModalOpen}
                 onClose={() => setIsModalOpen(false)}
-                initialPosition="Tender & Proposals - Executive"
+                initialPosition="Business Development Executive"
             />
         </section>
     );

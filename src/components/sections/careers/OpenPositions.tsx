@@ -19,17 +19,18 @@ const jobCategories = [
         name: "Business Development & Operations",
         jobs: [
             {
-                title: "Tender & Proposals - Executive",
-                location: "Chennai, Hyderabad, Gurgaon, Pune",
-                experience: "2+ Years",
-                requirement: "Male preferred",
-                count: "1 Position",
-                skills: "e-tender & GeM Portal knowledge"
+                title: "Business Development Executive",
+                location: "Chennai",
+                experience: "Freshers Also Applicable",
+                requirement: "Male / Female",
+                skills: "Any Degree, Good Communication"
             },
             {
-                title: "Senior Operation Executive",
-                location: "Gurgaon",
-                experience: "3+ Years"
+                title: "Executive Operations",
+                location: "Chennai",
+                experience: "Freshers Also Applicable",
+                requirement: "Male / Female",
+                skills: "Any Degree, Good Communication"
             }
         ]
     }
